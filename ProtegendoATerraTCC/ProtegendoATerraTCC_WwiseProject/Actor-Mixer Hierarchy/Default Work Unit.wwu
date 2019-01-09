@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="TemaMenu" ID="{4C23539E-1DB9-4034-91C9-F672961F1DA3}" ShortID="632970641">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="JeffSpeed68_-_Little_reindeer" ID="{6D5A6AA9-B2E8-4FC5-8B85-7D2446412270}" ShortID="1980767">
+							<Language>SFX</Language>
+							<AudioFile>JeffSpeed68_-_Little_reindeer.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="JeffSpeed68_-_Little_reindeer" ID="{6D5A6AA9-B2E8-4FC5-8B85-7D2446412270}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

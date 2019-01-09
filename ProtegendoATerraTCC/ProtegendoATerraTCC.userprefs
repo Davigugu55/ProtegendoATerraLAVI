@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\MenuPrincipal.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Wwise\Deployment\API\Handwritten\Common\AkBasePathGetter.cs">
     <Files>
       <File FileName="Assets\_Scripts\FirstPersonController.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\GyroController.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\MenuPrincipal.cs" Line="16" Column="1" />
+      <File FileName="Assets\_Scripts\MenuPrincipal.cs" Line="1" Column="1" />
+      <File FileName="Assets\Wwise\Deployment\API\Handwritten\Common\AkBasePathGetter.cs" Line="216" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

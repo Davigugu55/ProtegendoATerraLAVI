@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	880571427	TemaMenu			\Default Work Unit\TemaMenu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1980767	TemaMenu	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\JeffSpeed68_-_Little_reindeer_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TemaMenu		26901144
+
