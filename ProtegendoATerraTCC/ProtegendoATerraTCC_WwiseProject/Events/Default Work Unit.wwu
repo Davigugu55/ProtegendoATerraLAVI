@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="TemaMenu" ID="{A32F896A-945D-4E7C-9661-0C324EC99235}">
+				<Event Name="MusicaTemaMenu" ID="{A32F896A-945D-4E7C-9661-0C324EC99235}">
 					<ChildrenList>
 						<Action Name="" ID="{5D7C678C-F86F-486A-892F-9979E0BF1EB6}" ShortID="371781248">
 							<PropertyList>
@@ -11,9 +11,33 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="TemaMenu" ID="{4C23539E-1DB9-4034-91C9-F672961F1DA3}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+									<ObjectRef Name="MusicaTemaMenu" ID="{608341EF-E9F4-426D-98F9-DE138EFF2D99}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
 								</Reference>
 							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicaTemaCreditos" ID="{F2B5394D-5949-4383-963C-70A524B1B0CC}">
+					<ChildrenList>
+						<Action Name="" ID="{BE032FA7-5798-431B-839C-66E82877AE1C}" ShortID="782467239">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicaTemaCreditos" ID="{EC538210-E9B5-4409-9861-BDB957B73E7A}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ParaMusicas" ID="{9F292D29-F55A-40FC-BA09-7B0A0472491B}">
+					<ChildrenList>
+						<Action Name="" ID="{D4B71939-2ACA-4370-8B03-DF54EE4D75B7}" ShortID="281174516">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>

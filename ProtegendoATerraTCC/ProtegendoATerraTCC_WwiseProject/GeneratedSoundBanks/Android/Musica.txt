@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	408261805	MusicaTemaCreditos			\Default Work Unit\MusicaTemaCreditos	
+	1563513376	ParaMusicas			\Default Work Unit\ParaMusicas	
+	2697909245	MusicaTemaMenu			\Default Work Unit\MusicaTemaMenu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	678986274	MusicaTemaCreditos	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\JoshWoodward-BeyondTheSky-NoVox_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\MusicaTemaCreditos		40571572
+	904193848	MusicaTemaMenu	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\JoshWoodward-TheWake-NoVox-04-CrazyGlue_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\MusicaTemaMenu		28491440
+

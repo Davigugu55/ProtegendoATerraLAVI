@@ -16,17 +16,23 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3805736870" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\MenuPrincipal</ObjectPath>
-			<ShortName>MenuPrincipal</ShortName>
-			<Path>MenuPrincipal.bnk</Path>
+		<SoundBank Id="1730564739" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Musica</ObjectPath>
+			<ShortName>Musica</ShortName>
+			<Path>Musica.bnk</Path>
 			<IncludedEvents>
-				<Event Id="880571427" Name="TemaMenu" ObjectPath="\Events\Default Work Unit\TemaMenu"/>
+				<Event Id="408261805" Name="MusicaTemaCreditos" ObjectPath="\Events\Default Work Unit\MusicaTemaCreditos"/>
+				<Event Id="2697909245" Name="MusicaTemaMenu" ObjectPath="\Events\Default Work Unit\MusicaTemaMenu"/>
+				<Event Id="1563513376" Name="ParaMusicas" ObjectPath="\Events\Default Work Unit\ParaMusicas" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="1980767" Language="SFX">
-					<ShortName>JeffSpeed68_-_Little_reindeer.wav</ShortName>
-					<Path>SFX\JeffSpeed68_-_Little_reindeer_8956FC97.wem</Path>
+				<File Id="678986274" Language="SFX">
+					<ShortName>JoshWoodward-BeyondTheSky-NoVox.wav</ShortName>
+					<Path>SFX\JoshWoodward-BeyondTheSky-NoVox_56D34C19.wem</Path>
+				</File>
+				<File Id="904193848" Language="SFX">
+					<ShortName>JoshWoodward-TheWake-NoVox-04-CrazyGlue.wav</ShortName>
+					<Path>SFX\JoshWoodward-TheWake-NoVox-04-CrazyGlue_8956FC97.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
