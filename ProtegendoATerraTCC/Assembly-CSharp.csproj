@@ -53,10 +53,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\ChargeVolumeLevels.cs" />
      <Compile Include="Assets\_Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\_Scripts\GyroController.cs" />
      <Compile Include="Assets\_Scripts\MenuPrincipal.cs" />
      <Compile Include="Assets\_Scripts\MovimentacaoPersonagem.cs" />
+     <Compile Include="Assets\_Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />
