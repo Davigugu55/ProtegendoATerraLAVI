@@ -19,24 +19,23 @@ ModelImporter:
     100026: Cube.013
     100028: Cube.014
     100030: Cube.015
-    100032: Cube.016
-    100034: Cube.017
-    100036: Cube.021
-    100038: Cube.024
-    100040: Cube.026
-    100042: Cube.027
-    100044: Cube.028
-    100046: Cube.029
-    100048: Cube.030
-    100050: Cube.031
-    100052: Cube.035
-    100054: Cube.036
-    100056: Cube.037
-    100058: Cube.038
-    100060: //RootNode
-    100062: Sphere.000
-    100064: Sphere.001
-    100066: Sphere.002
+    100032: Cube.017
+    100034: Cube.021
+    100036: Cube.024
+    100038: Cube.026
+    100040: Cube.027
+    100042: Cube.028
+    100044: Cube.029
+    100046: Cube.030
+    100048: Cube.031
+    100050: Cube.035
+    100052: Cube.036
+    100054: Cube.037
+    100056: Cube.038
+    100058: //RootNode
+    100060: Sphere.000
+    100062: Sphere.001
+    100064: Sphere.002
     400000: Cube
     400002: Cube.001
     400004: Cube.002
@@ -53,67 +52,69 @@ ModelImporter:
     400026: Cube.013
     400028: Cube.014
     400030: Cube.015
-    400032: Cube.016
-    400034: Cube.017
-    400036: Cube.021
-    400038: Cube.024
-    400040: Cube.026
-    400042: Cube.027
-    400044: Cube.028
-    400046: Cube.029
-    400048: Cube.030
-    400050: Cube.031
-    400052: Cube.035
-    400054: Cube.036
-    400056: Cube.037
-    400058: Cube.038
-    400060: //RootNode
-    400062: Sphere.000
-    400064: Sphere.001
-    400066: Sphere.002
-    2100000: PiaBanheiro
-    2100002: "\xC1guaPiaBanheiro"
-    2100004: TorneiraPiaBanheiro
-    2100006: Chuveiro
-    2100008: PisoChuveiro2
-    2100010: PisoChuveiro1
-    2100012: TorneiraChuveiro
-    2100014: VasoSanitario
-    2100016: TampaVasoSanitario
-    2100018: AguaVasoSanitario
-    2100020: "Lumin\xE1riaBaixo"
-    2100022: "Lumin\xE1riaCima"
-    2100024: PuxadorCriadoMudo
-    2100026: CriadoMudo
-    2100028: Cadeira
-    2100030: Cama
-    2100032: LencolDaCama
-    2100034: Travesseiro
-    2100036: "Televis\xE3o"
-    2100038: "TelaTelevis\xE3o"
-    2100040: "Arm\xE1rioSala"
-    2100042: "ProtasArm\xE1rioSala"
-    2100044: "Sof\xE1"
-    2100046: "AlmofadaSof\xE1"
-    2100048: Mesa
-    2100050: "PiaAreaDeServi\xE7o"
-    2100052: "AguaPiaAreaDeServi\xE7o"
-    2100054: "TorneiraPiaAreaDeServi\xE7o"
-    2100056: MaquinaDeLavar
-    2100058: VidroMaquinaDeLavar
-    2100060: PortasMaquinaDeLavar
-    2100062: Microondas
-    2100064: PortaMicroondas
-    2100066: "Arm\xE1rioCozinha"
-    2100068: "PortaArm\xE1rioCozinha"
-    2100070: Geladeira
-    2100072: PortasGeladeira
-    2100074: LencolCamaSolteiro
-    2100076: TravesseiroCamaSolteiro
-    2100078: CamaSolteiro
-    2100080: ParedeDaCasa
-    2100082: PisoBanheiro
-    2100084: PisoDaCasa
+    400032: Cube.017
+    400034: Cube.021
+    400036: Cube.024
+    400038: Cube.026
+    400040: Cube.027
+    400042: Cube.028
+    400044: Cube.029
+    400046: Cube.030
+    400048: Cube.031
+    400050: Cube.035
+    400052: Cube.036
+    400054: Cube.037
+    400056: Cube.038
+    400058: //RootNode
+    400060: Sphere.000
+    400062: Sphere.001
+    400064: Sphere.002
+    2100000: Material.005
+    2100002: Material.003
+    2100004: Material.004
+    2100006: Material
+    2100008: Material.002
+    2100010: Material.001
+    2100012: VasoSanitario
+    2100014: TampaVasoSanitario
+    2100016: AguaVasoSanitario
+    2100018: Chuveiro
+    2100020: PisoChuveiro2
+    2100022: PisoChuveiro1
+    2100024: TorneiraChuveiro
+    2100026: PiaBanheiro
+    2100028: "\xC1guaPiaBanheiro"
+    2100030: TorneiraPiaBanheiro
+    2100032: "Lumin\xE1riaBaixo"
+    2100034: "Lumin\xE1riaCima"
+    2100036: PuxadorCriadoMudo
+    2100038: CriadoMudo
+    2100040: Cadeira
+    2100042: Cama
+    2100044: LencolDaCama
+    2100046: Travesseiro
+    2100048: "Televis\xE3o"
+    2100050: "TelaTelevis\xE3o"
+    2100052: "Arm\xE1rioSala"
+    2100054: "ProtasArm\xE1rioSala"
+    2100056: "Sof\xE1"
+    2100058: "AlmofadaSof\xE1"
+    2100060: Mesa
+    2100062: "PiaAreaDeServi\xE7o"
+    2100064: "AguaPiaAreaDeServi\xE7o"
+    2100066: "TorneiraPiaAreaDeServi\xE7o"
+    2100068: MaquinaDeLavar
+    2100070: VidroMaquinaDeLavar
+    2100072: PortasMaquinaDeLavar
+    2100074: Microondas
+    2100076: PortaMicroondas
+    2100078: "Arm\xE1rioCozinha"
+    2100080: "PortaArm\xE1rioCozinha"
+    2100082: Geladeira
+    2100084: PortasGeladeira
+    2100086: LencolCamaSolteiro
+    2100088: TravesseiroCamaSolteiro
+    2100090: CamaSolteiro
     2300000: Cube
     2300002: Cube.001
     2300004: Cube.002
@@ -130,23 +131,22 @@ ModelImporter:
     2300026: Cube.013
     2300028: Cube.014
     2300030: Cube.015
-    2300032: Cube.016
-    2300034: Cube.017
-    2300036: Cube.021
-    2300038: Cube.024
-    2300040: Cube.026
-    2300042: Cube.027
-    2300044: Cube.028
-    2300046: Cube.029
-    2300048: Cube.030
-    2300050: Cube.031
-    2300052: Cube.035
-    2300054: Cube.036
-    2300056: Cube.037
-    2300058: Cube.038
-    2300060: Sphere.000
-    2300062: Sphere.001
-    2300064: Sphere.002
+    2300032: Cube.017
+    2300034: Cube.021
+    2300036: Cube.024
+    2300038: Cube.026
+    2300040: Cube.027
+    2300042: Cube.028
+    2300044: Cube.029
+    2300046: Cube.030
+    2300048: Cube.031
+    2300050: Cube.035
+    2300052: Cube.036
+    2300054: Cube.037
+    2300056: Cube.038
+    2300058: Sphere.000
+    2300060: Sphere.001
+    2300062: Sphere.002
     3300000: Cube
     3300002: Cube.001
     3300004: Cube.002
@@ -163,26 +163,25 @@ ModelImporter:
     3300026: Cube.013
     3300028: Cube.014
     3300030: Cube.015
-    3300032: Cube.016
-    3300034: Cube.017
-    3300036: Cube.021
-    3300038: Cube.024
-    3300040: Cube.026
-    3300042: Cube.027
-    3300044: Cube.028
-    3300046: Cube.029
-    3300048: Cube.030
-    3300050: Cube.031
-    3300052: Cube.035
-    3300054: Cube.036
-    3300056: Cube.037
-    3300058: Cube.038
-    3300060: Sphere.000
-    3300062: Sphere.001
-    3300064: Sphere.002
-    4300000: Cube.016
-    4300002: Cube.015
-    4300004: Cube.014
+    3300032: Cube.017
+    3300034: Cube.021
+    3300036: Cube.024
+    3300038: Cube.026
+    3300040: Cube.027
+    3300042: Cube.028
+    3300044: Cube.029
+    3300046: Cube.030
+    3300048: Cube.031
+    3300050: Cube.035
+    3300052: Cube.036
+    3300054: Cube.037
+    3300056: Cube.038
+    3300058: Sphere.000
+    3300060: Sphere.001
+    3300062: Sphere.002
+    4300000: Cube.015
+    4300002: Cube.014
+    4300004: Cube
     4300006: Cube.012
     4300008: Cube.011
     4300010: Cube.010
@@ -212,7 +211,6 @@ ModelImporter:
     4300058: Cube.008
     4300060: Cube.005
     4300062: Cube.001
-    4300064: Cube
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
