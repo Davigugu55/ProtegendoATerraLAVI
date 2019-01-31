@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Igor Jordany/Documents/builds/teste2.apk
+C:/Users/Igor Jordany/Documents/builds/teste3.apk
 SceneListBegin?
 Assets/_Scenes/Menu.unity
 Assets/_Scenes/Jogo.unity
@@ -8,6 +8,7 @@ Assets/_Scenes/Credito.unity
 SceneListEnd?
 c422dd62785a6d0afa870fbd111886ce Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 7b803eb2910e9b4cd5e521ae07b9f7d6 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
+4f2e73bd155cd24cab46989ecc68f892 Assembly-CSharp.dll:.ScriptPorta
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9e61f3535f3c55760a1cedfbd114f4af UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 754551afe4f2531f58476bf14c510657 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -21,6 +22,8 @@ c7dd12c15208b0447e101f80038706df UnityEngine.Timeline.dll:UnityEngine.Timeline.A
 0ddb2c46096a1e59e0dce07886ce4769 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 64f3a13c1277a7f1324321d93d0ec13b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 1c8c231b17e28c8025623eb427e010c4 Assembly-CSharp.dll:.AkRTPCTrack
+e6f12981bcbf247534a54d8e04aee4a3 NavMeshComponents.dll:UnityEngine.AI.NavMeshModifier
+1f1a5c58d7eae7e9cd2f94ea7e282645 NavMeshComponents.dll:UnityEngine.AI.NavMeshLink
 f6637497451c9a030c421de4a1ad5cdb Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.AkSpatialAudioListener
 b14b4630cc47b6e9ea8a644551a6a8cc Unity.TextMeshPro.dll:TMPro.TMP_Text
@@ -146,6 +149,7 @@ bd261236da36a98730eb7cebfba79766 Assembly-CSharp.dll:.WwiseRtpcReference
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 fa1c317e7807ba3c9b05056693f277ff Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.Joystick
 fa80fe308abe0d18d9321109680fb0a8 Assembly-CSharp.dll:.AkEventPlayable
+eeb471df27da22a09575970f53cba89a NavMeshComponents.dll:UnityEngine.AI.NavMeshModifierVolume
 bd261236da36a98730eb7cebfba79766 Assembly-CSharp.dll:.WwiseBankReference
 60e3a31993bab65e1efb2350a900d178 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
 896afb2da2463f679af55bdddbf1fa3b Assembly-CSharp.dll:.AkTriggerCollisionExit
@@ -205,6 +209,7 @@ e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSyste
 98d69a140ec0084cde3b6a5e09aea295 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
+76bfb713173de91fcb127557bc4688c3 NavMeshComponents.dll:UnityEngine.AI.NavMeshSurface
 bd261236da36a98730eb7cebfba79766 Assembly-CSharp.dll:.WwiseAcousticTextureReference
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 d5c8171e80618416a62e2aa6aa7c8790 Assembly-CSharp.dll:.FirstPersonController
