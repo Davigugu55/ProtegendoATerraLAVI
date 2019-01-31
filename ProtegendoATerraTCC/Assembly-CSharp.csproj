@@ -59,6 +59,7 @@
      <Compile Include="Assets\_Scripts\MenuPrincipal.cs" />
      <Compile Include="Assets\_Scripts\MovimentacaoPersonagem.cs" />
      <Compile Include="Assets\_Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\_Scripts\ScriptPorta.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />
@@ -530,6 +531,10 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{94B3C21E-0667-4B4E-45C9-D7D45EBA0B80}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{BD5AD279-66D2-EBE4-7545-BBDC0EB578BA}</Project>      <Name>NavMeshComponentsEditor</Name>    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{E475FB15-91F6-FD36-FAF4-607722B32A12}</Project>      <Name>NavMeshComponents</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
