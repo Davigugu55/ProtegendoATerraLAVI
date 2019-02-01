@@ -8,19 +8,19 @@ public class ScriptPorta : MonoBehaviour {
 
 	private Animator animator;
 	public Button botao;
-	//public NavMeshSurface surface;
 
 	void Start () {
 		animator = GetComponent<Animator> ();
 	}
 
-	void OnTriggerEnter(Collider other){
-		botao.onClick.AddListener(TaskOnClick);
+	void OnTriggerEnter(Collider player){
+		if (player.name == "Tamires") {
+			Debug.Log (player.name);
+			botao.onClick.AddListener (TaskOnClick);
+		}
 	}
-	void TaskOnClick()
+	public void TaskOnClick()
 	{
 		animator.SetBool ("open", true);
-		//surface.BuildNavMesh ();
-		Debug.Log("You have clicked the button!");
 	}
 }

@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Igor Jordany/Documents/builds/teste3.apk
+C:/Users/Igor Jordany/Documents/builds/teste4.apk
 SceneListBegin?
 Assets/_Scenes/Menu.unity
 Assets/_Scenes/Jogo.unity
