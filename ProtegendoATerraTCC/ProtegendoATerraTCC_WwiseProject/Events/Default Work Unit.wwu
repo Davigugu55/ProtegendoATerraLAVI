@@ -11,7 +11,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MusicaTemaMenu" ID="{608341EF-E9F4-426D-98F9-DE138EFF2D99}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+									<ObjectRef Name="MusicaTemaMenu" ID="{91FCA8B1-EB73-459F-BB28-D1A12572AC79}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -25,7 +25,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MusicaTemaCreditos" ID="{EC538210-E9B5-4409-9861-BDB957B73E7A}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+									<ObjectRef Name="MusicaTemaCredito" ID="{0988C10F-6445-44F8-9301-4BE2F7E25474}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -38,6 +38,20 @@
 								<Property Name="ActionType" Type="int16" Value="3"/>
 							</PropertyList>
 							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicaTemaJogo" ID="{2E654903-B4EE-4E1C-8A86-A04BD7FC473F}">
+					<ChildrenList>
+						<Action Name="" ID="{CDC5DCC8-11D1-4906-9123-5D3282C955BE}" ShortID="63040559">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicaTemaJogo" ID="{860C1569-521D-422A-99F0-E34A2122FE1E}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>

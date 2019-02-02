@@ -16,6 +16,6 @@ public class MovimentacaoPersonagem : MonoBehaviour {
 		dirX = CrossPlatformInputManager.GetAxis ("Vertical");
 		transform.Translate (0, 0, dirX * Time.deltaTime);
 		//transform.Translate (Input.GetAxis("Horizontal") * Time.deltaTime, 0, Input.GetAxis("Vertical") * Time.deltaTime);
-		transform.Rotate (0, -Input.gyro.rotationRateUnbiased.y * 2, 0);
+		transform.Rotate (0, -Input.gyro.rotationRateUnbiased.y * 3, 0);
 	}
 }

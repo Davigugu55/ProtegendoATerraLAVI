@@ -3,28 +3,36 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="MusicaTemaCreditos" ID="{EC538210-E9B5-4409-9861-BDB957B73E7A}" ShortID="562313465">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="JoshWoodward-BeyondTheSky-NoVox" ID="{835454A0-3E1E-44A4-BF1D-EF67DCFDBD12}" ShortID="678986274">
-							<Language>SFX</Language>
-							<AudioFile>JoshWoodward-BeyondTheSky-NoVox.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="JoshWoodward-BeyondTheSky-NoVox" ID="{835454A0-3E1E-44A4-BF1D-EF67DCFDBD12}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="MusicaTemaMenu" ID="{608341EF-E9F4-426D-98F9-DE138EFF2D99}" ShortID="222350460">
+				<SwitchContainer Name="Musica" ID="{816830B8-E96C-441F-9735-97128DFCBE4A}" ShortID="96405749">
 					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{FBDF5663-6908-408E-9B34-67FFA7FCEF9E}" ShortID="645742280">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MusicaVolume" ID="{09C62DEC-C399-4795-B003-BB788CFA38E8}" WorkUnitID="{D484143D-DD05-4686-BEE4-6117D52E74FB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{9D3F9593-24F7-48BB-9C57-EF1DF7892F67}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -35,15 +43,81 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="JoshWoodward-TheWake-NoVox-04-CrazyGlue" ID="{D086B75D-1F65-4EB4-9E6E-4F482F6CC5C3}" ShortID="904193848">
-							<Language>SFX</Language>
-							<AudioFile>JoshWoodward-TheWake-NoVox-04-CrazyGlue.wav</AudioFile>
-						</AudioFileSource>
+						<Sound Name="MusicaTemaCredito" ID="{0988C10F-6445-44F8-9301-4BE2F7E25474}" ShortID="682010194">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="JoshWoodward-BeyondTheSky-NoVox" ID="{0CE0B43A-730F-4992-B442-D032B4D1DE79}" ShortID="227778338">
+									<Language>SFX</Language>
+									<AudioFile>JoshWoodward-BeyondTheSky-NoVox.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="678986274"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="JoshWoodward-BeyondTheSky-NoVox" ID="{0CE0B43A-730F-4992-B442-D032B4D1DE79}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MusicaTemaJogo" ID="{860C1569-521D-422A-99F0-E34A2122FE1E}" ShortID="645235791">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="JoshWoodward-OW-NoVox-09-FoolsGold" ID="{F65B6340-8CD2-404C-88CF-6BAD27C13513}" ShortID="517906302">
+									<Language>SFX</Language>
+									<AudioFile>JoshWoodward-OW-NoVox-09-FoolsGold.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="JoshWoodward-OW-NoVox-09-FoolsGold" ID="{F65B6340-8CD2-404C-88CF-6BAD27C13513}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MusicaTemaMenu" ID="{91FCA8B1-EB73-459F-BB28-D1A12572AC79}" ShortID="760701087">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="JoshWoodward-TheWake-NoVox-04-CrazyGlue" ID="{99F51C9A-6981-4E58-B68E-9F365FE64A76}" ShortID="528022941">
+									<Language>SFX</Language>
+									<AudioFile>JoshWoodward-TheWake-NoVox-04-CrazyGlue.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="JoshWoodward-TheWake-NoVox-04-CrazyGlue" ID="{99F51C9A-6981-4E58-B68E-9F365FE64A76}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="JoshWoodward-TheWake-NoVox-04-CrazyGlue" ID="{D086B75D-1F65-4EB4-9E6E-4F482F6CC5C3}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="MusicaTemaCredito" ID="{0988C10F-6445-44F8-9301-4BE2F7E25474}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="MusicaTemaJogo" ID="{860C1569-521D-422A-99F0-E34A2122FE1E}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="MusicaTemaMenu" ID="{91FCA8B1-EB73-459F-BB28-D1A12572AC79}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

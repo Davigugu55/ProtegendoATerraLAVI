@@ -22,17 +22,22 @@
 			<Path>Musica.bnk</Path>
 			<IncludedEvents>
 				<Event Id="408261805" Name="MusicaTemaCreditos" ObjectPath="\Events\Default Work Unit\MusicaTemaCreditos"/>
+				<Event Id="876826531" Name="MusicaTemaJogo" ObjectPath="\Events\Default Work Unit\MusicaTemaJogo"/>
 				<Event Id="2697909245" Name="MusicaTemaMenu" ObjectPath="\Events\Default Work Unit\MusicaTemaMenu"/>
 				<Event Id="1563513376" Name="ParaMusicas" ObjectPath="\Events\Default Work Unit\ParaMusicas" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="517906302" Language="SFX">
+					<ShortName>JoshWoodward-OW-NoVox-09-FoolsGold.wav</ShortName>
+					<Path>SFX\JoshWoodward-OW-NoVox-09-FoolsGold_56D34C19.wem</Path>
+				</File>
+				<File Id="528022941" Language="SFX">
+					<ShortName>JoshWoodward-TheWake-NoVox-04-CrazyGlue.wav</ShortName>
+					<Path>SFX\JoshWoodward-TheWake-NoVox-04-CrazyGlue_56D34C19.wem</Path>
+				</File>
 				<File Id="678986274" Language="SFX">
 					<ShortName>JoshWoodward-BeyondTheSky-NoVox.wav</ShortName>
 					<Path>SFX\JoshWoodward-BeyondTheSky-NoVox_56D34C19.wem</Path>
-				</File>
-				<File Id="904193848" Language="SFX">
-					<ShortName>JoshWoodward-TheWake-NoVox-04-CrazyGlue.wav</ShortName>
-					<Path>SFX\JoshWoodward-TheWake-NoVox-04-CrazyGlue_8956FC97.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

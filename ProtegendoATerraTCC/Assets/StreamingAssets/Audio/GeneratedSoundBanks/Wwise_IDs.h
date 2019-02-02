@@ -14,9 +14,18 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID MUSICATEMACREDITOS = 408261805U;
+        static const AkUniqueID MUSICATEMAJOGO = 876826531U;
         static const AkUniqueID MUSICATEMAMENU = 2697909245U;
         static const AkUniqueID PARAMUSICAS = 1563513376U;
     } // namespace EVENTS
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID AMBIENTEVOLUME = 1604917154U;
+        static const AkUniqueID DUBLAGEMVOLUME = 3269224070U;
+        static const AkUniqueID GERALVOLUME = 2606604300U;
+        static const AkUniqueID MUSICAVOLUME = 3023295265U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
