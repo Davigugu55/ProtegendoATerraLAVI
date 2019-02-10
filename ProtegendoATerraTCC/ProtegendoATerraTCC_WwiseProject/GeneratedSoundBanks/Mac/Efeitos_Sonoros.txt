@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	837515389	ParaFootstep			\Default Work Unit\ParaFootstep	
+	1172444532	PortaAbrindo			\Default Work Unit\PortaAbrindo	
+	1866025847	Footstep			\Default Work Unit\Footstep	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1604917154	AmbienteVolume			\Default Work Unit\Volume\AmbienteVolume	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	75370003	footstep	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\footstep_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\footstep		342218
+	911826410	DoorOpen	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\DoorOpen_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\DoorOpen		287268
+

@@ -11,6 +11,26 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="135511896" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Efeitos_Sonoros</ObjectPath>
+			<ShortName>Efeitos_Sonoros</ShortName>
+			<Path>Efeitos_Sonoros.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep"/>
+				<Event Id="837515389" Name="ParaFootstep" ObjectPath="\Events\Default Work Unit\ParaFootstep" MaxAttenuation="0.000000"/>
+				<Event Id="1172444532" Name="PortaAbrindo" ObjectPath="\Events\Default Work Unit\PortaAbrindo"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="75370003" Language="SFX">
+					<ShortName>footstep.wav</ShortName>
+					<Path>SFX\footstep_8956FC97.wem</Path>
+				</File>
+				<File Id="911826410" Language="SFX">
+					<ShortName>DoorOpen.wav</ShortName>
+					<Path>SFX\DoorOpen_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -29,7 +49,7 @@
 			<IncludedMemoryFiles>
 				<File Id="517906302" Language="SFX">
 					<ShortName>JoshWoodward-OW-NoVox-09-FoolsGold.wav</ShortName>
-					<Path>SFX\JoshWoodward-OW-NoVox-09-FoolsGold_56D34C19.wem</Path>
+					<Path>SFX\JoshWoodward-OW-NoVox-09-FoolsGold_8956FC97.wem</Path>
 				</File>
 				<File Id="528022941" Language="SFX">
 					<ShortName>JoshWoodward-TheWake-NoVox-04-CrazyGlue.wav</ShortName>

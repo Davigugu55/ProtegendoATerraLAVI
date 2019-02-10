@@ -13,10 +13,13 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID MUSICATEMACREDITOS = 408261805U;
         static const AkUniqueID MUSICATEMAJOGO = 876826531U;
         static const AkUniqueID MUSICATEMAMENU = 2697909245U;
+        static const AkUniqueID PARAFOOTSTEP = 837515389U;
         static const AkUniqueID PARAMUSICAS = 1563513376U;
+        static const AkUniqueID PORTAABRINDO = 1172444532U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
@@ -30,6 +33,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID EFEITOS_SONOROS = 135511896U;
         static const AkUniqueID MUSICA = 1730564739U;
     } // namespace BANKS
 

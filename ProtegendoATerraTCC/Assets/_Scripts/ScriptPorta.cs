@@ -13,14 +13,14 @@ public class ScriptPorta : MonoBehaviour {
 		animator = GetComponent<Animator> ();
 	}
 
-	void OnTriggerEnter(Collider player){
+	void OnTriggerStay(Collider player){
 		if (player.name == "Tamires") {
-			Debug.Log (player.name);
 			botao.onClick.AddListener (TaskOnClick);
 		}
 	}
-	public void TaskOnClick()
+	void TaskOnClick()
 	{
 		animator.SetBool ("open", true);
+		AkSoundEngine.PostEvent ("PortaAbrindo", gameObject);
 	}
 }

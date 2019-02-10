@@ -66,6 +66,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MusicaTemaJogo" ID="{860C1569-521D-422A-99F0-E34A2122FE1E}" ShortID="645235791">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -114,6 +117,106 @@
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="MusicaTemaMenu" ID="{91FCA8B1-EB73-459F-BB28-D1A12572AC79}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Efeitos sonoros" ID="{7B9D5AB4-DF27-4FB9-9987-2FF55D776B6E}" ShortID="912691795">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{E36659EC-6FA7-44C8-92FA-8F9A262AC30C}" ShortID="271550296">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="AmbienteVolume" ID="{89DF577B-C2E0-4E11-A78D-3C6C64CED95C}" WorkUnitID="{D484143D-DD05-4686-BEE4-6117D52E74FB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6C7AD6F2-082E-4589-8DD2-E0BDE5760F44}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="footstep" ID="{5D42B7EF-63F7-4960-87D2-0E1DEF56E547}" ShortID="354575973">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstep" ID="{CE7239E2-FEFE-4F61-B636-104E70E7A93F}" ShortID="75370003">
+									<Language>SFX</Language>
+									<AudioFile>footstep.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footstep" ID="{CE7239E2-FEFE-4F61-B636-104E70E7A93F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="DoorOpen" ID="{4E5653AF-70E1-419C-8BB1-19B5BE90CE5F}" ShortID="682278536">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-26</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DoorOpen" ID="{6E0080C9-FB02-4DB8-B12F-178B59273F4F}" ShortID="911826410">
+									<Language>SFX</Language>
+									<AudioFile>DoorOpen.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="DoorOpen" ID="{6E0080C9-FB02-4DB8-B12F-178B59273F4F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="DoorOpen" ID="{4E5653AF-70E1-419C-8BB1-19B5BE90CE5F}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="footstep" ID="{5D42B7EF-63F7-4960-87D2-0E1DEF56E547}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 					</GroupingInfo>

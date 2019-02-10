@@ -55,6 +55,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Footstep" ID="{30C06998-5A44-4048-85F9-C7BD7AE23DC5}">
+					<ChildrenList>
+						<Action Name="" ID="{BC3BEA1E-BCAE-43D6-9747-206F4CF808AA}" ShortID="1026312156">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="footstep" ID="{5D42B7EF-63F7-4960-87D2-0E1DEF56E547}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ParaFootstep" ID="{AD283370-1042-4C09-85B4-5C16D495894F}">
+					<ChildrenList>
+						<Action Name="" ID="{64B55956-AFFC-4E5F-A10A-302CE7DCF87A}" ShortID="279926082">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="footstep" ID="{5D42B7EF-63F7-4960-87D2-0E1DEF56E547}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PortaAbrindo" ID="{98064165-4F5D-4B42-9E1E-22F4D2419712}">
+					<ChildrenList>
+						<Action Name="" ID="{CFEC9393-B181-46B8-9B7F-43139620969B}" ShortID="140632443">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorOpen" ID="{4E5653AF-70E1-419C-8BB1-19B5BE90CE5F}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

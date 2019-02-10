@@ -11,14 +11,181 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 353bb355681380a45adb567245b48131, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2e455c78cff31c4285d742441d7fed7c
+    m_lastTime: -8586545623412483617
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 9d2489a066d61543a0d6beb8e55f79d7
+    m_lastTime: -8586525532045114713
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: d5f93df1eadec1458b42485ccb8da37a
+    m_lastTime: -8586518448784459403
+    List:
+    - name: Efeitos_Sonoros
+      guid: 3584def24459974cb34bf3250c92f3cc
+      id: 135511896
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Efeitos_Sonoros
+        ObjectType: 7
+      Path: Default Work Unit\Efeitos_Sonoros
+    - name: Musica
+      guid: 25ba3e6c82d0aa43a04c79c32c614017
+      id: 1730564739
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Musica
+        ObjectType: 7
+      Path: Default Work Unit\Musica
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 075b524d00986647b0af670f5ae0b878
+    m_lastTime: -8586518430194163581
+    List:
+    - name: Footstep
+      guid: 9869c030445a484085f9c7bd7ae23dc5
+      id: 1866025847
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footstep
+        ObjectType: 3
+      Path: Default Work Unit\Footstep
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MusicaTemaCreditos
+      guid: 4d39b5f249598343963c70a524b1b0cc
+      id: 408261805
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicaTemaCreditos
+        ObjectType: 3
+      Path: Default Work Unit\MusicaTemaCreditos
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MusicaTemaJogo
+      guid: 0349652eeeb41c4e8a86a04bd7fc473f
+      id: 876826531
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicaTemaJogo
+        ObjectType: 3
+      Path: Default Work Unit\MusicaTemaJogo
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MusicaTemaMenu
+      guid: 6a892fa35d947c4e96610c324ec99235
+      id: 2697909245
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicaTemaMenu
+        ObjectType: 3
+      Path: Default Work Unit\MusicaTemaMenu
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: ParaMusicas
+      guid: 292d299f5af5fc40ba097b0a0472491b
+      id: 1563513376
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ParaMusicas
+        ObjectType: 3
+      Path: Default Work Unit\ParaMusicas
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3d1484d405dd8646bee46117d52e74fb
+    m_lastTime: -8586534162111488808
+    List:
+    - name: AmbienteVolume
+      guid: 7b57df89e0c2114ea78d3c6c64ced95c
+      id: 1604917154
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Volume
+        ObjectType: 4
+      - ElementName: AmbienteVolume
+        ObjectType: 13
+      Path: Default Work Unit\Volume\AmbienteVolume
+    - name: DublagemVolume
+      guid: 228336bc9a24a749872cb62a892a2da2
+      id: 3269224070
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Volume
+        ObjectType: 4
+      - ElementName: DublagemVolume
+        ObjectType: 13
+      Path: Default Work Unit\Volume\DublagemVolume
+    - name: GeralVolume
+      guid: 2a934b6a37ce5d4ba2ef64622391e3f2
+      id: 2606604300
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Volume
+        ObjectType: 4
+      - ElementName: GeralVolume
+        ObjectType: 13
+      Path: Default Work Unit\Volume\GeralVolume
+    - name: MusicaVolume
+      guid: ec2dc60999c39547b003bb788cfa38e8
+      id: 3023295265
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Volume
+        ObjectType: 4
+      - ElementName: MusicaVolume
+        ObjectType: 13
+      Path: Default Work Unit\Volume\MusicaVolume
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: b58644974dc2e64c9657252da9b11c6b
+    m_lastTime: -8586542790005461638
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e8deb4b609aa534a9d23a36258caac11
+    m_lastTime: -8586545623412643048
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c032f2d37295884592748b3a12a0f9b5
+    m_lastTime: -8586545623413042100
+    List: []
+  ExpandedItems:
+  - /ProtegendoATerraTCC_WwiseProject
+  - /ProtegendoATerraTCC_WwiseProject/Events
+  - /ProtegendoATerraTCC_WwiseProject/Events/Default Work Unit
+  - /ProtegendoATerraTCC_WwiseProject/SoundBanks
+  - /ProtegendoATerraTCC_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

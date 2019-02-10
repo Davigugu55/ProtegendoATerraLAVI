@@ -3,11 +3,15 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{D1438BC5-2F68-40DB-B493-E90057F41A28}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\Josh Woodward Music"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\SoundEffects"/>
 				<Property Name="Event Action List\{2E654903-B4EE-4E1C-8A86-A04BD7FC473F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{30C06998-5A44-4048-85F9-C7BD7AE23DC5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{98064165-4F5D-4B42-9E1E-22F4D2419712}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9F292D29-F55A-40FC-BA09-7B0A0472491B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A32F896A-945D-4E7C-9661-0C324EC99235}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AD283370-1042-4C09-85B4-5C16D495894F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F2B5394D-5949-4383-963C-70A524B1B0CC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F83A9B53-20FE-450A-94B6-C4D4E4539FF1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -27,9 +31,9 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Android"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="vbEB4q5ddESIXg9MH7ghcw=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="Jbo+bILQqkOgTHnDLGFAFw=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="Jbo+bILQqkOgTHnDLGFAFzWE3vJEWZdMs0vzJQyS88w="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="OVGNDH/J+keR2w3KwO+eHAH/////////PNlo5um3i0yPKj5HARz0/QH/////////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="PNlo5um3i0yPKj5HARz0/QH/////////OVGNDH/J+keR2w3KwO+eHAH/////////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -60,7 +64,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ850kiaBm1hVDoNa+uOVfedc="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="uDBogWzpH0SXNZcSjfy+SoPbV0cglpdLnvNMgawDOlc="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="g9tXRyCWl0ue80yBrAM6V7RanXsn37lPmYcv9V13a24="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="B1tSTQCYZkewr2cPWuC4eA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>

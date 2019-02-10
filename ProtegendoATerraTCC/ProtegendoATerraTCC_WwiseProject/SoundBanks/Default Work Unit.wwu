@@ -13,6 +13,15 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Efeitos_Sonoros" ID="{F2DE8435-5944-4C97-B34B-F3250C92F3CC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footstep" ID="{30C06998-5A44-4048-85F9-C7BD7AE23DC5}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PortaAbrindo" ID="{98064165-4F5D-4B42-9E1E-22F4D2419712}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ParaFootstep" ID="{AD283370-1042-4C09-85B4-5C16D495894F}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
