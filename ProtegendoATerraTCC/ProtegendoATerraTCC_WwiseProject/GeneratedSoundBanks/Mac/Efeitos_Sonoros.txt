@@ -1,12 +1,21 @@
 Event	ID	Name			Wwise Object Path	Notes
-	837515389	ParaFootstep			\Default Work Unit\ParaFootstep	
+	991839893	AguaCaindo			\Default Work Unit\AguaCaindo	
 	1172444532	PortaAbrindo			\Default Work Unit\PortaAbrindo	
-	1866025847	Footstep			\Default Work Unit\Footstep	
+	1232261195	ParaAguaCaindo			\Default Work Unit\ParaAguaCaindo	
+	1407656221	ParaLampadaEletronica			\Default Work Unit\ParaLampadaEletronica	
+	1431862001	ParaTV			\Default Work Unit\ParaTV	
+	1568083719	TV			\Default Work Unit\TV	
+	2788761213	Geladeira			\Default Work Unit\Geladeira	
+	3203310091	LampadaEletronica			\Default Work Unit\LampadaEletronica	
+	4131001671	ParaGeladeira			\Default Work Unit\ParaGeladeira	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1604917154	AmbienteVolume			\Default Work Unit\Volume\AmbienteVolume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	75370003	footstep	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\footstep_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\footstep		342218
+	178141845	WaterDraining	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\WaterDraining_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\WaterDraining		652860
+	298268996	TV	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\TV_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\TV		81586
+	615714967	Geladeira	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\Geladeira_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\Geladeira		231660
+	701176882	EletronicLamp	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\EletronicLamp_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\EletronicLamp		75480
 	911826410	DoorOpen	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\DoorOpen_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\DoorOpen		287268
 

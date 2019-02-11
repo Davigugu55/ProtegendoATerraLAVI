@@ -27,7 +27,7 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: d5f93df1eadec1458b42485ccb8da37a
-    m_lastTime: -8586518448784459403
+    m_lastTime: -8586517355623022540
     List:
     - name: Efeitos_Sonoros
       guid: 3584def24459974cb34bf3250c92f3cc
@@ -38,6 +38,15 @@ MonoBehaviour:
       - ElementName: Efeitos_Sonoros
         ObjectType: 7
       Path: Default Work Unit\Efeitos_Sonoros
+    - name: FootStep
+      guid: 4174491b274aed49b3f95a280f82e7b8
+      id: 1866025847
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FootStep
+        ObjectType: 7
+      Path: Default Work Unit\FootStep
     - name: Musica
       guid: 25ba3e6c82d0aa43a04c79c32c614017
       id: 1730564739
@@ -51,8 +60,20 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 075b524d00986647b0af670f5ae0b878
-    m_lastTime: -8586518430194163581
+    m_lastTime: -8586517358696809843
     List:
+    - name: AguaCaindo
+      guid: d07688c16f1cfd47b4cb4688037566ad
+      id: 991839893
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AguaCaindo
+        ObjectType: 3
+      Path: Default Work Unit\AguaCaindo
+      maxAttenuation: 2
+      maxDuration: 0
+      minDuration: 0
     - name: Footstep
       guid: 9869c030445a484085f9c7bd7ae23dc5
       id: 1866025847
@@ -63,6 +84,30 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Footstep
       maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Geladeira
+      guid: 4281e8be4e054b47bc2a670ff07127ba
+      id: 2788761213
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Geladeira
+        ObjectType: 3
+      Path: Default Work Unit\Geladeira
+      maxAttenuation: 2
+      maxDuration: 0
+      minDuration: 0
+    - name: LampadaEletronica
+      guid: 35569f9e0e9a434b809cc16d1f797620
+      id: 3203310091
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LampadaEletronica
+        ObjectType: 3
+      Path: Default Work Unit\LampadaEletronica
+      maxAttenuation: 2
       maxDuration: 0
       minDuration: 0
     - name: MusicaTemaCreditos
@@ -101,6 +146,54 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: ParaAguaCaindo
+      guid: 50fabe937affa347888ef32913cf3d2d
+      id: 1232261195
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ParaAguaCaindo
+        ObjectType: 3
+      Path: Default Work Unit\ParaAguaCaindo
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: ParaFootstep
+      guid: 703328ad4210094c85b45c16d495894f
+      id: 837515389
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ParaFootstep
+        ObjectType: 3
+      Path: Default Work Unit\ParaFootstep
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: ParaGeladeira
+      guid: 9747789b7bbce34c9a4da10fd313ac97
+      id: 4131001671
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ParaGeladeira
+        ObjectType: 3
+      Path: Default Work Unit\ParaGeladeira
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: ParaLampadaEletronica
+      guid: 552416d3dc0dc24ea5f1b38bd0f5c074
+      id: 1407656221
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ParaLampadaEletronica
+        ObjectType: 3
+      Path: Default Work Unit\ParaLampadaEletronica
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: ParaMusicas
       guid: 292d299f5af5fc40ba097b0a0472491b
       id: 1563513376
@@ -111,6 +204,42 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\ParaMusicas
       maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: ParaTV
+      guid: 82908aae638df4409747661added6240
+      id: 1431862001
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ParaTV
+        ObjectType: 3
+      Path: Default Work Unit\ParaTV
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PortaAbrindo
+      guid: 654106985d4f424b9e1e22f4d2419712
+      id: 1172444532
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PortaAbrindo
+        ObjectType: 3
+      Path: Default Work Unit\PortaAbrindo
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: TV
+      guid: 7ae350eea8fe494f85df8b8927de9b19
+      id: 1568083719
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: TV
+        ObjectType: 3
+      Path: Default Work Unit\TV
+      maxAttenuation: 2
       maxDuration: 0
       minDuration: 0
   RtpcWwu:

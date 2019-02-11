@@ -187,7 +187,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-26</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -209,6 +209,132 @@
 								<ActiveSource Name="DoorOpen" ID="{6E0080C9-FB02-4DB8-B12F-178B59273F4F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="WaterDraining" ID="{155FC5B0-ED99-4094-AA5E-34E306E0DFE7}" ShortID="122218932">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+								<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EfeitosSonoros" ID="{A17C945A-8452-4489-8CC1-A7994BBCD385}" WorkUnitID="{24CDA94D-5479-4698-B5BB-18CEF0F13ED2}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WaterDraining" ID="{46917718-4B86-484D-A81B-2A549F6F7C4E}" ShortID="178141845">
+									<Language>SFX</Language>
+									<AudioFile>WaterDraining.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{A88A19FB-2F97-449D-B656-9944EDDFF671}"/>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="WaterDraining" ID="{46917718-4B86-484D-A81B-2A549F6F7C4E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EletronicLamp" ID="{4B5ED8B7-FEFC-4A66-9127-829CC5CE187A}" ShortID="698285952">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EfeitosSonoros" ID="{A17C945A-8452-4489-8CC1-A7994BBCD385}" WorkUnitID="{24CDA94D-5479-4698-B5BB-18CEF0F13ED2}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EletronicLamp" ID="{5F017C78-2DB2-43A8-B864-7AE664FFA920}" ShortID="701176882">
+									<Language>SFX</Language>
+									<AudioFile>EletronicLamp.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EletronicLamp" ID="{5F017C78-2DB2-43A8-B864-7AE664FFA920}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TV" ID="{048EBEF7-7045-412E-A772-CEF79BB428FF}" ShortID="867471306">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EfeitosSonoros" ID="{A17C945A-8452-4489-8CC1-A7994BBCD385}" WorkUnitID="{24CDA94D-5479-4698-B5BB-18CEF0F13ED2}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TV" ID="{39258632-0F44-4067-BA1E-1F53732538B2}" ShortID="298268996">
+									<Language>SFX</Language>
+									<AudioFile>TV.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TV" ID="{39258632-0F44-4067-BA1E-1F53732538B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Geladeira" ID="{BA7B52BB-4A15-4699-8060-2DE51D9B0CBF}" ShortID="339606820">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="EfeitosSonoros" ID="{A17C945A-8452-4489-8CC1-A7994BBCD385}" WorkUnitID="{24CDA94D-5479-4698-B5BB-18CEF0F13ED2}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Geladeira" ID="{BFCDFA42-AE40-45FA-92C5-204D93D359D5}" ShortID="615714967">
+									<Language>SFX</Language>
+									<AudioFile>Geladeira.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Geladeira" ID="{BFCDFA42-AE40-45FA-92C5-204D93D359D5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
@@ -216,7 +342,19 @@
 								<ItemRef Name="DoorOpen" ID="{4E5653AF-70E1-419C-8BB1-19B5BE90CE5F}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
+								<ItemRef Name="WaterDraining" ID="{155FC5B0-ED99-4094-AA5E-34E306E0DFE7}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="EletronicLamp" ID="{4B5ED8B7-FEFC-4A66-9127-829CC5CE187A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Geladeira" ID="{BA7B52BB-4A15-4699-8060-2DE51D9B0CBF}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
 								<ItemRef Name="footstep" ID="{5D42B7EF-63F7-4960-87D2-0E1DEF56E547}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="TV" ID="{048EBEF7-7045-412E-A772-CEF79BB428FF}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 					</GroupingInfo>

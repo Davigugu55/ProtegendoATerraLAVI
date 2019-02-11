@@ -15,8 +15,22 @@
 				</SoundBank>
 				<SoundBank Name="Efeitos_Sonoros" ID="{F2DE8435-5944-4C97-B34B-F3250C92F3CC}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Footstep" ID="{30C06998-5A44-4048-85F9-C7BD7AE23DC5}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ParaTV" ID="{AE8A9082-8D63-40F4-9747-661ADDED6240}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Geladeira" ID="{BEE88142-054E-474B-BC2A-670FF07127BA}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ParaAguaCaindo" ID="{93BEFA50-FF7A-47A3-888E-F32913CF3D2D}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="AguaCaindo" ID="{C18876D0-1C6F-47FD-B4CB-4688037566AD}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PortaAbrindo" ID="{98064165-4F5D-4B42-9E1E-22F4D2419712}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LampadaEletronica" ID="{9E9F5635-9A0E-4B43-809C-C16D1F797620}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ParaGeladeira" ID="{9B784797-BC7B-4CE3-9A4D-A10FD313AC97}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ParaLampadaEletronica" ID="{D3162455-0DDC-4EC2-A5F1-B38BD0F5C074}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="TV" ID="{EE50E37A-FEA8-4F49-85DF-8B8927DE9B19}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="FootStep" ID="{1B497441-4A27-49ED-B3F9-5A280F82E7B8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footstep" ID="{30C06998-5A44-4048-85F9-C7BD7AE23DC5}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ParaFootstep" ID="{AD283370-1042-4C09-85B4-5C16D495894F}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

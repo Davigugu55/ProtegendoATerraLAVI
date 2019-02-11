@@ -1,14 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\ScriptPorta.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\DetectaConsumoTV.cs">
     <Files>
-      <File FileName="Assets\_Scripts\FirstPersonController.cs" Line="122" Column="47" />
+      <File FileName="Assets\_Scripts\FirstPersonController.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\GyroController.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\MenuPrincipal.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\MovimentacaoPersonagem.cs" Line="27" Column="5" />
       <File FileName="Assets\_Scripts\PauseMenu.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\ChargeVolumeLevels.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\ScriptPorta.cs" Line="25" Column="3" />
+      <File FileName="Assets\_Scripts\ScriptPorta.cs" Line="38" Column="3" />
+      <File FileName="Assets\_Scripts\DetectaConsumoAgua.cs" Line="34" Column="3" />
+      <File FileName="Assets\_Scripts\DetectaConsumoAbajur.cs" Line="8" Column="2" />
+      <File FileName="Assets\_Scripts\DetectaConsumoTV.cs" Line="33" Column="5" />
+      <File FileName="Assets\_Scripts\DetectaConsumoGeladeira.cs" Line="9" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

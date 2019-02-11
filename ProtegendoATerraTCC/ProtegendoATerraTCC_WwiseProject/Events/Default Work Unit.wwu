@@ -97,6 +97,118 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="AguaCaindo" ID="{C18876D0-1C6F-47FD-B4CB-4688037566AD}">
+					<ChildrenList>
+						<Action Name="" ID="{0965D29A-6452-4DE6-8ECD-28F7E178DF0B}" ShortID="1030738602">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterDraining" ID="{155FC5B0-ED99-4094-AA5E-34E306E0DFE7}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ParaAguaCaindo" ID="{93BEFA50-FF7A-47A3-888E-F32913CF3D2D}">
+					<ChildrenList>
+						<Action Name="" ID="{61E7DBE2-273F-4871-99EF-00A7C7D47306}" ShortID="684192413">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterDraining" ID="{155FC5B0-ED99-4094-AA5E-34E306E0DFE7}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LampadaEletronica" ID="{9E9F5635-9A0E-4B43-809C-C16D1F797620}">
+					<ChildrenList>
+						<Action Name="" ID="{3651B451-3349-49E5-A059-872776D05CA3}" ShortID="530922079">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EletronicLamp" ID="{4B5ED8B7-FEFC-4A66-9127-829CC5CE187A}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ParaLampadaEletronica" ID="{D3162455-0DDC-4EC2-A5F1-B38BD0F5C074}">
+					<ChildrenList>
+						<Action Name="" ID="{2F9D0F73-B917-4C77-B796-04DB3E839CB4}" ShortID="757255222">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EletronicLamp" ID="{4B5ED8B7-FEFC-4A66-9127-829CC5CE187A}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TV" ID="{EE50E37A-FEA8-4F49-85DF-8B8927DE9B19}">
+					<ChildrenList>
+						<Action Name="" ID="{70534026-23A5-463A-9E5A-54C3985CB510}" ShortID="762101862">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TV" ID="{048EBEF7-7045-412E-A772-CEF79BB428FF}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ParaTV" ID="{AE8A9082-8D63-40F4-9747-661ADDED6240}">
+					<ChildrenList>
+						<Action Name="" ID="{67631D6E-26C0-4C1C-81C9-4F6FD754E012}" ShortID="634903921">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TV" ID="{048EBEF7-7045-412E-A772-CEF79BB428FF}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Geladeira" ID="{BEE88142-054E-474B-BC2A-670FF07127BA}">
+					<ChildrenList>
+						<Action Name="" ID="{2703D304-5EBE-48B3-9E5F-B17C19AB019E}" ShortID="728661590">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Geladeira" ID="{BA7B52BB-4A15-4699-8060-2DE51D9B0CBF}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ParaGeladeira" ID="{9B784797-BC7B-4CE3-9A4D-A10FD313AC97}">
+					<ChildrenList>
+						<Action Name="" ID="{90ED7FF1-94D1-4F37-8444-6EB2FD97D701}" ShortID="371606826">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Geladeira" ID="{BA7B52BB-4A15-4699-8060-2DE51D9B0CBF}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

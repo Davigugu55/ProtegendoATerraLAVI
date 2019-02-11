@@ -54,6 +54,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\_Scripts\ChargeVolumeLevels.cs" />
+     <Compile Include="Assets\_Scripts\DetectaConsumoAbajur.cs" />
+     <Compile Include="Assets\_Scripts\DetectaConsumoAgua.cs" />
+     <Compile Include="Assets\_Scripts\DetectaConsumoGeladeira.cs" />
+     <Compile Include="Assets\_Scripts\DetectaConsumoTV.cs" />
      <Compile Include="Assets\_Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\_Scripts\GyroController.cs" />
      <Compile Include="Assets\_Scripts\MenuPrincipal.cs" />

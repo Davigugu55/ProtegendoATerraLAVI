@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Igor Jordany/Documents/builds/teste5.apk
+C:/Users/Igor Jordany/Documents/builds/teste6.apk
 SceneListBegin?
 Assets/_Scenes/Menu.unity
 Assets/_Scenes/Jogo.unity
@@ -233,3 +233,7 @@ e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 a83669587dd8ffd0a6d8f5811eab492d Assembly-CSharp.dll:.AkEnvironment
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.MenuPrincipal
 9af328b376fbcb938c61f1d594ac340f Assembly-CSharp.dll:.AkRoomPortal
+4f2e73bd155cd24cab46989ecc68f892 Assembly-CSharp.dll:.DetectaConsumoAgua
+6b914d0b68856ac25a02a1bc43a5aa7b Assembly-CSharp.dll:.DetectaConsumoAbajur
+4f2e73bd155cd24cab46989ecc68f892 Assembly-CSharp.dll:.DetectaConsumoTV
+4f2e73bd155cd24cab46989ecc68f892 Assembly-CSharp.dll:.DetectaConsumoGeladeira

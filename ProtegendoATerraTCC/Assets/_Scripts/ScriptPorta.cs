@@ -8,19 +8,35 @@ public class ScriptPorta : MonoBehaviour {
 
 	private Animator animator;
 	public Button botao;
+	bool colisor;
 
 	void Start () {
 		animator = GetComponent<Animator> ();
 	}
 
-	void OnTriggerStay(Collider player){
+	void OnTriggerEnter(Collider player){
 		if (player.name == "Tamires") {
-			botao.onClick.AddListener (TaskOnClick);
+			Debug.Log ("entrou");
+			colisor = true;
+			botao.onClick.AddListener (DetectaColisao);
+		}
+	}
+	void OnTriggerExit(Collider player){
+		if (player.name == "Tamires") {
+			Debug.Log ("saiu");
+			colisor = false;
+		}
+	}
+	void DetectaColisao(){
+		if (colisor) {
+			TaskOnClick ();
+			colisor = false;
 		}
 	}
 	void TaskOnClick()
 	{
-		animator.SetBool ("open", true);
 		AkSoundEngine.PostEvent ("PortaAbrindo", gameObject);
+		Debug.Log ("porta abriu");
+		animator.SetBool ("open", true);
 	}
 }
