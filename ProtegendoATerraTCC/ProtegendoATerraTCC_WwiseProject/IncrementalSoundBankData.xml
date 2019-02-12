@@ -8,12 +8,12 @@
 				<File Name="Init" Hash="1142758540" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547045619"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048421"/>
-				<File Name="Musica" Hash="3338764958" Timestamp="1549370663"/>
+				<File Name="Musica" Hash="3338764958" Timestamp="1549947722"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="953505731" Timestamp="1549871547"/>
+				<File Name="" Hash="953505731" Timestamp="1549947722"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -25,12 +25,12 @@
 				<File Name="Init" Hash="234740836" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547046153"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048423"/>
-				<File Name="Musica" Hash="3338764958" Timestamp="1549370672"/>
+				<File Name="Musica" Hash="3338764958" Timestamp="1549947723"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="268980165" Timestamp="1549871547"/>
+				<File Name="" Hash="268980165" Timestamp="1549947723"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -42,12 +42,12 @@
 				<File Name="Init" Hash="56269846" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547046153"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048422"/>
-				<File Name="Musica" Hash="3338764958" Timestamp="1549370671"/>
+				<File Name="Musica" Hash="3338764958" Timestamp="1549947723"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3976164567" Timestamp="1549871547"/>
+				<File Name="" Hash="3976164567" Timestamp="1549947723"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

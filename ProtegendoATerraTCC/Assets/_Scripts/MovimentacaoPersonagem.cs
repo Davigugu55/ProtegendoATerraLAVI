@@ -29,7 +29,7 @@ public class MovimentacaoPersonagem : MonoBehaviour {
 			andando = true;
 		}
 		//transform.Translate (Input.GetAxis("Horizontal") * Time.deltaTime, 0, Input.GetAxis("Vertical") * Time.deltaTime);
-		transform.Rotate (0, -Input.gyro.rotationRateUnbiased.y * 3, 0);
+		transform.Rotate (0, -Input.gyro.rotationRateUnbiased.y * 3,0);
 	}
 
 }

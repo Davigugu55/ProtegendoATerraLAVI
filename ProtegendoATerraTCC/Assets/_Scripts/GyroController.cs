@@ -12,6 +12,7 @@ public class GyroController : MonoBehaviour {
 
 	void Update () 
 	{
-		player.transform.Rotate (0, -Input.gyro.rotationRateUnbiased.y, 0);
+		player.transform.Rotate (-Input.gyro.rotationRateUnbiased.x, -Input.gyro.rotationRateUnbiased.y,-Input.gyro.rotationRateUnbiased.z);
+		//player.transform.RotateAround(-Input.gyro.rotationRateUnbiased.x, -Input.gyro.rotationRateUnbiased.y,-Input.gyro.rotationRateUnbiased.z);
 	}
 }

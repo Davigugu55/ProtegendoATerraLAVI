@@ -6,10 +6,11 @@ using UnityEngine.UI;
 public class DetectaConsumoTV : MonoBehaviour {
 
 	public Button botao;
+	public GameObject luz;
 	bool colisor;
-	//public GameObject luz;
+	bool liga = true;
 
-	void OnTriggerEnter(Collider player){
+	void OnTriggerStay(Collider player){
 		if (player.name == "Tamires") {
 			Debug.Log ("entrou");
 			colisor = true;
@@ -30,8 +31,15 @@ public class DetectaConsumoTV : MonoBehaviour {
 	}
 	void TaskOnClick()
 	{
-		//luz.SetActive (false);
-		AkSoundEngine.PostEvent ("ParaTV", gameObject);
+		if (liga) {
+			luz.SetActive (false);
+			AkSoundEngine.PostEvent ("ParaTV", gameObject);
+			liga = false;
+		} else {
+			luz.SetActive (true);
+			AkSoundEngine.PostEvent ("TV", gameObject);
+			liga = true;
+		}
 		Debug.Log ("desligou consumo");
 	}
 }
