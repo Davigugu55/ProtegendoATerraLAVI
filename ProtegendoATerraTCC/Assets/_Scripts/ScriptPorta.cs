@@ -9,6 +9,7 @@ public class ScriptPorta : MonoBehaviour {
 	private Animator animator;
 	public Button botao;
 	bool colisor;
+	public Text mensagem;
 
 	void Start () {
 		animator = GetComponent<Animator> ();
@@ -16,6 +17,7 @@ public class ScriptPorta : MonoBehaviour {
 
 	void OnTriggerEnter(Collider player){
 		if (player.name == "Tamires") {
+			mensagem.text = "Abrir";
 			Debug.Log ("entrou");
 			colisor = true;
 			botao.onClick.AddListener (DetectaColisao);
@@ -25,6 +27,7 @@ public class ScriptPorta : MonoBehaviour {
 		if (player.name == "Tamires") {
 			Debug.Log ("saiu");
 			colisor = false;
+			mensagem.text = "";
 		}
 	}
 	void DetectaColisao(){
@@ -36,7 +39,7 @@ public class ScriptPorta : MonoBehaviour {
 	void TaskOnClick()
 	{
 		AkSoundEngine.PostEvent ("PortaAbrindo", gameObject);
-		Debug.Log ("porta abriu");
 		animator.SetBool ("open", true);
+		Debug.Log ("porta abriu");
 	}
 }

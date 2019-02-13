@@ -9,18 +9,25 @@ public class DetectaConsumoTV : MonoBehaviour {
 	public GameObject luz;
 	bool colisor;
 	bool liga = true;
+	public Text mensagem;
 
 	void OnTriggerStay(Collider player){
 		if (player.name == "Tamires") {
 			Debug.Log ("entrou");
 			colisor = true;
 			botao.onClick.AddListener (DetectaColisao);
+			if (liga) {
+				mensagem.text = "Desligar";
+			} else {
+				mensagem.text = "Ligar";
+			}
 		}
 	}
 	void OnTriggerExit(Collider player){
 		if (player.name == "Tamires") {
 			Debug.Log ("saiu");
 			colisor = false;
+			mensagem.text = "";
 		}
 	}
 	void DetectaColisao(){

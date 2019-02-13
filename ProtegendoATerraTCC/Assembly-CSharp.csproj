@@ -60,6 +60,7 @@
      <Compile Include="Assets\_Scripts\DetectaConsumoTV.cs" />
      <Compile Include="Assets\_Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\_Scripts\GyroController.cs" />
+     <Compile Include="Assets\_Scripts\Interruptores.cs" />
      <Compile Include="Assets\_Scripts\MenuPrincipal.cs" />
      <Compile Include="Assets\_Scripts\MovimentacaoPersonagem.cs" />
      <Compile Include="Assets\_Scripts\PauseMenu.cs" />
