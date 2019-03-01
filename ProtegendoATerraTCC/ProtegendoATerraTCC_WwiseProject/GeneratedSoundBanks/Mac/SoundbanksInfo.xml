@@ -17,8 +17,10 @@
 			<Path>Efeitos_Sonoros.bnk</Path>
 			<IncludedEvents>
 				<Event Id="991839893" Name="AguaCaindo" ObjectPath="\Events\Default Work Unit\AguaCaindo" MaxAttenuation="2.000000"/>
+				<Event Id="2186663080" Name="DesligaInterruptor" ObjectPath="\Events\Default Work Unit\DesligaInterruptor"/>
 				<Event Id="2788761213" Name="Geladeira" ObjectPath="\Events\Default Work Unit\Geladeira" MaxAttenuation="2.000000"/>
 				<Event Id="3203310091" Name="LampadaEletronica" ObjectPath="\Events\Default Work Unit\LampadaEletronica" MaxAttenuation="2.000000"/>
+				<Event Id="1423098418" Name="LigaInterruptor" ObjectPath="\Events\Default Work Unit\LigaInterruptor"/>
 				<Event Id="1232261195" Name="ParaAguaCaindo" ObjectPath="\Events\Default Work Unit\ParaAguaCaindo" MaxAttenuation="0.000000"/>
 				<Event Id="4131001671" Name="ParaGeladeira" ObjectPath="\Events\Default Work Unit\ParaGeladeira" MaxAttenuation="0.000000"/>
 				<Event Id="1407656221" Name="ParaLampadaEletronica" ObjectPath="\Events\Default Work Unit\ParaLampadaEletronica" MaxAttenuation="0.000000"/>
@@ -27,6 +29,10 @@
 				<Event Id="1568083719" Name="TV" ObjectPath="\Events\Default Work Unit\TV" MaxAttenuation="2.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="156604269" Language="SFX">
+					<ShortName>intliga.wav</ShortName>
+					<Path>SFX\intliga_56D34C19.wem</Path>
+				</File>
 				<File Id="178141845" Language="SFX">
 					<ShortName>WaterDraining.wav</ShortName>
 					<Path>SFX\WaterDraining_8956FC97.wem</Path>
@@ -42,6 +48,10 @@
 				<File Id="701176882" Language="SFX">
 					<ShortName>EletronicLamp.wav</ShortName>
 					<Path>SFX\EletronicLamp_8956FC97.wem</Path>
+				</File>
+				<File Id="893666910" Language="SFX">
+					<ShortName>intdesliga.wav</ShortName>
+					<Path>SFX\intdesliga_56D34C19.wem</Path>
 				</File>
 				<File Id="911826410" Language="SFX">
 					<ShortName>DoorOpen.wav</ShortName>

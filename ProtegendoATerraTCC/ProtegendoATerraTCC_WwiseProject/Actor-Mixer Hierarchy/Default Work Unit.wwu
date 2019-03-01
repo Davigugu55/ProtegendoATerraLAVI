@@ -335,11 +335,55 @@
 								<ActiveSource Name="Geladeira" ID="{BFCDFA42-AE40-45FA-92C5-204D93D359D5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="intdesliga" ID="{A3B52CB0-2B0F-4584-8A6E-805D6E56AAE3}" ShortID="72781065">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="intdesliga" ID="{381549A2-F397-4E46-B117-53A8659A2297}" ShortID="893666910">
+									<Language>SFX</Language>
+									<AudioFile>intdesliga.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="intdesliga" ID="{381549A2-F397-4E46-B117-53A8659A2297}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="intliga" ID="{AC798DA2-D1BF-4CFD-ADF0-14EEE86AC081}" ShortID="349372777">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="intliga" ID="{C46ABDF9-0610-4F99-9B7A-46FB2D85EBC3}" ShortID="156604269">
+									<Language>SFX</Language>
+									<AudioFile>intliga.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="intliga" ID="{C46ABDF9-0610-4F99-9B7A-46FB2D85EBC3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>
+								<ItemRef Name="intliga" ID="{AC798DA2-D1BF-4CFD-ADF0-14EEE86AC081}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
 								<ItemRef Name="DoorOpen" ID="{4E5653AF-70E1-419C-8BB1-19B5BE90CE5F}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="intdesliga" ID="{A3B52CB0-2B0F-4584-8A6E-805D6E56AAE3}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="WaterDraining" ID="{155FC5B0-ED99-4094-AA5E-34E306E0DFE7}"/>

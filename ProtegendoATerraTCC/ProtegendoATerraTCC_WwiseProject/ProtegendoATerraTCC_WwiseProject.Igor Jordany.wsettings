@@ -4,8 +4,10 @@
 		<UserProjectSettings Name="" ID="{D1438BC5-2F68-40DB-B493-E90057F41A28}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\SoundEffects"/>
+				<Property Name="Event Action List\{1F96C214-7E78-4760-90E9-C0EEB5F2A70B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2E654903-B4EE-4E1C-8A86-A04BD7FC473F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{30C06998-5A44-4048-85F9-C7BD7AE23DC5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{74A459E2-F654-429F-A05A-A66620E36549}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{93BEFA50-FF7A-47A3-888E-F32913CF3D2D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{98064165-4F5D-4B42-9E1E-22F4D2419712}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9B784797-BC7B-4CE3-9A4D-A10FD313AC97}\x64_Expand States" Type="string" Value=""/>
@@ -72,7 +74,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ850kiaBm1hVDoNa+uOVfedc="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="uDBogWzpH0SXNZcSjfy+SoPbV0cglpdLnvNMgawDOle0Wp17J9+5T5mHL/Vdd2tu"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="g9tXRyCWl0ue80yBrAM6V7RanXsn37lPmYcv9V13a24="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="B1tSTQCYZkewr2cPWuC4eA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>

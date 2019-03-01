@@ -3,8 +3,8 @@
 	<Platform GUID="{E201B1BD-5DAE-4474-885E-0F4C1FB82173}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Efeitos_Sonoros" Hash="3269510772" Timestamp="1549871547"/>
-				<File Name="FootStep" Hash="679874832" Timestamp="1549871018"/>
+				<File Name="Efeitos_Sonoros" Hash="1738710168" Timestamp="1550081493"/>
+				<File Name="FootStep" Hash="610598489" Timestamp="1550081493"/>
 				<File Name="Init" Hash="1142758540" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547045619"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048421"/>
@@ -13,15 +13,15 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="953505731" Timestamp="1549947722"/>
+				<File Name="" Hash="2613981620" Timestamp="1550081493"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{482D57EB-9A5D-4589-81AA-3EDBBF324485}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Efeitos_Sonoros" Hash="3269510772" Timestamp="1549871547"/>
-				<File Name="FootStep" Hash="679874832" Timestamp="1549871019"/>
+				<File Name="Efeitos_Sonoros" Hash="1738710168" Timestamp="1550081495"/>
+				<File Name="FootStep" Hash="610598489" Timestamp="1550081494"/>
 				<File Name="Init" Hash="234740836" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547046153"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048423"/>
@@ -30,15 +30,15 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="268980165" Timestamp="1549947723"/>
+				<File Name="" Hash="3068544386" Timestamp="1550081495"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{167139D1-FD3A-4762-93CF-F312ADBBD1C3}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Efeitos_Sonoros" Hash="3269510772" Timestamp="1549871547"/>
-				<File Name="FootStep" Hash="679874832" Timestamp="1549871018"/>
+				<File Name="Efeitos_Sonoros" Hash="1738710168" Timestamp="1550081494"/>
+				<File Name="FootStep" Hash="610598489" Timestamp="1550081494"/>
 				<File Name="Init" Hash="56269846" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547046153"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048422"/>
@@ -47,7 +47,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3976164567" Timestamp="1549947723"/>
+				<File Name="" Hash="1281566768" Timestamp="1550081494"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

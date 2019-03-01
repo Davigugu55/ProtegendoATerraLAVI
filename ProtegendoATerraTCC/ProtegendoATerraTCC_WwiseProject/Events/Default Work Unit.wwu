@@ -209,6 +209,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="LigaInterruptor" ID="{74A459E2-F654-429F-A05A-A66620E36549}">
+					<ChildrenList>
+						<Action Name="" ID="{41D5B36F-B202-4D5D-8645-50E999790BD1}" ShortID="927277952">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="intliga" ID="{AC798DA2-D1BF-4CFD-ADF0-14EEE86AC081}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DesligaInterruptor" ID="{1F96C214-7E78-4760-90E9-C0EEB5F2A70B}">
+					<ChildrenList>
+						<Action Name="" ID="{7A9805DC-5B37-4E18-80A3-25E225C30A2D}" ShortID="200189660">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="intdesliga" ID="{A3B52CB0-2B0F-4584-8A6E-805D6E56AAE3}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

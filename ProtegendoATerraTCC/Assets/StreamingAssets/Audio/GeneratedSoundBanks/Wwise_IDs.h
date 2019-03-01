@@ -14,9 +14,11 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AGUACAINDO = 991839893U;
+        static const AkUniqueID DESLIGAINTERRUPTOR = 2186663080U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID GELADEIRA = 2788761213U;
         static const AkUniqueID LAMPADAELETRONICA = 3203310091U;
+        static const AkUniqueID LIGAINTERRUPTOR = 1423098418U;
         static const AkUniqueID MUSICATEMACREDITOS = 408261805U;
         static const AkUniqueID MUSICATEMAJOGO = 876826531U;
         static const AkUniqueID MUSICATEMAMENU = 2697909245U;

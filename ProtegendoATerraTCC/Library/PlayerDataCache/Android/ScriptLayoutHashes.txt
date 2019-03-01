@@ -216,6 +216,7 @@ aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 76bfb713173de91fcb127557bc4688c3 NavMeshComponents.dll:UnityEngine.AI.NavMeshSurface
 bd261236da36a98730eb7cebfba79766 Assembly-CSharp.dll:.WwiseAcousticTextureReference
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+21191dbaee3316aa77073f083309f24f Assembly-CSharp.dll:.Interruptores
 d5c8171e80618416a62e2aa6aa7c8790 Assembly-CSharp.dll:.FirstPersonController
 ae6d5f1de27865913a17cef32125bffd Assembly-CSharp.dll:.AkGameObjPosOffsetData
 2d5613dfea5ebe89d441816537142920 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
@@ -237,4 +238,3 @@ e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 a83669587dd8ffd0a6d8f5811eab492d Assembly-CSharp.dll:.AkEnvironment
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.MenuPrincipal
 9af328b376fbcb938c61f1d594ac340f Assembly-CSharp.dll:.AkRoomPortal
-21191dbaee3316aa77073f083309f24f Assembly-CSharp.dll:.Interruptores

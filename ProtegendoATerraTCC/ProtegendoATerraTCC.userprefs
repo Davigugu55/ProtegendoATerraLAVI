@@ -1,19 +1,20 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\DetectaConsumoGeladeira.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\MoveTamires.cs">
     <Files>
       <File FileName="Assets\_Scripts\FirstPersonController.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\GyroController.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\MenuPrincipal.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\MovimentacaoPersonagem.cs" Line="32" Column="22" />
+      <File FileName="Assets\_Scripts\MovimentacaoPersonagem.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\PauseMenu.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\ChargeVolumeLevels.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\ScriptPorta.cs" Line="43" Column="29" />
-      <File FileName="Assets\_Scripts\DetectaConsumoAbajur.cs" Line="51" Column="3" />
-      <File FileName="Assets\_Scripts\Interruptores.cs" Line="28" Column="20" />
-      <File FileName="Assets\_Scripts\DetectaConsumoAgua.cs" Line="50" Column="3" />
-      <File FileName="Assets\_Scripts\DetectaConsumoTV.cs" Line="10" Column="5" />
+      <File FileName="Assets\_Scripts\ScriptPorta.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\DetectaConsumoAbajur.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\Interruptores.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\DetectaConsumoAgua.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\DetectaConsumoTV.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\DetectaConsumoGeladeira.cs" Line="50" Column="3" />
+      <File FileName="Assets\_Scripts\MoveTamires.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

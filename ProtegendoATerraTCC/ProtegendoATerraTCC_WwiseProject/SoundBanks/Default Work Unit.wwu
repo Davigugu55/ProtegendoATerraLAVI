@@ -16,7 +16,9 @@
 				<SoundBank Name="Efeitos_Sonoros" ID="{F2DE8435-5944-4C97-B34B-F3250C92F3CC}">
 					<ObjectInclusionList>
 						<ObjectRef Name="ParaTV" ID="{AE8A9082-8D63-40F4-9747-661ADDED6240}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LigaInterruptor" ID="{74A459E2-F654-429F-A05A-A66620E36549}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Geladeira" ID="{BEE88142-054E-474B-BC2A-670FF07127BA}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DesligaInterruptor" ID="{1F96C214-7E78-4760-90E9-C0EEB5F2A70B}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ParaAguaCaindo" ID="{93BEFA50-FF7A-47A3-888E-F32913CF3D2D}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AguaCaindo" ID="{C18876D0-1C6F-47FD-B4CB-4688037566AD}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PortaAbrindo" ID="{98064165-4F5D-4B42-9E1E-22F4D2419712}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
