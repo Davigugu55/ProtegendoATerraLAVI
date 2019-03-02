@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/_Scenes/Menu.unity
     guid: f35fb1f3facf0de44a9bc6689b6aad85
   - enabled: 1
+    path: Assets/_Scenes/Prologo.unity
+    guid: aa30fda0e58fb2d4094fa2c909e0849f
+  - enabled: 1
     path: Assets/_Scenes/Jogo.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1

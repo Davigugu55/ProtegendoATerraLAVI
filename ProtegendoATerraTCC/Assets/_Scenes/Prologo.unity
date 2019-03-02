@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 55001003}
   - component: {fileID: 55001005}
   - component: {fileID: 55001004}
+  - component: {fileID: 55001006}
   m_Layer: 5
   m_Name: Legenda
   m_TagString: Untagged
@@ -145,8 +146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.5643e-10, y: -142.85}
-  m_SizeDelta: {x: 1920, y: 794.3}
+  m_AnchoredPosition: {x: -1.5643e-10, y: -962}
+  m_SizeDelta: {x: 1920, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55001004
 MonoBehaviour:
@@ -174,13 +175,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: asdasd
+  m_Text: "Em uma outra realidade semelhante a nossa existe uma garota de 10 anos
+    chamada Tamires, ela adora explorar coisas novas e tem imenso amor pelo meio ambiente.
+    Certo dia, ap\xF3s voltar da escola, Tamires percebe uma movimenta\xE7\xE3o estranha
+    em sua casa. Chegando ao jardim, escuta o grito de seus pais, que est\xE3o sendo
+    raptados por um grupo de monstros conhecidos como a liga do desperd\xEDcio."
 --- !u!222 &55001005
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -188,6 +193,24 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 55001002}
   m_CullTransparentMesh: 0
+--- !u!95 &55001006
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 55001002}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 480cba951b3afdc408db5f7a063f6216, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &476004450
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +252,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 476004450}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -344,9 +367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1121850081}
   - component: {fileID: 1121850080}
-  - component: {fileID: 1121850079}
   - component: {fileID: 1121850078}
-  - component: {fileID: 1121850077}
   m_Layer: 0
   m_Name: MusicaCreditos
   m_TagString: Untagged
@@ -354,34 +375,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1121850077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1121850076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35ad0fdd23bc05d43a11f0fd71fc4387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 958ca0ea
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    valueGuid: 
-    WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
-      type: 2}
-  m_callbackData: {fileID: 0}
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  valueGuid: 
-  multiPositionArray: []
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
 --- !u!54 &1121850078
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -397,34 +390,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1121850079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1121850076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35ad0fdd23bc05d43a11f0fd71fc4387, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    valueGuid: 
-    WwiseObjectReference: {fileID: 11400000, guid: 7aa1d211440728d429d4c1f94c54b659,
-      type: 2}
-  m_callbackData: {fileID: 0}
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  valueGuid: 
-  multiPositionArray: []
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
 --- !u!114 &1121850080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,6 +529,74 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!1 &1688156785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1688156786}
+  - component: {fileID: 1688156788}
+  - component: {fileID: 1688156787}
+  m_Layer: 5
+  m_Name: Imagem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1688156786
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1688156785}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2034610530}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 176}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1688156787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1688156785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1688156788
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1688156785}
+  m_CullTransparentMesh: 0
 --- !u!1 &1806182619
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,6 +824,7 @@ RectTransform:
   m_Children:
   - {fileID: 476004451}
   - {fileID: 55001003}
+  - {fileID: 1688156786}
   - {fileID: 2107159262}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -829,7 +863,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2034610530}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -876,7 +910,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2034610526}
-        m_MethodName: RetornaMenuPrincipal
+        m_MethodName: IniciarJogo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
