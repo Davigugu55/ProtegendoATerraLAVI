@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID AGUACAINDO = 991839893U;
         static const AkUniqueID DESLIGAINTERRUPTOR = 2186663080U;
+        static const AkUniqueID DPROLOGO = 881297497U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID GELADEIRA = 2788761213U;
         static const AkUniqueID LAMPADAELETRONICA = 3203310091U;
@@ -26,7 +27,7 @@ namespace AK
         static const AkUniqueID PARAFOOTSTEP = 837515389U;
         static const AkUniqueID PARAGELADEIRA = 4131001671U;
         static const AkUniqueID PARALAMPADAELETRONICA = 1407656221U;
-        static const AkUniqueID PARAMUSICAS = 1563513376U;
+        static const AkUniqueID PARATUDO = 2848269241U;
         static const AkUniqueID PARATV = 1431862001U;
         static const AkUniqueID PORTAABRINDO = 1172444532U;
         static const AkUniqueID TV = 1568083719U;
@@ -43,6 +44,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID DUBLAGEM = 2121923424U;
         static const AkUniqueID EFEITOS_SONOROS = 135511896U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID MUSICA = 1730564739U;

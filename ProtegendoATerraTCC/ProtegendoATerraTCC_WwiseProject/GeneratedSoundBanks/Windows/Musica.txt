@@ -1,8 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	408261805	MusicaTemaCreditos			\Default Work Unit\MusicaTemaCreditos	
 	876826531	MusicaTemaJogo			\Default Work Unit\MusicaTemaJogo	
-	1563513376	ParaMusicas			\Default Work Unit\ParaMusicas	
 	2697909245	MusicaTemaMenu			\Default Work Unit\MusicaTemaMenu	
+	2848269241	ParaTudo			\Default Work Unit\ParaTudo	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3023295265	MusicaVolume			\Default Work Unit\Volume\MusicaVolume	

@@ -6,20 +6,65 @@ using UnityEngine.UI;
 public class Dialogue : MonoBehaviour
 {
     public Text CaixaTexto;
-    public string[] sentences;
-    //private int index;
-
+    public GameObject controle;
+    public GameObject pLegenda;
+    public string[] dialogo;
+    private Queue<string> sentences;
+    
     private void Start()
     {
-        StartCoroutine(dialogo());
+        sentences = new Queue<string>();
     }
-    IEnumerator dialogo()
+
+    void OnTriggerEnter(Collider player)
     {
-        foreach(string sentence in sentences)
+        if (player.name == "Tamires")
         {
-            Debug.Log(sentence);
-            CaixaTexto.text = sentence;
-            yield return new WaitForSeconds(5);
+            pLegenda.SetActive(true);
+            controle.SetActive(false);
+            StartDialogue();
         }
+    }
+
+    public void StartDialogue()
+    {
+        sentences.Clear();
+
+        foreach (string sentence in dialogo)
+        {
+            sentences.Enqueue(sentence);
+        }
+
+        ProxDialogo();
+    }
+
+    public void ProxDialogo()
+    {
+        if (sentences.Count == 0)
+        {
+            EndDialogue();
+            return;
+        }
+
+        string sentence = sentences.Dequeue();
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(sentence));
+    }
+
+    IEnumerator TypeSentence(string sentence)
+    {
+        CaixaTexto.text = "";
+        foreach (char letter in sentence.ToCharArray())
+        {
+            CaixaTexto.text += letter;
+            yield return null;
+        }
+    }
+   
+    void EndDialogue()
+    {
+        Debug.Log("porra");
+        controle.SetActive(true);
+        pLegenda.SetActive(false);
     }
 }

@@ -31,7 +31,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="ParaMusicas" ID="{9F292D29-F55A-40FC-BA09-7B0A0472491B}">
+				<Event Name="ParaTudo" ID="{9F292D29-F55A-40FC-BA09-7B0A0472491B}">
 					<ChildrenList>
 						<Action Name="" ID="{D4B71939-2ACA-4370-8B03-DF54EE4D75B7}" ShortID="281174516">
 							<PropertyList>
@@ -232,6 +232,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="intdesliga" ID="{A3B52CB0-2B0F-4584-8A6E-805D6E56AAE3}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DPrologo" ID="{57455A3F-0A97-4D5E-BE6F-884F8C82D027}">
+					<ChildrenList>
+						<Action Name="" ID="{BB596F68-5638-4DCC-AAC5-290A0E419104}" ShortID="565072601">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Prologo" ID="{86043686-007E-49D5-9C35-1EF25ED453C5}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -72,7 +72,7 @@
 				<Event Id="408261805" Name="MusicaTemaCreditos" ObjectPath="\Events\Default Work Unit\MusicaTemaCreditos"/>
 				<Event Id="876826531" Name="MusicaTemaJogo" ObjectPath="\Events\Default Work Unit\MusicaTemaJogo"/>
 				<Event Id="2697909245" Name="MusicaTemaMenu" ObjectPath="\Events\Default Work Unit\MusicaTemaMenu"/>
-				<Event Id="1563513376" Name="ParaMusicas" ObjectPath="\Events\Default Work Unit\ParaMusicas" MaxAttenuation="0.000000"/>
+				<Event Id="2848269241" Name="ParaTudo" ObjectPath="\Events\Default Work Unit\ParaTudo" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="517906302" Language="SFX">
@@ -101,6 +101,21 @@
 				<File Id="75370003" Language="SFX">
 					<ShortName>footstep.wav</ShortName>
 					<Path>SFX\footstep_8956FC97.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2121923424" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Dublagem</ObjectPath>
+			<ShortName>Dublagem</ShortName>
+			<Path>Dublagem.bnk</Path>
+			<IncludedEvents>
+				<Event Id="881297497" Name="DPrologo" ObjectPath="\Events\Default Work Unit\DPrologo"/>
+				<Event Id="2848269241" Name="ParaTudo" ObjectPath="\Events\Default Work Unit\ParaTudo" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="848464065" Language="SFX">
+					<ShortName>Prologo.wav</ShortName>
+					<Path>SFX\Prologo_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

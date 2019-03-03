@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	881297497	DPrologo			\Default Work Unit\DPrologo	
+	2848269241	ParaTudo			\Default Work Unit\ParaTudo	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	848464065	Prologo	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\Prologo_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\Prologo		825790
+

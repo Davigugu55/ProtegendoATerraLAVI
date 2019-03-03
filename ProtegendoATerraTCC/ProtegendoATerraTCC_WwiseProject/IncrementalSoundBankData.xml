@@ -3,51 +3,54 @@
 	<Platform GUID="{E201B1BD-5DAE-4474-885E-0F4C1FB82173}">
 		<Banks>
 			<Language ID="393239870">
+				<File Name="Dublagem" Hash="816234863" Timestamp="1551577833"/>
 				<File Name="Efeitos_Sonoros" Hash="1738710168" Timestamp="1550081493"/>
 				<File Name="FootStep" Hash="610598489" Timestamp="1550081493"/>
 				<File Name="Init" Hash="1142758540" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547045619"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048421"/>
-				<File Name="Musica" Hash="3338764958" Timestamp="1549947722"/>
+				<File Name="Musica" Hash="209639209" Timestamp="1551577833"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2613981620" Timestamp="1550081493"/>
+				<File Name="" Hash="1103844671" Timestamp="1551577833"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{482D57EB-9A5D-4589-81AA-3EDBBF324485}">
 		<Banks>
 			<Language ID="393239870">
+				<File Name="Dublagem" Hash="816234863" Timestamp="1551577835"/>
 				<File Name="Efeitos_Sonoros" Hash="1738710168" Timestamp="1550081495"/>
 				<File Name="FootStep" Hash="610598489" Timestamp="1550081494"/>
 				<File Name="Init" Hash="234740836" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547046153"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048423"/>
-				<File Name="Musica" Hash="3338764958" Timestamp="1549947723"/>
+				<File Name="Musica" Hash="209639209" Timestamp="1551577835"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3068544386" Timestamp="1550081495"/>
+				<File Name="" Hash="3376524397" Timestamp="1551577835"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{167139D1-FD3A-4762-93CF-F312ADBBD1C3}">
 		<Banks>
 			<Language ID="393239870">
+				<File Name="Dublagem" Hash="816234863" Timestamp="1551577834"/>
 				<File Name="Efeitos_Sonoros" Hash="1738710168" Timestamp="1550081494"/>
 				<File Name="FootStep" Hash="610598489" Timestamp="1550081494"/>
 				<File Name="Init" Hash="56269846" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547046153"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048422"/>
-				<File Name="Musica" Hash="3338764958" Timestamp="1549947723"/>
+				<File Name="Musica" Hash="209639209" Timestamp="1551577834"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1281566768" Timestamp="1550081494"/>
+				<File Name="" Hash="1785019075" Timestamp="1551577834"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
