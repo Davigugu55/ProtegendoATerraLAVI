@@ -75,6 +75,7 @@
     <Compile Include="Assets\_Scripts\MovimentacaoPersonagem.cs" />
     <Compile Include="Assets\_Scripts\PauseMenu.cs" />
     <Compile Include="Assets\_Scripts\ScriptPorta.cs" />
+    <Compile Include="Assets\_Scripts\TutorialSinos.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkPlatformInitSettings_Android.cs" />

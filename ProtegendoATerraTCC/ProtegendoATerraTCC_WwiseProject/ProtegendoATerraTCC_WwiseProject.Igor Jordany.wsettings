@@ -42,9 +42,9 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Android"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="vbEB4q5ddESIXg9MH7ghcw=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="NYTe8kRZl0yzS/MlDJLzzEF0SRsnSu1Js/laKA+C57gluj5sgtCqQ6BMecMsYUAXZtIvEaXTH02tt3naxYP+fQ=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="ZtIvEaXTH02tt3naxYP+fTWE3vJEWZdMs0vzJQyS88xBdEkbJ0rtSbP5WigPgue4Jbo+bILQqkOgTHnDLGFAFw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="PNlo5um3i0yPKj5HARz0/QH/////////OVGNDH/J+keR2w3KwO+eHAH/////////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="OVGNDH/J+keR2w3KwO+eHAH/////////PNlo5um3i0yPKj5HARz0/QH/////////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -75,7 +75,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ850kiaBm1hVDoNa+uOVfedc="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="g9tXRyCWl0ue80yBrAM6V7RanXsn37lPmYcv9V13a24="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="g9tXRyCWl0ue80yBrAM6V93fmwDlntdNrQpgw1eoIxk="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="B1tSTQCYZkewr2cPWuC4eA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>

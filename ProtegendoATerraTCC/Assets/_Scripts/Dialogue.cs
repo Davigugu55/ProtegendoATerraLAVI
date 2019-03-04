@@ -8,6 +8,10 @@ public class Dialogue : MonoBehaviour
     public Text CaixaTexto;
     public GameObject controle;
     public GameObject pLegenda;
+    public GameObject trigger;
+    public GameObject caminhos;
+    public Button botao;
+    bool colisor;
     public string[] dialogo;
     private Queue<string> sentences;
     
@@ -24,6 +28,38 @@ public class Dialogue : MonoBehaviour
             controle.SetActive(false);
             StartDialogue();
         }
+    }
+
+    void OnTriggerStay(Collider player)
+    {
+        if (player.name == "Tamires")
+        {
+            //Debug.Log("entrou");
+            colisor = true;
+            botao.onClick.AddListener(DetectaColisao);
+        }
+    }
+    void OnTriggerExit(Collider player)
+    {
+        if (player.name == "Tamires")
+        {
+            //Debug.Log("saiu");
+            colisor = false;
+        }
+    }
+    void DetectaColisao()
+    {
+        if (colisor)
+        {
+            TaskOnClick();
+            colisor = false;
+        }
+    }
+    void TaskOnClick()
+    {
+        //AkSoundEngine.PostEvent("PortaAbrindo", gameObject);
+        ProxDialogo();
+        //Debug.Log("Prox dialogo");
     }
 
     public void StartDialogue()
@@ -63,8 +99,9 @@ public class Dialogue : MonoBehaviour
    
     void EndDialogue()
     {
-        Debug.Log("porra");
-        controle.SetActive(true);
+        //Debug.Log("porra");
         pLegenda.SetActive(false);
+        trigger.SetActive(false);
+        caminhos.SetActive(true);
     }
 }
