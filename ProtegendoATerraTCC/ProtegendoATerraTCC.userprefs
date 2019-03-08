@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\MoveTamires.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\TutorialSinos.cs">
     <Files>
       <File FileName="Assets\_Scripts\FirstPersonController.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\GyroController.cs" Line="1" Column="1" />
@@ -13,8 +13,9 @@
       <File FileName="Assets\_Scripts\Interruptores.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\DetectaConsumoAgua.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\DetectaConsumoTV.cs" Line="1" Column="1" />
-      <File FileName="Assets\_Scripts\DetectaConsumoGeladeira.cs" Line="50" Column="3" />
+      <File FileName="Assets\_Scripts\DetectaConsumoGeladeira.cs" Line="1" Column="1" />
       <File FileName="Assets\_Scripts\MoveTamires.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Scripts\TutorialSinos.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

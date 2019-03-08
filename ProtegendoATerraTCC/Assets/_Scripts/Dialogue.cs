@@ -12,8 +12,9 @@ public class Dialogue : MonoBehaviour
     public GameObject caminhos;
     public Button botao;
     bool colisor;
-    public string[] dialogo;
+    public string[] dialogo, dublagem;
     private Queue<string> sentences;
+    int indice = 0;
     
     private void Start()
     {
@@ -57,7 +58,6 @@ public class Dialogue : MonoBehaviour
     }
     void TaskOnClick()
     {
-        //AkSoundEngine.PostEvent("PortaAbrindo", gameObject);
         ProxDialogo();
         //Debug.Log("Prox dialogo");
     }
@@ -65,7 +65,7 @@ public class Dialogue : MonoBehaviour
     public void StartDialogue()
     {
         sentences.Clear();
-
+        
         foreach (string sentence in dialogo)
         {
             sentences.Enqueue(sentence);
@@ -81,6 +81,10 @@ public class Dialogue : MonoBehaviour
             EndDialogue();
             return;
         }
+
+        AkSoundEngine.PostEvent("ParaTudo", gameObject);
+        AkSoundEngine.PostEvent(dublagem[indice], gameObject);
+        indice = indice + 1;
 
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
@@ -99,6 +103,7 @@ public class Dialogue : MonoBehaviour
    
     void EndDialogue()
     {
+        AkSoundEngine.PostEvent("ParaTudo", gameObject);
         //Debug.Log("porra");
         pLegenda.SetActive(false);
         trigger.SetActive(false);

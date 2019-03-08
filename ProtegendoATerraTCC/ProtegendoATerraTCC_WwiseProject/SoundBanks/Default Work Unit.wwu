@@ -21,6 +21,7 @@
 						<ObjectRef Name="DesligaInterruptor" ID="{1F96C214-7E78-4760-90E9-C0EEB5F2A70B}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ParaAguaCaindo" ID="{93BEFA50-FF7A-47A3-888E-F32913CF3D2D}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AguaCaindo" ID="{C18876D0-1C6F-47FD-B4CB-4688037566AD}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Bells1" ID="{CE6EC335-04EC-4875-8AAC-B8F1EB8BAADF}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="PortaAbrindo" ID="{98064165-4F5D-4B42-9E1E-22F4D2419712}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="LampadaEletronica" ID="{9E9F5635-9A0E-4B43-809C-C16D1F797620}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="ParaGeladeira" ID="{9B784797-BC7B-4CE3-9A4D-A10FD313AC97}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
@@ -41,7 +42,22 @@
 				<SoundBank Name="Dublagem" ID="{112FD266-D3A5-4D1F-ADB7-79DAC583FE7D}">
 					<ObjectInclusionList>
 						<ObjectRef Name="ParaTudo" ID="{9F292D29-F55A-40FC-BA09-7B0A0472491B}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d9" ID="{45B78899-E0B5-4441-A0E2-7064E06E4C91}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d6" ID="{295F70D0-B961-4495-BDE5-552E1FAEE6AF}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d18" ID="{EDB1C144-FE1C-44F7-B145-5E3347E73A4F}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="tutoControles" ID="{2C19D926-8BE2-4594-9862-F60161A42661}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d12" ID="{527E4987-8E34-45E3-9983-18AD724F38D6}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d8" ID="{7471D72C-5210-4924-892A-29771142B15C}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d2" ID="{56FF175B-3DE2-495C-977D-CDE2ED08F4E8}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d10" ID="{0CD5DA20-E2C0-4A2C-BD46-76E21B2208E0}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d1" ID="{061B8377-C44B-4AF4-943E-4534D7AD8287}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d11" ID="{15911A48-C8EA-4C77-B025-BD54E686959A}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d3" ID="{C17B0871-8805-4CD5-A28C-8A53C7150274}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d7" ID="{72A7A039-B059-4CFC-9A55-0FC5D25DAA0F}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DPrologo" ID="{57455A3F-0A97-4D5E-BE6F-884F8C82D027}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d13" ID="{86D9EA3F-A856-4DC4-8AE0-305BB30533C7}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d4" ID="{5E683172-DDA3-4E04-8963-A14599EAC193}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="d5" ID="{A672F673-DCEB-4E60-8ADE-BFE3F86B620B}" WorkUnitID="{4D525B07-9800-4766-B0AF-670F5AE0B878}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -7,7 +7,7 @@ public class TutorialSinos : MonoBehaviour {
 
     public Button botao;
     bool colisor;
-    public GameObject sino;
+    public GameObject sino, psino;
     //public Text mensagem;
 
     void Start()
@@ -44,8 +44,9 @@ public class TutorialSinos : MonoBehaviour {
     }
     void TaskOnClick()
     {
-        //AkSoundEngine.PostEvent("PortaAbrindo", gameObject);
+        AkSoundEngine.PostEvent("ParaTudo", gameObject);
         Debug.Log("desligou sino");
+        psino.SetActive(true);
         sino.SetActive(false);
     }
 }

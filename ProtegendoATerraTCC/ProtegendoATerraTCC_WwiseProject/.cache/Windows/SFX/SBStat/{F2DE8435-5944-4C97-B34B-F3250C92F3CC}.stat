@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BankMemory>
-	<Timestamp>1550081495</Timestamp>
-	<DataSize>1375220</DataSize>
-	<FileSize>1376403</FileSize>
-	<DecodedSize>1375170</DecodedSize>
+	<Timestamp>1551744995</Timestamp>
+	<DataSize>2057828</DataSize>
+	<FileSize>2059130</FileSize>
+	<DecodedSize>2057766</DecodedSize>
 	<SFXPreFetchSize>0</SFXPreFetchSize>
-	<SFXInMemorySize>1375170</SFXInMemorySize>
+	<SFXInMemorySize>2057766</SFXInMemorySize>
 	<SFXMissingFiles>0</SFXMissingFiles>
 	<MusicPreFetchSize>0</MusicPreFetchSize>
 	<MusicInMemorySize>0</MusicInMemorySize>

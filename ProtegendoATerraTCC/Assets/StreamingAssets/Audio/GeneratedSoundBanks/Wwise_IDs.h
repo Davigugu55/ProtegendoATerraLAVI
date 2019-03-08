@@ -14,6 +14,21 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AGUACAINDO = 991839893U;
+        static const AkUniqueID BELLS1 = 4079999662U;
+        static const AkUniqueID D1 = 1836525712U;
+        static const AkUniqueID D2 = 1836525715U;
+        static const AkUniqueID D3 = 1836525714U;
+        static const AkUniqueID D4 = 1836525717U;
+        static const AkUniqueID D5 = 1836525716U;
+        static const AkUniqueID D6 = 1836525719U;
+        static const AkUniqueID D7 = 1836525718U;
+        static const AkUniqueID D8 = 1836525721U;
+        static const AkUniqueID D9 = 1836525720U;
+        static const AkUniqueID D10 = 3801406080U;
+        static const AkUniqueID D11 = 3801406081U;
+        static const AkUniqueID D12 = 3801406082U;
+        static const AkUniqueID D13 = 3801406083U;
+        static const AkUniqueID D18 = 3801406088U;
         static const AkUniqueID DESLIGAINTERRUPTOR = 2186663080U;
         static const AkUniqueID DPROLOGO = 881297497U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
@@ -30,6 +45,7 @@ namespace AK
         static const AkUniqueID PARATUDO = 2848269241U;
         static const AkUniqueID PARATV = 1431862001U;
         static const AkUniqueID PORTAABRINDO = 1172444532U;
+        static const AkUniqueID TUTOCONTROLES = 4208834898U;
         static const AkUniqueID TV = 1568083719U;
     } // namespace EVENTS
 

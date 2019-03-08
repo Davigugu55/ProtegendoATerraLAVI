@@ -70,10 +70,12 @@
     <Compile Include="Assets\_Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\_Scripts\GyroController.cs" />
     <Compile Include="Assets\_Scripts\Interruptores.cs" />
+    <Compile Include="Assets\_Scripts\InterruptorRefletor.cs" />
     <Compile Include="Assets\_Scripts\MenuPrincipal.cs" />
     <Compile Include="Assets\_Scripts\MoveTamires.cs" />
     <Compile Include="Assets\_Scripts\MovimentacaoPersonagem.cs" />
     <Compile Include="Assets\_Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\_Scripts\Refletor.cs" />
     <Compile Include="Assets\_Scripts\ScriptPorta.cs" />
     <Compile Include="Assets\_Scripts\TutorialSinos.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
