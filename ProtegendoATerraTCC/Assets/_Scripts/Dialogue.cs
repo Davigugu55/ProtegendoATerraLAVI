@@ -103,6 +103,7 @@ public class Dialogue : MonoBehaviour
    
     void EndDialogue()
     {
+        indice = 0;
         AkSoundEngine.PostEvent("ParaTudo", gameObject);
         //Debug.Log("porra");
         pLegenda.SetActive(false);

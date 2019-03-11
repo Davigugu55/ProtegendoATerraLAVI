@@ -7,10 +7,9 @@ public class InterruptorRefletor : MonoBehaviour {
 
 	public Button botao;
 	bool colisor;
-	public GameObject luz, Tamires;
 	public Text mensagem;
 
-	void OnTriggerStay(Collider player){
+    void OnTriggerStay(Collider player){
 		if (player.name == "Tamires") {
 			colisor = true;
             mensagem.text = "Desligar";
@@ -31,8 +30,6 @@ public class InterruptorRefletor : MonoBehaviour {
 	}
 	void TaskOnClick()
 	{
-		luz.SetActive (false);
 		AkSoundEngine.PostEvent ("DesligaInterruptor", gameObject);
-
 	}
 }

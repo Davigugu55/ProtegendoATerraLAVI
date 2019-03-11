@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Refletor : MonoBehaviour {
     public GameObject refletor;
+    bool one = true;
 
     void OnTriggerEnter(Collider player)
     {
-        if (player.name == "Tamires")
+        if (player.name == "Tamires" && one)
         {
             AtivaRefletor();
+            one = false;
         }
     }
 

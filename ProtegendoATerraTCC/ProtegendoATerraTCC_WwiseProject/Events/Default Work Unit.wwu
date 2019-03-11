@@ -237,20 +237,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="DPrologo" ID="{57455A3F-0A97-4D5E-BE6F-884F8C82D027}">
-					<ChildrenList>
-						<Action Name="" ID="{BB596F68-5638-4DCC-AAC5-290A0E419104}" ShortID="565072601">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Prologo" ID="{86043686-007E-49D5-9C35-1EF25ED453C5}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Bells1" ID="{CE6EC335-04EC-4875-8AAC-B8F1EB8BAADF}">
 					<ChildrenList>
 						<Action Name="" ID="{2EC2A7E8-52AD-4AD3-963C-FBFB1B44A6AF}" ShortID="121463323">
@@ -317,7 +303,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="d3" ID="{C1E0B9BA-E6E4-4757-A81B-4AF6F863A899}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+											<ObjectRef Name="d3" ID="{80023293-6D07-4234-9124-1252BF755D5F}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -331,7 +317,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="d5" ID="{ACECA076-39FB-412A-BADA-42113216FDAE}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+											<ObjectRef Name="d5" ID="{7B3EA786-CCD9-490D-9784-258C5D1DCF37}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -472,6 +458,20 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="d18" ID="{13EF6AE7-3557-4C61-9576-723ECAE785BB}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="DPrologo" ID="{57455A3F-0A97-4D5E-BE6F-884F8C82D027}">
+							<ChildrenList>
+								<Action Name="" ID="{BB596F68-5638-4DCC-AAC5-290A0E419104}" ShortID="565072601">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Prologo" ID="{86043686-007E-49D5-9C35-1EF25ED453C5}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

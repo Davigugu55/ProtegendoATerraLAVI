@@ -114,88 +114,40 @@
 			<ShortName>Dublagem</ShortName>
 			<Path>Dublagem.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1836525712" Name="d1" ObjectPath="\Events\Default Work Unit\Dialogos\d1"/>
-				<Event Id="3801406080" Name="d10" ObjectPath="\Events\Default Work Unit\Dialogos\d10"/>
-				<Event Id="3801406081" Name="d11" ObjectPath="\Events\Default Work Unit\Dialogos\d11"/>
-				<Event Id="3801406082" Name="d12" ObjectPath="\Events\Default Work Unit\Dialogos\d12"/>
-				<Event Id="3801406083" Name="d13" ObjectPath="\Events\Default Work Unit\Dialogos\d13"/>
-				<Event Id="3801406088" Name="d18" ObjectPath="\Events\Default Work Unit\Dialogos\d18"/>
-				<Event Id="1836525715" Name="d2" ObjectPath="\Events\Default Work Unit\Dialogos\d2"/>
+				<Event Id="1836525712" Name="d1" ObjectPath="\Events\Default Work Unit\Dialogos\d1" MaxAttenuation="0.000000"/>
+				<Event Id="3801406080" Name="d10" ObjectPath="\Events\Default Work Unit\Dialogos\d10" MaxAttenuation="0.000000"/>
+				<Event Id="3801406081" Name="d11" ObjectPath="\Events\Default Work Unit\Dialogos\d11" MaxAttenuation="0.000000"/>
+				<Event Id="3801406082" Name="d12" ObjectPath="\Events\Default Work Unit\Dialogos\d12" MaxAttenuation="0.000000"/>
+				<Event Id="3801406083" Name="d13" ObjectPath="\Events\Default Work Unit\Dialogos\d13" MaxAttenuation="0.000000"/>
+				<Event Id="3801406088" Name="d18" ObjectPath="\Events\Default Work Unit\Dialogos\d18" MaxAttenuation="0.000000"/>
+				<Event Id="1836525715" Name="d2" ObjectPath="\Events\Default Work Unit\Dialogos\d2" MaxAttenuation="0.000000"/>
 				<Event Id="1836525714" Name="d3" ObjectPath="\Events\Default Work Unit\Dialogos\d3"/>
-				<Event Id="1836525717" Name="d4" ObjectPath="\Events\Default Work Unit\Dialogos\d4"/>
+				<Event Id="1836525717" Name="d4" ObjectPath="\Events\Default Work Unit\Dialogos\d4" MaxAttenuation="0.000000"/>
 				<Event Id="1836525716" Name="d5" ObjectPath="\Events\Default Work Unit\Dialogos\d5"/>
-				<Event Id="1836525719" Name="d6" ObjectPath="\Events\Default Work Unit\Dialogos\d6"/>
-				<Event Id="1836525718" Name="d7" ObjectPath="\Events\Default Work Unit\Dialogos\d7"/>
-				<Event Id="1836525721" Name="d8" ObjectPath="\Events\Default Work Unit\Dialogos\d8"/>
-				<Event Id="1836525720" Name="d9" ObjectPath="\Events\Default Work Unit\Dialogos\d9"/>
-				<Event Id="881297497" Name="DPrologo" ObjectPath="\Events\Default Work Unit\DPrologo"/>
+				<Event Id="1836525719" Name="d6" ObjectPath="\Events\Default Work Unit\Dialogos\d6" MaxAttenuation="0.000000"/>
+				<Event Id="1836525718" Name="d7" ObjectPath="\Events\Default Work Unit\Dialogos\d7" MaxAttenuation="0.000000"/>
+				<Event Id="1836525721" Name="d8" ObjectPath="\Events\Default Work Unit\Dialogos\d8" MaxAttenuation="0.000000"/>
+				<Event Id="1836525720" Name="d9" ObjectPath="\Events\Default Work Unit\Dialogos\d9" MaxAttenuation="0.000000"/>
+				<Event Id="881297497" Name="DPrologo" ObjectPath="\Events\Default Work Unit\Dialogos\DPrologo"/>
 				<Event Id="2848269241" Name="ParaTudo" ObjectPath="\Events\Default Work Unit\ParaTudo" MaxAttenuation="0.000000"/>
 				<Event Id="4208834898" Name="tutoControles" ObjectPath="\Events\Default Work Unit\Dialogos\tutoControles"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="31318824" Language="SFX">
-					<ShortName>d3.wav</ShortName>
-					<Path>SFX\d3_56D34C19.wem</Path>
-				</File>
-				<File Id="65167482" Language="SFX">
-					<ShortName>d9.wav</ShortName>
-					<Path>SFX\d9_56D34C19.wem</Path>
-				</File>
-				<File Id="149159187" Language="SFX">
-					<ShortName>d8.wav</ShortName>
-					<Path>SFX\d8_56D34C19.wem</Path>
-				</File>
-				<File Id="304381852" Language="SFX">
-					<ShortName>d2.wav</ShortName>
-					<Path>SFX\d2_56D34C19.wem</Path>
-				</File>
-				<File Id="385927296" Language="SFX">
-					<ShortName>d11.wav</ShortName>
-					<Path>SFX\d11_56D34C19.wem</Path>
-				</File>
-				<File Id="393511253" Language="SFX">
-					<ShortName>d12.wav</ShortName>
-					<Path>SFX\d12_56D34C19.wem</Path>
-				</File>
-				<File Id="506149915" Language="SFX">
-					<ShortName>d10.wav</ShortName>
-					<Path>SFX\d10_56D34C19.wem</Path>
-				</File>
-				<File Id="572785420" Language="SFX">
-					<ShortName>d4.wav</ShortName>
-					<Path>SFX\d4_56D34C19.wem</Path>
-				</File>
-				<File Id="577770604" Language="SFX">
-					<ShortName>d1.wav</ShortName>
-					<Path>SFX\d1_56D34C19.wem</Path>
-				</File>
-				<File Id="584109480" Language="SFX">
-					<ShortName>d13.wav</ShortName>
-					<Path>SFX\d13_56D34C19.wem</Path>
+				<File Id="150994016" Language="SFX">
+					<ShortName>d5.wav</ShortName>
+					<Path>SFX\d5_56D34C19.wem</Path>
 				</File>
 				<File Id="588923390" Language="SFX">
 					<ShortName>controles.wav</ShortName>
 					<Path>SFX\controles_56D34C19.wem</Path>
 				</File>
-				<File Id="743223935" Language="SFX">
-					<ShortName>d18.wav</ShortName>
-					<Path>SFX\d18_56D34C19.wem</Path>
-				</File>
-				<File Id="795754207" Language="SFX">
-					<ShortName>d5.wav</ShortName>
-					<Path>SFX\d5_56D34C19.wem</Path>
-				</File>
-				<File Id="809494496" Language="SFX">
-					<ShortName>d7.wav</ShortName>
-					<Path>SFX\d7_56D34C19.wem</Path>
-				</File>
 				<File Id="848464065" Language="SFX">
 					<ShortName>Prologo.wav</ShortName>
 					<Path>SFX\Prologo_56D34C19.wem</Path>
 				</File>
-				<File Id="872226245" Language="SFX">
-					<ShortName>d6.wav</ShortName>
-					<Path>SFX\d6_56D34C19.wem</Path>
+				<File Id="883766123" Language="SFX">
+					<ShortName>d3.wav</ShortName>
+					<Path>SFX\d3_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

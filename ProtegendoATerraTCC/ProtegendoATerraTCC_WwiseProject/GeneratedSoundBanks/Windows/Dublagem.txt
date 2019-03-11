@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	881297497	DPrologo			\Default Work Unit\DPrologo	
+	881297497	DPrologo			\Default Work Unit\Dialogos\DPrologo	
 	1836525712	d1			\Default Work Unit\Dialogos\d1	
 	1836525714	d3			\Default Work Unit\Dialogos\d3	
 	1836525715	d2			\Default Work Unit\Dialogos\d2	
@@ -21,20 +21,8 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3269224070	DublagemVolume			\Default Work Unit\Volume\DublagemVolume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	31318824	d3	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d3		159444
-	65167482	d9	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d9		28752
-	149159187	d8	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d8		406324
-	304381852	d2	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d2		171802
-	385927296	d11	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d11_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d11		166262
-	393511253	d12	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d12_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d12		70192
-	506149915	d10	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d10		221660
-	572785420	d4	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d4		121480
-	577770604	d1	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d1		268768
-	584109480	d13	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d13_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d13		182882
+	150994016	d5	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d5		818436
 	588923390	controles	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\controles_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\controles		616504
-	743223935	d18	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d18_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d18		44690
-	795754207	d5	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d5		210446
-	809494496	d7	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d7		35128
 	848464065	Prologo	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\Prologo_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\Prologo		825790
-	872226245	d6	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d6		284446
+	883766123	d3	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d3		458504
 

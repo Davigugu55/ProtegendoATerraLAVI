@@ -69,6 +69,7 @@
     <Compile Include="Assets\_Scripts\Dialogue.cs" />
     <Compile Include="Assets\_Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\_Scripts\GyroController.cs" />
+    <Compile Include="Assets\_Scripts\IaMonstroLixo.cs" />
     <Compile Include="Assets\_Scripts\Interruptores.cs" />
     <Compile Include="Assets\_Scripts\InterruptorRefletor.cs" />
     <Compile Include="Assets\_Scripts\MenuPrincipal.cs" />
