@@ -41,11 +41,13 @@ public class DetectaConsumoAgua : MonoBehaviour {
 		if (liga) {
 			//luz.SetActive (false);
 			AkSoundEngine.PostEvent ("ParaAguaCaindo", gameObject);
-			liga = false;
+            AkSoundEngine.PostEvent("interacao", gameObject);
+            liga = false;
 		} else {
 			//luz.SetActive (true);
 			AkSoundEngine.PostEvent ("AguaCaindo", gameObject);
-			liga = true;
+            AkSoundEngine.PostEvent("interacao", gameObject);
+            liga = true;
 		}
 	}
 }

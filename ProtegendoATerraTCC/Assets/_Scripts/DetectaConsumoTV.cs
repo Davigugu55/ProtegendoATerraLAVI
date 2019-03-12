@@ -41,11 +41,13 @@ public class DetectaConsumoTV : MonoBehaviour {
 		if (liga) {
 			luz.SetActive (false);
 			AkSoundEngine.PostEvent ("ParaTV", gameObject);
-			liga = false;
+            AkSoundEngine.PostEvent("interacao", gameObject);
+            liga = false;
 		} else {
 			luz.SetActive (true);
 			AkSoundEngine.PostEvent ("TV", gameObject);
-			liga = true;
+            AkSoundEngine.PostEvent("interacao", gameObject);
+            liga = true;
 		}
 		Debug.Log ("desligou consumo");
 	}

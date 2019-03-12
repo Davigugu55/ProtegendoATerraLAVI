@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	859198627	d13_1			\Default Work Unit\Dialogos\d13_1	
 	881297497	DPrologo			\Default Work Unit\Dialogos\DPrologo	
 	1836525712	d1			\Default Work Unit\Dialogos\d1	
 	1836525714	d3			\Default Work Unit\Dialogos\d3	
@@ -14,15 +15,103 @@ Event	ID	Name			Wwise Object Path	Notes
 	3801406081	d11			\Default Work Unit\Dialogos\d11	
 	3801406082	d12			\Default Work Unit\Dialogos\d12	
 	3801406083	d13			\Default Work Unit\Dialogos\d13	
+	3801406084	d14			\Default Work Unit\Dialogos\d14	
+	3801406086	d16			\Default Work Unit\Dialogos\d16	
+	3801406087	d17			\Default Work Unit\Dialogos\d17	
 	3801406088	d18			\Default Work Unit\Dialogos\d18	
-	4208834898	tutoControles			\Default Work Unit\Dialogos\tutoControles	
+	3834961377	d37			\Default Work Unit\Dialogos\d37	
+	3834961378	d34			\Default Work Unit\Dialogos\d34	
+	3834961379	d35			\Default Work Unit\Dialogos\d35	
+	3834961381	d33			\Default Work Unit\Dialogos\d33	
+	3834961382	d30			\Default Work Unit\Dialogos\d30	
+	3834961383	d31			\Default Work Unit\Dialogos\d31	
+	3834961391	d39			\Default Work Unit\Dialogos\d39	
+	3851738960	d29			\Default Work Unit\Dialogos\d29	
+	3851738961	d28			\Default Work Unit\Dialogos\d28	
+	3851738968	d21			\Default Work Unit\Dialogos\d21	
+	3851738969	d20			\Default Work Unit\Dialogos\d20	
+	3851738970	d23			\Default Work Unit\Dialogos\d23	
+	3851738971	d22			\Default Work Unit\Dialogos\d22	
+	3851738972	d25			\Default Work Unit\Dialogos\d25	
+	3851738974	d27			\Default Work Unit\Dialogos\d27	
+	3851738975	d26			\Default Work Unit\Dialogos\d26	
+	3868516549	d59			\Default Work Unit\Dialogos\d59	
+	3868516552	d54			\Default Work Unit\Dialogos\d54	
+	3868516554	d56			\Default Work Unit\Dialogos\d56	
+	3868516555	d57			\Default Work Unit\Dialogos\d57	
+	3868516556	d50			\Default Work Unit\Dialogos\d50	
+	3868516558	d52			\Default Work Unit\Dialogos\d52	
+	3885294262	d49			\Default Work Unit\Dialogos\d49	
+	3885294263	d48			\Default Work Unit\Dialogos\d48	
+	3885294265	d46			\Default Work Unit\Dialogos\d46	
+	3885294267	d44			\Default Work Unit\Dialogos\d44	
+	3885294268	d43			\Default Work Unit\Dialogos\d43	
+	3885294269	d42			\Default Work Unit\Dialogos\d42	
+	3885294270	d41			\Default Work Unit\Dialogos\d41	
+	3885294271	d40			\Default Work Unit\Dialogos\d40	
+	3918849408	d65			\Default Work Unit\Dialogos\d65	
+	3918849409	d64			\Default Work Unit\Dialogos\d64	
+	3918849410	d67			\Default Work Unit\Dialogos\d67	
+	3918849411	d66			\Default Work Unit\Dialogos\d66	
+	3918849412	d61			\Default Work Unit\Dialogos\d61	
+	3918849413	d60			\Default Work Unit\Dialogos\d60	
+	3918849414	d63			\Default Work Unit\Dialogos\d63	
+	3918849415	d62			\Default Work Unit\Dialogos\d62	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3269224070	DublagemVolume			\Default Work Unit\Volume\DublagemVolume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	39908706	d50	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d50_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d50		511964
+	45374053	d20	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d20_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d20		530492
+	53956389	d54	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d54_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d54		185020
+	69275476	d42	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d42_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d42		363784
+	78035520	d65	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d65_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d65		275952
+	87724815	d25	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d25_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d25		742660
 	150994016	d5	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d5		818436
-	588923390	controles	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\controles_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\controles		616504
+	171806403	d17	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d17_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d17		151616
+	219407396	d13	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d13_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d13		298984
+	225785051	d44	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d44_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d44		238756
+	228456315	d35	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d35_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d35		485028
+	231358678	d67	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d67_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d67		361364
+	247375182	d64	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d64_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d64		310832
+	291759945	d63	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d63_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d63		323516
+	303501401	d29	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d29_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d29		682040
+	324903814	d16	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d16_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d16		403604
+	327423607	d33	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d33_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d33		227392
+	352819605	d22	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d22_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d22		627792
+	373941000	d31	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d31_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d31		272856
+	405860883	d59	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d59_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d59		216780
+	424798960	d37	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d37_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d37		378940
+	427508446	d28	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d28_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d28		448444
+	428083101	d49	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d49_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d49		200868
+	442392681	d40	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d40_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d40		318320
+	449530920	d23	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d23_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d23		394096
+	472418683	d13_1	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d13.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d13_1		553064
+	480406233	d12	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d12_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d12		2286788
+	518877866	d11	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d11_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d11		373712
+	556805450	d61	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d61_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d61		304492
+	562855583	d46	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d46_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d46		140248
+	607013275	d18	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d18_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d18		298984
+	610038294	d41	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d41_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d41		433496
+	664869124	d27	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d27_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d27		515336
+	686394551	d48	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d48_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d48		102360
+	700488724	d56	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d56_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d56		359996
+	712618342	d1	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d1		597900
+	726788741	d39	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d39_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d39		418552
+	742705443	d43	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d43_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d43		1027596
+	744345927	d26	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d26_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d26		388660
+	776352834	d14	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d14_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d14		242544
+	804069239	d57	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d57_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d57		295248
+	806367359	d62	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d62_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d62		348884
+	829806776	d66	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d66_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d66		302356
 	848464065	Prologo	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\Prologo_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\Prologo		825790
+	870995418	d60	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d60_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d60		409252
+	874852163	d9	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d9		757816
 	883766123	d3	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d3		458504
+	901440510	d30	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d30_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d30		568008
+	962487605	d7	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d7		818436
+	978531589	d52	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d52_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d52		526908
+	1049277185	d34	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d34_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d34		358768
+	1052483943	d21	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\d21_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d21		373712
 

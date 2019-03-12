@@ -42,11 +42,13 @@ public class DetectaConsumoAbajur : MonoBehaviour {
 		if (liga) {
 			luz.SetActive (false);
 			AkSoundEngine.PostEvent ("ParaLampadaEletronica", gameObject);
-			liga = false;
+            AkSoundEngine.PostEvent("interacao", gameObject);
+            liga = false;
 		} else {
 			luz.SetActive (true);
 			AkSoundEngine.PostEvent ("LampadaEletronica", gameObject);
-			liga = true;
+            AkSoundEngine.PostEvent("interacao", gameObject);
+            liga = true;
 		}
 	}
 }

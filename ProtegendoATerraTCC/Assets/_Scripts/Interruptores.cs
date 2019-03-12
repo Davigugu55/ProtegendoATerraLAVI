@@ -39,11 +39,13 @@ public class Interruptores : MonoBehaviour {
 		if (liga) {
 			luz.SetActive (false);
 			AkSoundEngine.PostEvent ("DesligaInterruptor", gameObject);
-			liga = false;
+            AkSoundEngine.PostEvent("interacao", gameObject);
+            liga = false;
 		} else {
 			luz.SetActive (true);
 			AkSoundEngine.PostEvent ("LigaInterruptor", gameObject);
-			liga = true;
+            AkSoundEngine.PostEvent("interacao", gameObject);
+            liga = true;
 		}
 	}
 }

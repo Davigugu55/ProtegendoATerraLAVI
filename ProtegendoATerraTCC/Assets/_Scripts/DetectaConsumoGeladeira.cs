@@ -41,11 +41,13 @@ public class DetectaConsumoGeladeira : MonoBehaviour {
 		if (liga) {
 			//luz.SetActive (false);
 			AkSoundEngine.PostEvent ("ParaGeladeira", gameObject);
-			liga = false;
+            AkSoundEngine.PostEvent("interacao", gameObject);
+            liga = false;
 		} else {
 			//luz.SetActive (true);
 			AkSoundEngine.PostEvent ("Geladeira", gameObject);
-			liga = true;
+            AkSoundEngine.PostEvent("interacao", gameObject);
+            liga = true;
 		}
 	}
 }

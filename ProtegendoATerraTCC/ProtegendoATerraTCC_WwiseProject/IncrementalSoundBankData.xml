@@ -3,9 +3,9 @@
 	<Platform GUID="{E201B1BD-5DAE-4474-885E-0F4C1FB82173}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Dublagem" Hash="2514321205" Timestamp="1552280147"/>
-				<File Name="Efeitos_Sonoros" Hash="448773341" Timestamp="1551744995"/>
-				<File Name="FootStep" Hash="1834971317" Timestamp="1551744995"/>
+				<File Name="Dublagem" Hash="3197790682" Timestamp="1552357899"/>
+				<File Name="Efeitos_Sonoros" Hash="3124712493" Timestamp="1552364092"/>
+				<File Name="FootStep" Hash="3892873502" Timestamp="1552361396"/>
 				<File Name="Init" Hash="1142758540" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547045619"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048421"/>
@@ -14,16 +14,16 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1959734903" Timestamp="1552280147"/>
+				<File Name="" Hash="1432859943" Timestamp="1552364092"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{482D57EB-9A5D-4589-81AA-3EDBBF324485}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Dublagem" Hash="2514321205" Timestamp="1552280148"/>
-				<File Name="Efeitos_Sonoros" Hash="448773341" Timestamp="1551744995"/>
-				<File Name="FootStep" Hash="1834971317" Timestamp="1551744995"/>
+				<File Name="Dublagem" Hash="3197790682" Timestamp="1552357902"/>
+				<File Name="Efeitos_Sonoros" Hash="3124712493" Timestamp="1552364093"/>
+				<File Name="FootStep" Hash="3892873502" Timestamp="1552361396"/>
 				<File Name="Init" Hash="234740836" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547046153"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048423"/>
@@ -32,16 +32,16 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2842523653" Timestamp="1552280148"/>
+				<File Name="" Hash="1159823985" Timestamp="1552364093"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{167139D1-FD3A-4762-93CF-F312ADBBD1C3}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Dublagem" Hash="2514321205" Timestamp="1552280148"/>
-				<File Name="Efeitos_Sonoros" Hash="448773341" Timestamp="1551744995"/>
-				<File Name="FootStep" Hash="1834971317" Timestamp="1551744995"/>
+				<File Name="Dublagem" Hash="3197790682" Timestamp="1552357900"/>
+				<File Name="Efeitos_Sonoros" Hash="3124712493" Timestamp="1552364092"/>
+				<File Name="FootStep" Hash="3892873502" Timestamp="1552361396"/>
 				<File Name="Init" Hash="56269846" Timestamp="1549069603"/>
 				<File Name="Main" Hash="1879434138" Timestamp="1547046153"/>
 				<File Name="MenuPrincipal" Hash="3894347550" Timestamp="1547048422"/>
@@ -50,7 +50,7 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3766300667" Timestamp="1552280148"/>
+				<File Name="" Hash="3373262643" Timestamp="1552364092"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

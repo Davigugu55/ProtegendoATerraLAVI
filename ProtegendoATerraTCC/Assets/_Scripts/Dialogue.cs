@@ -11,6 +11,7 @@ public class Dialogue : MonoBehaviour
     public GameObject trigger;
     public GameObject caminhos;
     public Button botao;
+    public string tela;
     bool colisor;
     public string[] dialogo, dublagem;
     private Queue<string> sentences;
@@ -105,6 +106,7 @@ public class Dialogue : MonoBehaviour
     {
         indice = 0;
         AkSoundEngine.PostEvent("ParaTudo", gameObject);
+        AkSoundEngine.PostEvent(tela, gameObject);
         //Debug.Log("porra");
         pLegenda.SetActive(false);
         trigger.SetActive(false);

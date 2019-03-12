@@ -9,8 +9,14 @@ public class IaMonstroLixo : MonoBehaviour {
     void Start()
     {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        AkSoundEngine.PostEvent("MonstroLixo", gameObject);
     }
 
+    public void SomMonstro()
+    {
+        Debug.Log("Som Monstro");
+        //AkSoundEngine.PostEvent("MonstroLixo", gameObject);
+    }
     void OnTriggerEnter(Collider player)
     {
         if (player.name == "tm1")
@@ -21,17 +27,17 @@ public class IaMonstroLixo : MonoBehaviour {
         if (player.name == "tm2")
         {
             Debug.Log("entrou monstro");
-            agent.destination = t3.position; ;
+            agent.destination = t3.position;
         }
         if (player.name == "tm3")
         {
             Debug.Log("entrou monstro");
-            agent.destination = t4.position; ;
+            agent.destination = t4.position;
         }
         if (player.name == "tm4")
         {
             Debug.Log("entrou monstro");
-            agent.destination = t1.position; ;
+            agent.destination = t1.position;
         }
     }
 }

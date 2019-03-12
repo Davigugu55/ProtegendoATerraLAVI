@@ -39,7 +39,8 @@ public class ScriptPorta : MonoBehaviour {
 	void TaskOnClick()
 	{
 		AkSoundEngine.PostEvent ("PortaAbrindo", gameObject);
-		animator.SetBool ("open", true);
+        AkSoundEngine.PostEvent("interacao", gameObject);
+        animator.SetBool ("open", true);
 		Debug.Log ("porta abriu");
 	}
 }

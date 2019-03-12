@@ -31,5 +31,6 @@ public class InterruptorRefletor : MonoBehaviour {
 	void TaskOnClick()
 	{
 		AkSoundEngine.PostEvent ("DesligaInterruptor", gameObject);
-	}
+        AkSoundEngine.PostEvent("interacao", gameObject);
+    }
 }

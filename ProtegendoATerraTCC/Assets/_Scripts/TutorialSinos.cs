@@ -45,6 +45,7 @@ public class TutorialSinos : MonoBehaviour {
     void TaskOnClick()
     {
         AkSoundEngine.PostEvent("ParaTudo", gameObject);
+        AkSoundEngine.PostEvent("interacao", gameObject);
         Debug.Log("desligou sino");
         psino.SetActive(true);
         sino.SetActive(false);
