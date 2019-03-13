@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveTamires : MonoBehaviour {
-    public Transform t1,t2,t21,t3,t31,t4,t41,t5,t51,t6,t61,t7,t71,t8,t81,t9,t10,tTutorial,ttuto,refletor;
+    public Transform t1,t2,t21,t3,t31,t4,t41,t5,t51,t6,t61,t7,t71,t8,t81,t9,t91,t10,tTutorial,ttuto,refletor,monstro;
     public GameObject s1, s2, s3, s4, caminho, controle;
     UnityEngine.AI.NavMeshAgent agent;
     bool trava = true;
+    bool monster = false;
 
     void Start () {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
@@ -14,6 +15,10 @@ public class MoveTamires : MonoBehaviour {
     }
     private void Update()
     {
+        if (monster)
+        {
+            agent.destination = monstro.position;
+        }
         if (trava)
         {
             Verifica();
@@ -27,6 +32,14 @@ public class MoveTamires : MonoBehaviour {
             controle.SetActive(false);
             trava = false;
         }
+    }
+    public void Persegue()
+    {
+        monster = true;
+    }
+    public void ParaPer()
+    {
+        monster = false;
     }
     public void M1()
     {
@@ -91,6 +104,10 @@ public class MoveTamires : MonoBehaviour {
     public void M9()
     {
         agent.destination = t9.position;
+    }
+    public void M91()
+    {
+        agent.destination = t91.position;
     }
     public void M10()
     {

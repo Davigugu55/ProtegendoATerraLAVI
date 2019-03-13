@@ -407,6 +407,11 @@
 								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -606,6 +611,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d59" ID="{6F934E7F-4120-4AF4-AC65-83F6E347984C}" ShortID="748924161">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -624,29 +636,14 @@
 								<ActiveSource Name="d59" ID="{6F681851-2D07-49E1-AAD7-EDF728B5DFA7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="d60" ID="{D87A5D51-07CD-42B6-BD25-D2EBB5F318D1}" ShortID="954467186">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="d60" ID="{05E7AD75-DD75-4746-A99B-4A737A802BAB}" ShortID="143663932">
-									<Language>SFX</Language>
-									<AudioFile>d60.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="870995418"/>
-									</ConvertedFileIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="d60" ID="{05E7AD75-DD75-4746-A99B-4A737A802BAB}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="d57" ID="{BEF02EA7-325D-4B59-B710-4F74D11476DB}" ShortID="922994846">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -666,6 +663,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d28" ID="{5298B2A0-151D-4BF9-8B90-3CEFBA49648F}" ShortID="623147071">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -685,6 +689,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d35" ID="{F53A5599-98BE-4B56-8E54-40BDD0F134AC}" ShortID="839341934">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -707,6 +718,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d25" ID="{031E0533-A8E1-4FED-8998-27DEB73A4401}" ShortID="649338728">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -729,6 +747,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d20" ID="{746820BE-2986-4EAB-A652-528ED22F15ED}" ShortID="303295061">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -751,6 +776,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d39" ID="{4FACFC97-DD8C-4CB2-8674-08377D76461C}" ShortID="431343038">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -770,6 +802,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d43" ID="{80201E14-64AF-407E-9B69-093C9272FA58}" ShortID="840833916">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -789,6 +828,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d52" ID="{E60DB4DD-2499-4E6E-9125-0D9DB722DFE0}" ShortID="597336698">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -808,6 +854,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d56" ID="{D474CA59-DDB2-4DDD-B88A-63CB872A82F0}" ShortID="897023102">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -830,6 +883,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d44" ID="{6B0563CD-5C0F-461B-A10F-1D361CC469A5}" ShortID="914464748">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -852,6 +912,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d23" ID="{BAEDB7BA-F9A6-451F-ADAA-1521C43B17F2}" ShortID="749788316">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -874,6 +941,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d31" ID="{8B6F1CA2-476B-456F-984D-0E332762F4A9}" ShortID="690984395">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -896,6 +970,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d21" ID="{A7B6498C-574C-4D02-AF44-D532E3F5B9DE}" ShortID="872517319">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -915,6 +996,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d37" ID="{EDB50B53-5AF9-479B-A290-3D2AD23AE00E}" ShortID="510275369">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -937,6 +1025,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d46" ID="{30E47DA2-3ED4-4010-919D-5261699D566A}" ShortID="392215529">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -959,6 +1054,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d17" ID="{B3A43DCA-A95A-4E44-A9D1-A40FF53C5FCB}" ShortID="154159803">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -981,6 +1083,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d26" ID="{3ECD79C5-0193-4A48-8E68-CDB1EC534B68}" ShortID="700981457">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1000,6 +1109,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d29" ID="{F2D44310-4175-472D-BAF4-2E31BB5284AC}" ShortID="1061926823">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1022,6 +1138,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d30" ID="{A81AC709-6E7C-4BD2-A3EF-FE6A1D52AFE7}" ShortID="371221580">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1041,6 +1164,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d41" ID="{1792DD8A-2898-4541-B254-39AC5B27DB0E}" ShortID="27464313">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1060,6 +1190,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d27" ID="{6EC8B5DF-FCF9-4F7E-B33F-FBF2C4E29B4A}" ShortID="649557586">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1082,6 +1219,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d18" ID="{2A300558-F35F-423C-B207-95B077F1BBC7}" ShortID="36365555">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1101,6 +1245,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d49" ID="{658524E0-5D06-411D-8BFF-476351FCCA3F}" ShortID="645021248">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1122,26 +1273,14 @@
 								<ActiveSource Name="d49" ID="{E4C96929-A19A-4293-86EF-84341C68DA1C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="d50" ID="{8DCC7F95-F06A-48AF-8037-FC9D01CF73D0}" ShortID="74787368">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="d50" ID="{5ADFE6E8-9218-45A5-A9C4-1154F0413034}" ShortID="39908706">
-									<Language>SFX</Language>
-									<AudioFile>d50.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="d50" ID="{5ADFE6E8-9218-45A5-A9C4-1154F0413034}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="d34" ID="{0F780378-703F-4BA1-9D11-C446A92F8FAF}" ShortID="360664141">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1161,6 +1300,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d40" ID="{F5CA06D0-E544-4535-B3BC-98BC7F702C1A}" ShortID="492917155">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1183,6 +1329,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d33" ID="{DC9343FC-E899-41DF-B018-164EB61A77A2}" ShortID="111588719">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1205,6 +1358,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d42" ID="{DA6AB967-E587-4E58-A0F1-F58D918C8FEE}" ShortID="632842491">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1227,6 +1387,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d22" ID="{7D370722-6CC1-424A-BC53-9A0C2C10F339}" ShortID="264034561">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1246,6 +1413,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d48" ID="{1FABEEA8-09EA-431D-B32C-E3C38C43EC60}" ShortID="666556333">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1267,26 +1441,14 @@
 								<ActiveSource Name="d48" ID="{0643D622-168E-4A41-81BA-5B43DD769F92}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="d54" ID="{374E5D0F-1006-434B-ADC0-E4DBD33E8D73}" ShortID="41627577">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="d54" ID="{93986F00-B999-42A2-A01C-EA14477F4BBD}" ShortID="53956389">
-									<Language>SFX</Language>
-									<AudioFile>d54.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="d54" ID="{93986F00-B999-42A2-A01C-EA14477F4BBD}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="d7" ID="{54EF30EE-BA1A-4A3D-BAEB-217E32E90E06}" ShortID="145012756">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1309,6 +1471,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d13_1" ID="{B30A1C71-2B43-4648-8AE4-53A84429F21A}" ShortID="808705075">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1328,6 +1497,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d13" ID="{7AA139D3-7935-49B8-A0D3-782CF5F5471D}" ShortID="572566438">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1346,29 +1522,14 @@
 								<ActiveSource Name="d13" ID="{CDF0A510-C36B-48D0-83E6-E4D921556006}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="d14" ID="{80BAEEE6-9663-4EDA-AD70-04CA8360CF3F}" ShortID="574019469">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="d14" ID="{7673F17D-16EC-4F8D-BF38-2C80DFF7B63F}" ShortID="1031453474">
-									<Language>SFX</Language>
-									<AudioFile>d14.wav</AudioFile>
-									<ConvertedFileIDList>
-										<File ID="776352834"/>
-									</ConvertedFileIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="d14" ID="{7673F17D-16EC-4F8D-BF38-2C80DFF7B63F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="d9" ID="{67D87B4F-AD56-484C-8195-C9B357057CC8}" ShortID="130001712">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1391,6 +1552,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d16" ID="{67CCC0B7-2897-4D8E-8FB1-B108E0C335B2}" ShortID="823393580">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1410,6 +1578,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d3" ID="{C2DC682D-13B9-4E80-AFC7-1AE3A2BD4D7A}" ShortID="919114059">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1432,6 +1607,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d5" ID="{C2CF2C07-CFA9-47A6-A683-018D6785D657}" ShortID="973428064">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1454,6 +1636,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d11" ID="{EF8100FE-2D7A-4E78-954A-CA909993F00C}" ShortID="1050441958">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1473,6 +1662,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d12" ID="{65C35D0C-CC11-4CE6-BCE7-00022978659B}" ShortID="5830466">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1492,6 +1688,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d1" ID="{2295AA19-40F8-4F94-A6B8-B79D561242C0}" ShortID="617466544">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1511,6 +1714,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d62" ID="{8C18EC7A-C24E-48C5-914E-43C2DF09362D}" ShortID="967139684">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1530,6 +1740,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d64" ID="{6ED99FD2-77EE-4C46-9BC3-3104CAC5AE21}" ShortID="691682503">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1549,6 +1766,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d61" ID="{4CF1C87B-3EA0-4B18-97D4-867596DAD74F}" ShortID="1011838336">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1568,6 +1792,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d63" ID="{3FCF6775-2C43-445B-B704-19F7D0FA570D}" ShortID="207507373">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1587,6 +1818,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d65" ID="{7BDC14C2-61F2-4340-9152-200BF96140C1}" ShortID="170850108">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1606,6 +1844,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d66" ID="{A9B5FE69-473E-4B21-9046-DF6BCEC6CC41}" ShortID="459809752">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1625,6 +1870,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="d67" ID="{5A055265-D6D0-49CB-8CFB-E8AA3167F43A}" ShortID="863429089">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
@@ -1643,9 +1895,364 @@
 								<ActiveSource Name="d67" ID="{31607CF9-AA55-4215-98D3-30E371B0D1F5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="d6" ID="{174574FD-3BDF-4CF6-A6B2-F978FF760547}" ShortID="1026311043">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d6" ID="{CA0D3B22-A6B1-440A-B317-D4F82195FEBA}" ShortID="938883568">
+									<Language>SFX</Language>
+									<AudioFile>d6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d6" ID="{CA0D3B22-A6B1-440A-B317-D4F82195FEBA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d36" ID="{9F949393-B55F-4A20-91D7-62E27CEA18F5}" ShortID="583160728">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d36" ID="{80CDADFA-68A5-4541-B8F3-006A791F926E}" ShortID="596014365">
+									<Language>SFX</Language>
+									<AudioFile>d36.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d36" ID="{80CDADFA-68A5-4541-B8F3-006A791F926E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d15" ID="{6D88B1F5-E20D-47B7-95E8-EC75A943753A}" ShortID="140662361">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d15" ID="{CBEE8F90-2F36-4787-B1C8-AD9B9D548A64}" ShortID="865269000">
+									<Language>SFX</Language>
+									<AudioFile>d15.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d15" ID="{CBEE8F90-2F36-4787-B1C8-AD9B9D548A64}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d32" ID="{E7FECB59-1C41-43DC-AF18-C77404A61D6D}" ShortID="105305034">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d32" ID="{79DA53B0-AEB6-40D9-87E9-550CB2CC5B31}" ShortID="123486664">
+									<Language>SFX</Language>
+									<AudioFile>d32.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d32" ID="{79DA53B0-AEB6-40D9-87E9-550CB2CC5B31}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d10" ID="{F9E1C496-135E-4E74-B9F6-26A013E36CC6}" ShortID="513149959">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d10" ID="{E2A9D6FB-3C43-4249-9420-090EFA3BA50C}" ShortID="1044815286">
+									<Language>SFX</Language>
+									<AudioFile>d10.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d10" ID="{E2A9D6FB-3C43-4249-9420-090EFA3BA50C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d2" ID="{99C15000-976C-43D5-9007-29F763DEDF81}" ShortID="1061608025">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d2" ID="{63866BF8-3C95-4B4D-9AAE-A00A915FD3D7}" ShortID="572060730">
+									<Language>SFX</Language>
+									<AudioFile>d2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d2" ID="{63866BF8-3C95-4B4D-9AAE-A00A915FD3D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d45" ID="{7FD2487E-5678-49B4-9064-6634F76CCDA4}" ShortID="485931344">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d45" ID="{7F057853-9162-4C53-AFE3-EBB3385F4FCB}" ShortID="847093074">
+									<Language>SFX</Language>
+									<AudioFile>d45.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d45" ID="{7F057853-9162-4C53-AFE3-EBB3385F4FCB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d50" ID="{6D97EFF2-41B8-4962-A3EE-45049332960D}" ShortID="602352385">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d50" ID="{086A13A4-5B90-4FB1-B902-22A06F01FE5C}" ShortID="745470518">
+									<Language>SFX</Language>
+									<AudioFile>d50.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="39908706"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d50" ID="{086A13A4-5B90-4FB1-B902-22A06F01FE5C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d60" ID="{5A487C71-A8F5-472A-9F7F-1D2D166A7285}" ShortID="281676104">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d60" ID="{BDC2C5A4-E4E7-4E01-B48E-B81017292951}" ShortID="358814323">
+									<Language>SFX</Language>
+									<AudioFile>d60.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="870995418"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d60" ID="{BDC2C5A4-E4E7-4E01-B48E-B81017292951}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d14_1" ID="{3DAAF19C-4AAA-4526-B415-E91A76CB0B9D}" ShortID="660773657">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d14" ID="{20860334-E0A1-46D7-A2BC-446397380C3D}" ShortID="965128260">
+									<Language>SFX</Language>
+									<AudioFile>d14.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="776352834"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d14" ID="{20860334-E0A1-46D7-A2BC-446397380C3D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d8" ID="{B1668C5A-69BF-4AAA-876B-CB143F8087D4}" ShortID="148684119">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d8" ID="{75124CFD-57D6-4F58-AD06-EFA5012999F3}" ShortID="433543894">
+									<Language>SFX</Language>
+									<AudioFile>d8.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d8" ID="{75124CFD-57D6-4F58-AD06-EFA5012999F3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d4" ID="{D0C9B43B-F01C-44CB-8B42-81EAE4345D9A}" ShortID="970298337">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d4" ID="{AA2333C6-EA61-41F3-A27C-C6F8C323A969}" ShortID="889339482">
+									<Language>SFX</Language>
+									<AudioFile>d4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d4" ID="{AA2333C6-EA61-41F3-A27C-C6F8C323A969}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d24" ID="{40B22BC4-28B6-4A67-A6F1-4F5109E91B0C}" ShortID="84432986">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d24" ID="{5E596DA3-D6CF-4473-B767-C13E2A8BCF83}" ShortID="610058701">
+									<Language>SFX</Language>
+									<AudioFile>d24.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d24" ID="{5E596DA3-D6CF-4473-B767-C13E2A8BCF83}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d47" ID="{AC783D21-89C9-49CB-AAD6-68FFBC5299A7}" ShortID="462039776">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d47" ID="{380DE024-ABFE-4E1D-A32F-7C52CA9563E7}" ShortID="864533690">
+									<Language>SFX</Language>
+									<AudioFile>d47.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d47" ID="{380DE024-ABFE-4E1D-A32F-7C52CA9563E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d54" ID="{6B405B7C-0622-412B-BABD-4C266C0D8F5D}" ShortID="378009448">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d54" ID="{82CBFB65-D145-4A5C-B411-96C390CC378B}" ShortID="817846743">
+									<Language>SFX</Language>
+									<AudioFile>d54.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="53956389"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d54" ID="{82CBFB65-D145-4A5C-B411-96C390CC378B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d19" ID="{B804FAE4-9AAD-42D6-86CA-E3388347488B}" ShortID="107277750">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d19" ID="{C78D5979-BAEF-4DFB-B2D6-B91084FA29ED}" ShortID="985484904">
+									<Language>SFX</Language>
+									<AudioFile>d19.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d19" ID="{C78D5979-BAEF-4DFB-B2D6-B91084FA29ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="d14" ID="{CC11EACC-3B6E-4BE9-B708-39DBC77E568C}" ShortID="892708959">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8AEC4D82-D8E6-4C02-96B3-351E7436400B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A089249D-D666-4315-A0D6-BEB8E55F79D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="d14" ID="{1093D4E8-87FB-46C3-B850-5D762075ACB7}" ShortID="760749022">
+									<Language>SFX</Language>
+									<AudioFile>d14.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="776352834"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="d14" ID="{1093D4E8-87FB-46C3-B850-5D762075ACB7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="d2" ID="{99C15000-976C-43D5-9007-29F763DEDF81}"/>
+							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d5" ID="{C2CF2C07-CFA9-47A6-A683-018D6785D657}"/>
 							</GroupingBehavior>
@@ -1654,9 +2261,6 @@
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d12" ID="{65C35D0C-CC11-4CE6-BCE7-00022978659B}"/>
-							</GroupingBehavior>
-							<GroupingBehavior>
-								<ItemRef Name="d54" ID="{374E5D0F-1006-434B-ADC0-E4DBD33E8D73}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d29" ID="{F2D44310-4175-472D-BAF4-2E31BB5284AC}"/>
@@ -1671,6 +2275,9 @@
 								<ItemRef Name="controles" ID="{57E2B019-BB6D-4C38-A782-DF7BA89DA111}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
+								<ItemRef Name="d47" ID="{AC783D21-89C9-49CB-AAD6-68FFBC5299A7}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
 								<ItemRef Name="d22" ID="{7D370722-6CC1-424A-BC53-9A0C2C10F339}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
@@ -1680,10 +2287,10 @@
 								<ItemRef Name="d25" ID="{031E0533-A8E1-4FED-8998-27DEB73A4401}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="d9" ID="{67D87B4F-AD56-484C-8195-C9B357057CC8}"/>
+								<ItemRef Name="d4" ID="{D0C9B43B-F01C-44CB-8B42-81EAE4345D9A}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="d60" ID="{D87A5D51-07CD-42B6-BD25-D2EBB5F318D1}"/>
+								<ItemRef Name="d9" ID="{67D87B4F-AD56-484C-8195-C9B357057CC8}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d37" ID="{EDB50B53-5AF9-479B-A290-3D2AD23AE00E}"/>
@@ -1693,6 +2300,12 @@
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d56" ID="{D474CA59-DDB2-4DDD-B88A-63CB872A82F0}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="d32" ID="{E7FECB59-1C41-43DC-AF18-C77404A61D6D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="d8" ID="{B1668C5A-69BF-4AAA-876B-CB143F8087D4}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d67" ID="{5A055265-D6D0-49CB-8CFB-E8AA3167F43A}"/>
@@ -1707,6 +2320,9 @@
 								<ItemRef Name="d13_1" ID="{B30A1C71-2B43-4648-8AE4-53A84429F21A}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
+								<ItemRef Name="d60" ID="{5A487C71-A8F5-472A-9F7F-1D2D166A7285}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
 								<ItemRef Name="d63" ID="{3FCF6775-2C43-445B-B704-19F7D0FA570D}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
@@ -1717,6 +2333,12 @@
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d61" ID="{4CF1C87B-3EA0-4B18-97D4-867596DAD74F}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="d54" ID="{6B405B7C-0622-412B-BABD-4C266C0D8F5D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="d45" ID="{7FD2487E-5678-49B4-9064-6634F76CCDA4}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d59" ID="{6F934E7F-4120-4AF4-AC65-83F6E347984C}"/>
@@ -1731,13 +2353,19 @@
 								<ItemRef Name="d21" ID="{A7B6498C-574C-4D02-AF44-D532E3F5B9DE}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="d50" ID="{8DCC7F95-F06A-48AF-8037-FC9D01CF73D0}"/>
+								<ItemRef Name="d36" ID="{9F949393-B55F-4A20-91D7-62E27CEA18F5}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="d10" ID="{F9E1C496-135E-4E74-B9F6-26A013E36CC6}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d39" ID="{4FACFC97-DD8C-4CB2-8674-08377D76461C}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d35" ID="{F53A5599-98BE-4B56-8E54-40BDD0F134AC}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="d14_1" ID="{3DAAF19C-4AAA-4526-B415-E91A76CB0B9D}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d28" ID="{5298B2A0-151D-4BF9-8B90-3CEFBA49648F}"/>
@@ -1767,10 +2395,16 @@
 								<ItemRef Name="d65" ID="{7BDC14C2-61F2-4340-9152-200BF96140C1}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
+								<ItemRef Name="d24" ID="{40B22BC4-28B6-4A67-A6F1-4F5109E91B0C}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
 								<ItemRef Name="d26" ID="{3ECD79C5-0193-4A48-8E68-CDB1EC534B68}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d17" ID="{B3A43DCA-A95A-4E44-A9D1-A40FF53C5FCB}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="d14" ID="{CC11EACC-3B6E-4BE9-B708-39DBC77E568C}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d44" ID="{6B0563CD-5C0F-461B-A10F-1D361CC469A5}"/>
@@ -1794,13 +2428,22 @@
 								<ItemRef Name="d49" ID="{658524E0-5D06-411D-8BFF-476351FCCA3F}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="d14" ID="{80BAEEE6-9663-4EDA-AD70-04CA8360CF3F}"/>
+								<ItemRef Name="d19" ID="{B804FAE4-9AAD-42D6-86CA-E3388347488B}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d7" ID="{54EF30EE-BA1A-4A3D-BAEB-217E32E90E06}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
+								<ItemRef Name="d50" ID="{6D97EFF2-41B8-4962-A3EE-45049332960D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="d15" ID="{6D88B1F5-E20D-47B7-95E8-EC75A943753A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
 								<ItemRef Name="d33" ID="{DC9343FC-E899-41DF-B018-164EB61A77A2}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="d6" ID="{174574FD-3BDF-4CF6-A6B2-F978FF760547}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="d11" ID="{EF8100FE-2D7A-4E78-954A-CA909993F00C}"/>

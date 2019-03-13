@@ -16,12 +16,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	3801406082	d12			\Default Work Unit\Dialogos\d12	
 	3801406083	d13			\Default Work Unit\Dialogos\d13	
 	3801406084	d14			\Default Work Unit\Dialogos\d14	
+	3801406085	d15			\Default Work Unit\Dialogos\d15	
 	3801406086	d16			\Default Work Unit\Dialogos\d16	
 	3801406087	d17			\Default Work Unit\Dialogos\d17	
 	3801406088	d18			\Default Work Unit\Dialogos\d18	
+	3801406089	d19			\Default Work Unit\Dialogos\d19	
+	3834961376	d36			\Default Work Unit\Dialogos\d36	
 	3834961377	d37			\Default Work Unit\Dialogos\d37	
 	3834961378	d34			\Default Work Unit\Dialogos\d34	
 	3834961379	d35			\Default Work Unit\Dialogos\d35	
+	3834961380	d32			\Default Work Unit\Dialogos\d32	
 	3834961381	d33			\Default Work Unit\Dialogos\d33	
 	3834961382	d30			\Default Work Unit\Dialogos\d30	
 	3834961383	d31			\Default Work Unit\Dialogos\d31	
@@ -33,6 +37,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3851738970	d23			\Default Work Unit\Dialogos\d23	
 	3851738971	d22			\Default Work Unit\Dialogos\d22	
 	3851738972	d25			\Default Work Unit\Dialogos\d25	
+	3851738973	d24			\Default Work Unit\Dialogos\d24	
 	3851738974	d27			\Default Work Unit\Dialogos\d27	
 	3851738975	d26			\Default Work Unit\Dialogos\d26	
 	3868516549	d59			\Default Work Unit\Dialogos\d59	
@@ -43,7 +48,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3868516558	d52			\Default Work Unit\Dialogos\d52	
 	3885294262	d49			\Default Work Unit\Dialogos\d49	
 	3885294263	d48			\Default Work Unit\Dialogos\d48	
+	3885294264	d47			\Default Work Unit\Dialogos\d47	
 	3885294265	d46			\Default Work Unit\Dialogos\d46	
+	3885294266	d45			\Default Work Unit\Dialogos\d45	
 	3885294267	d44			\Default Work Unit\Dialogos\d44	
 	3885294268	d43			\Default Work Unit\Dialogos\d43	
 	3885294269	d42			\Default Work Unit\Dialogos\d42	
@@ -57,19 +64,21 @@ Event	ID	Name			Wwise Object Path	Notes
 	3918849413	d60			\Default Work Unit\Dialogos\d60	
 	3918849414	d63			\Default Work Unit\Dialogos\d63	
 	3918849415	d62			\Default Work Unit\Dialogos\d62	
+	4080545368	d14_1			\Default Work Unit\Dialogos\d14_1	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3269224070	DublagemVolume			\Default Work Unit\Volume\DublagemVolume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	39908706	d50	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d50_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d50		511964
+	39908706	d50	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d50_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d50		493772
 	45374053	d20	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d20_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d20		530492
-	53956389	d54	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d54_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d54		185020
+	53956389	d54	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d54_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d54		793760
 	69275476	d42	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d42_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d42		363784
 	78035520	d65	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d65_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d65		275952
 	87724815	d25	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d25_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d25		742660
+	123486664	d32	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d32_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d32		396348
 	150994016	d5	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d5		818436
-	171806403	d17	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d17_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d17		151616
+	171806403	d17	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d17_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d17		238812
 	219407396	d13	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d13_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d13		298984
 	225785051	d44	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d44_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d44		238756
 	228456315	d35	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d35_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d35		485028
@@ -85,33 +94,44 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	424798960	d37	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d37_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d37		378940
 	427508446	d28	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d28_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d28		448444
 	428083101	d49	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d49_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d49		200868
+	433543894	d8	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d8_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d8		1079288
 	442392681	d40	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d40_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d40		318320
 	449530920	d23	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d23_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d23		394096
 	472418683	d13_1	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d13.1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d13_1		553064
 	480406233	d12	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d12_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d12		2286788
 	518877866	d11	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d11_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d11		373712
 	556805450	d61	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d61_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d61		304492
-	562855583	d46	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d46_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d46		140248
+	562855583	d46	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d46_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d46		290236
+	572060730	d2	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d2		448064
+	596014365	d36	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d36_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d36		393964
 	607013275	d18	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d18_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d18		298984
 	610038294	d41	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d41_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d41		433496
+	610058701	d24	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d24_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d24		516500
 	664869124	d27	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d27_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d27		515336
-	686394551	d48	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d48_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d48		102360
+	686394551	d48	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d48_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d48		185556
 	700488724	d56	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d56_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d56		359996
 	712618342	d1	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d1		597900
 	726788741	d39	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d39_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d39		418552
 	742705443	d43	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d43_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d43		1027596
 	744345927	d26	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d26_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d26		388660
-	776352834	d14	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d14_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d14		242544
+	776352834	d14_1	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d14_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d14_1		242544
 	804069239	d57	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d57_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d57		295248
 	806367359	d62	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d62_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d62		348884
 	829806776	d66	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d66_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d66		302356
+	847093074	d45	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d45_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d45		121504
 	848464065	Prologo	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\Prologo_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\Prologo		825790
-	870995418	d60	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d60_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d60		409252
+	864533690	d47	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d47_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d47		137964
+	865269000	d15	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d15_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d15		536052
+	870995418	d60	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d60_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d60		453824
 	874852163	d9	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d9		757816
 	883766123	d3	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d3		458504
+	889339482	d4	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d4		362080
 	901440510	d30	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d30_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d30		568008
+	938883568	d6	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d6		806508
 	962487605	d7	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d7		818436
 	978531589	d52	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d52_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d52		526908
+	985484904	d19	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d19_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d19		610792
+	1044815286	d10	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d10		483328
 	1049277185	d34	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d34_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d34		358768
 	1052483943	d21	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d21_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d21		373712
 
