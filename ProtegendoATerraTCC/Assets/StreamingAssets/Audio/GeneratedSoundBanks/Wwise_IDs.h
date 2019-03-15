@@ -79,6 +79,7 @@ namespace AK
         static const AkUniqueID D65 = 3918849408U;
         static const AkUniqueID D66 = 3918849411U;
         static const AkUniqueID D67 = 3918849410U;
+        static const AkUniqueID D68 = 3918849421U;
         static const AkUniqueID DESLIGAINTERRUPTOR = 2186663080U;
         static const AkUniqueID DPROLOGO = 881297497U;
         static const AkUniqueID FOOTSTEP = 1866025847U;

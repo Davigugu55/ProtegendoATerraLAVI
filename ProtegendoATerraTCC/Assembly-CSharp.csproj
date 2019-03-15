@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Scripts\ChargeVolumeLevels.cs" />
+    <Compile Include="Assets\_Scripts\ColetaSinos.cs" />
     <Compile Include="Assets\_Scripts\DetectaConsumoAbajur.cs" />
     <Compile Include="Assets\_Scripts\DetectaConsumoAgua.cs" />
     <Compile Include="Assets\_Scripts\DetectaConsumoGeladeira.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\_Scripts\PauseMenu.cs" />
     <Compile Include="Assets\_Scripts\Refletor.cs" />
     <Compile Include="Assets\_Scripts\ScriptPorta.cs" />
+    <Compile Include="Assets\_Scripts\TutorialInterface.cs" />
     <Compile Include="Assets\_Scripts\TutorialSinos.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkCommunicationSettings_Android.cs" />
     <Compile Include="Assets\Wwise\Deployment\API\Generated\Android\AkMemPoolAttributes_Android.cs" />

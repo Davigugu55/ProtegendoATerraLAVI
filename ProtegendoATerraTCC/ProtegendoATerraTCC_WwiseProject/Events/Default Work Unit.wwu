@@ -1163,6 +1163,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="d68" ID="{64D82353-3D76-4794-BA70-3685B53E2331}">
+							<ChildrenList>
+								<Action Name="" ID="{28B06B8B-5931-424B-A9B1-012A40FF1DD0}" ShortID="238043086">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="d68" ID="{2EA6EA58-3E7F-4F02-BFB8-757337D22590}" WorkUnitID="{4757DB83-9620-4B97-9EF3-4C81AC033A57}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="interacao" ID="{A27F6BC5-6C79-4696-BAAB-33EE755DD61E}">

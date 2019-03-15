@@ -64,6 +64,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3918849413	d60			\Default Work Unit\Dialogos\d60	
 	3918849414	d63			\Default Work Unit\Dialogos\d63	
 	3918849415	d62			\Default Work Unit\Dialogos\d62	
+	3918849421	d68			\Default Work Unit\Dialogos\d68	
 	4080545368	d14_1			\Default Work Unit\Dialogos\d14_1	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -134,4 +135,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1044815286	d10	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d10		483328
 	1049277185	d34	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d34_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d34		358768
 	1052483943	d21	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d21_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d21		373712
+	1066702018	d68	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\d68_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d68		177968
 

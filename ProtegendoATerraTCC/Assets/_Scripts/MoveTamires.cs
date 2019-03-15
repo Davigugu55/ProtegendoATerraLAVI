@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MoveTamires : MonoBehaviour {
     public Transform t1,t2,t21,t3,t31,t4,t41,t5,t51,t6,t61,t7,t71,t8,t81,t9,t91,t10,tTutorial,ttuto,refletor,monstro;
-    public GameObject s1, s2, s3, s4, caminho, controle;
     UnityEngine.AI.NavMeshAgent agent;
     bool trava = true;
     bool monster = false;
@@ -18,19 +17,6 @@ public class MoveTamires : MonoBehaviour {
         if (monster)
         {
             agent.destination = monstro.position;
-        }
-        if (trava)
-        {
-            Verifica();
-        }
-    }
-    public void Verifica()
-    {
-        if (s1.activeSelf != true && s2.activeSelf != true && s3.activeSelf != true && s4.activeSelf != true)
-        {
-            caminho.SetActive(true);
-            controle.SetActive(false);
-            trava = false;
         }
     }
     public void Persegue()

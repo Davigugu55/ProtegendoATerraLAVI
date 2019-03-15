@@ -17,7 +17,8 @@ public class ScriptPorta : MonoBehaviour {
 
 	void OnTriggerEnter(Collider player){
 		if (player.name == "Tamires") {
-			mensagem.text = "Abrir";
+            AkSoundEngine.PostEvent("d68", gameObject);
+            mensagem.text = "Abrir";
 			Debug.Log ("entrou");
 			colisor = true;
 			botao.onClick.AddListener (DetectaColisao);

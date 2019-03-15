@@ -185,6 +185,7 @@
 				<Event Id="3918849408" Name="d65" ObjectPath="\Events\Default Work Unit\Dialogos\d65"/>
 				<Event Id="3918849411" Name="d66" ObjectPath="\Events\Default Work Unit\Dialogos\d66"/>
 				<Event Id="3918849410" Name="d67" ObjectPath="\Events\Default Work Unit\Dialogos\d67"/>
+				<Event Id="3918849421" Name="d68" ObjectPath="\Events\Default Work Unit\Dialogos\d68"/>
 				<Event Id="1836525718" Name="d7" ObjectPath="\Events\Default Work Unit\Dialogos\d7"/>
 				<Event Id="1836525721" Name="d8" ObjectPath="\Events\Default Work Unit\Dialogos\d8"/>
 				<Event Id="1836525720" Name="d9" ObjectPath="\Events\Default Work Unit\Dialogos\d9"/>
@@ -447,6 +448,10 @@
 				<File Id="1052483943" Language="SFX">
 					<ShortName>d21.wav</ShortName>
 					<Path>SFX\d21_56D34C19.wem</Path>
+				</File>
+				<File Id="1066702018" Language="SFX">
+					<ShortName>d68.wav</ShortName>
+					<Path>SFX\d68_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
