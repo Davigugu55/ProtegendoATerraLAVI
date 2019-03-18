@@ -66,7 +66,7 @@ namespace AK
         static const AkUniqueID D48 = 3885294263U;
         static const AkUniqueID D49 = 3885294262U;
         static const AkUniqueID D50 = 3868516556U;
-        static const AkUniqueID D52 = 3868516558U;
+        static const AkUniqueID D51 = 3868516557U;
         static const AkUniqueID D54 = 3868516552U;
         static const AkUniqueID D56 = 3868516554U;
         static const AkUniqueID D57 = 3868516555U;

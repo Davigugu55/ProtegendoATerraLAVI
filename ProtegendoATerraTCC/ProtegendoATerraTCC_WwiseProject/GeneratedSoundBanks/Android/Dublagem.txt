@@ -45,7 +45,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3868516554	d56			\Default Work Unit\Dialogos\d56	
 	3868516555	d57			\Default Work Unit\Dialogos\d57	
 	3868516556	d50			\Default Work Unit\Dialogos\d50	
-	3868516558	d52			\Default Work Unit\Dialogos\d52	
+	3868516557	d51			\Default Work Unit\Dialogos\d51	
 	3885294262	d49			\Default Work Unit\Dialogos\d49	
 	3885294263	d48			\Default Work Unit\Dialogos\d48	
 	3885294264	d47			\Default Work Unit\Dialogos\d47	
@@ -130,7 +130,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	901440510	d30	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d30_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d30		568008
 	938883568	d6	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d6		806508
 	962487605	d7	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d7		818436
-	978531589	d52	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d52_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d52		526908
+	978531589	d51	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d52_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d51		526908
 	985484904	d19	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d19_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d19		610792
 	1044815286	d10	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d10		483328
 	1049277185	d34	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\d34_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dublagem\d34		358768

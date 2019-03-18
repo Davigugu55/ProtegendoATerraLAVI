@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveTamires : MonoBehaviour {
-    public Transform t1,t2,t21,t3,t31,t4,t41,t5,t51,t6,t61,t7,t71,t8,t81,t9,t91,t10,t101,refletor,monstro;
+    public Transform t1,t2,t21,t3,t31,t4,t41,t5,t51,t6,t61,t7,t71,t8,t81,t9,t91,t10,t101,refletor,monstro,ob1,ob2,ob3,ob4,ob5;
     public GameObject monstrot;
     UnityEngine.AI.NavMeshAgent agent;
     bool trava = true;
     bool monster = false;
+    bool walk = false;
 
     void Start () {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
@@ -15,6 +16,22 @@ public class MoveTamires : MonoBehaviour {
     }
     private void Update()
     {
+        if (agent.remainingDistance != 0)
+        {
+            if (!walk)
+            {
+                walk = true;
+                AkSoundEngine.PostEvent("Footstep", gameObject);
+            }
+        }
+        if (agent.remainingDistance == 0)
+        {
+            if (walk)
+            {
+                walk = false;
+                AkSoundEngine.PostEvent("ParaTudo", gameObject);
+            }
+        }
         if (monstrot.activeSelf)
         {
             agent.destination = monstro.position;
@@ -99,6 +116,26 @@ public class MoveTamires : MonoBehaviour {
     public void Mrefletor()
     {
         agent.destination = refletor.position;
+    }
+    public void Mob1()
+    {
+        agent.destination = ob1.position;
+    }
+    public void Mob2()
+    {
+        agent.destination = ob2.position;
+    }
+    public void Mob3()
+    {
+        agent.destination = ob3.position;
+    }
+    public void Mob4()
+    {
+        agent.destination = ob4.position;
+    }
+    public void Mob5()
+    {
+        agent.destination = ob5.position;
     }
     public void Para()
     {

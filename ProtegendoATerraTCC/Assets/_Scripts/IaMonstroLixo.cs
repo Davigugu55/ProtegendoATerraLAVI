@@ -7,7 +7,7 @@ public class IaMonstroLixo : MonoBehaviour {
     public Transform t1,t2,t3,t4;
     UnityEngine.AI.NavMeshAgent agent;
     public Button botao;
-    public GameObject monstro,t101;
+    public GameObject monstro,t101,butao;
     bool colisor;
 
     void Start()
@@ -48,6 +48,7 @@ public class IaMonstroLixo : MonoBehaviour {
         AkSoundEngine.PostEvent("interacao", gameObject);
         Debug.Log("morreu monstro");
         monstro.SetActive(false);
+        butao.SetActive(false);
         t101.SetActive(true);
     }
 

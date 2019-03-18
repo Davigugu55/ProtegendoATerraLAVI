@@ -76,6 +76,7 @@
     <Compile Include="Assets\_Scripts\MenuPrincipal.cs" />
     <Compile Include="Assets\_Scripts\MoveTamires.cs" />
     <Compile Include="Assets\_Scripts\MovimentacaoPersonagem.cs" />
+    <Compile Include="Assets\_Scripts\ObjetosSala.cs" />
     <Compile Include="Assets\_Scripts\PauseMenu.cs" />
     <Compile Include="Assets\_Scripts\Refletor.cs" />
     <Compile Include="Assets\_Scripts\ScriptPorta.cs" />
