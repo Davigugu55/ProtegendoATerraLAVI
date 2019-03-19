@@ -13,6 +13,7 @@ public class Dialogue : MonoBehaviour
     public Button botao;
     public string tela;
     bool colisor;
+    public GameObject[] mobilias;
     public string[] dialogo, dublagem;
     private Queue<string> sentences;
     int indice = 0;
@@ -20,6 +21,13 @@ public class Dialogue : MonoBehaviour
     private void Start()
     {
         sentences = new Queue<string>();
+        if (mobilias != null)
+        {
+            foreach(GameObject mobilia in mobilias)
+            {
+                mobilia.SetActive(true);
+            }
+        }
     }
 
     void OnTriggerEnter(Collider player)

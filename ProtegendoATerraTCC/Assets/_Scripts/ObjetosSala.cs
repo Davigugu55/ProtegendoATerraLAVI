@@ -6,9 +6,10 @@ using UnityEngine.UI;
 public class ObjetosSala : MonoBehaviour {
 
     public Button botao;
-    bool colisor;
     public Text mensagem;
-
+    public GameObject painel, objeto;
+    bool colisor;
+    
     void OnTriggerStay(Collider player)
     {
         if (player.name == "Tamires")
@@ -16,7 +17,6 @@ public class ObjetosSala : MonoBehaviour {
             colisor = true;
             botao.onClick.AddListener(DetectaColisao);
             mensagem.text = "Pegar";
-            
         }
     }
     void OnTriggerExit(Collider player)
@@ -38,6 +38,9 @@ public class ObjetosSala : MonoBehaviour {
     }
     void TaskOnClick()
     {
+        mensagem.text = "";
+        objeto.SetActive(false);
+        painel.SetActive(true);
         Debug.Log("desligou consumo");
     }
 }

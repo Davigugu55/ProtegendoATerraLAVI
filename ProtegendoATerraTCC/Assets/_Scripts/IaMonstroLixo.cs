@@ -54,6 +54,11 @@ public class IaMonstroLixo : MonoBehaviour {
 
     void OnTriggerEnter(Collider player)
     {
+        if (player.name == "Tamires")
+        {
+            AkSoundEngine.PostEvent("ParaTudo", gameObject);
+            AkSoundEngine.PostEvent("d82", gameObject);
+        }
         if (player.name == "tm1")
         {
             //Debug.Log("entrou monstro");

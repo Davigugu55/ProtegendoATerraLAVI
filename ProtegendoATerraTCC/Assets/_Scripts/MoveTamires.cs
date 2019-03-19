@@ -6,8 +6,6 @@ public class MoveTamires : MonoBehaviour {
     public Transform t1,t2,t21,t3,t31,t4,t41,t5,t51,t6,t61,t7,t71,t8,t81,t9,t91,t10,t101,refletor,monstro,ob1,ob2,ob3,ob4,ob5;
     public GameObject monstrot;
     UnityEngine.AI.NavMeshAgent agent;
-    bool trava = true;
-    bool monster = false;
     bool walk = false;
 
     void Start () {
