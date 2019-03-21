@@ -29,6 +29,7 @@
 				<Event Id="1407656221" Name="ParaLampadaEletronica" ObjectPath="\Events\Default Work Unit\ParaLampadaEletronica" MaxAttenuation="0.000000"/>
 				<Event Id="1431862001" Name="ParaTV" ObjectPath="\Events\Default Work Unit\ParaTV" MaxAttenuation="0.000000"/>
 				<Event Id="1172444532" Name="PortaAbrindo" ObjectPath="\Events\Default Work Unit\PortaAbrindo"/>
+				<Event Id="2885395742" Name="SomPorta" ObjectPath="\Events\Default Work Unit\SomPorta" MaxAttenuation="2.000000"/>
 				<Event Id="1568083719" Name="TV" ObjectPath="\Events\Default Work Unit\TV" MaxAttenuation="2.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -39,6 +40,10 @@
 				<File Id="178141845" Language="SFX">
 					<ShortName>WaterDraining.wav</ShortName>
 					<Path>SFX\WaterDraining_8956FC97.wem</Path>
+				</File>
+				<File Id="235562505" Language="SFX">
+					<ShortName>135539__univ-lyon3__gala-garcia01.wav</ShortName>
+					<Path>SFX\135539__univ-lyon3__gala-garcia01_8956FC97.wem</Path>
 				</File>
 				<File Id="298268996" Language="SFX">
 					<ShortName>TV.wav</ShortName>
@@ -172,9 +177,13 @@
 				<Event Id="1836525716" Name="d5" ObjectPath="\Events\Default Work Unit\Dialogos\d5"/>
 				<Event Id="3868516556" Name="d50" ObjectPath="\Events\Default Work Unit\Dialogos\d50"/>
 				<Event Id="3868516557" Name="d51" ObjectPath="\Events\Default Work Unit\Dialogos\d51"/>
+				<Event Id="3868516558" Name="d52" ObjectPath="\Events\Default Work Unit\Dialogos\d52"/>
+				<Event Id="3868516559" Name="d53" ObjectPath="\Events\Default Work Unit\Dialogos\d53"/>
 				<Event Id="3868516552" Name="d54" ObjectPath="\Events\Default Work Unit\Dialogos\d54"/>
+				<Event Id="3868516553" Name="d55" ObjectPath="\Events\Default Work Unit\Dialogos\d55"/>
 				<Event Id="3868516554" Name="d56" ObjectPath="\Events\Default Work Unit\Dialogos\d56"/>
 				<Event Id="3868516555" Name="d57" ObjectPath="\Events\Default Work Unit\Dialogos\d57"/>
+				<Event Id="3868516548" Name="d58" ObjectPath="\Events\Default Work Unit\Dialogos\d58"/>
 				<Event Id="3868516549" Name="d59" ObjectPath="\Events\Default Work Unit\Dialogos\d59"/>
 				<Event Id="1836525719" Name="d6" ObjectPath="\Events\Default Work Unit\Dialogos\d6"/>
 				<Event Id="3918849413" Name="d60" ObjectPath="\Events\Default Work Unit\Dialogos\d60"/>
@@ -186,16 +195,46 @@
 				<Event Id="3918849411" Name="d66" ObjectPath="\Events\Default Work Unit\Dialogos\d66"/>
 				<Event Id="3918849410" Name="d67" ObjectPath="\Events\Default Work Unit\Dialogos\d67"/>
 				<Event Id="3918849421" Name="d68" ObjectPath="\Events\Default Work Unit\Dialogos\d68"/>
+				<Event Id="3918849420" Name="d69" ObjectPath="\Events\Default Work Unit\Dialogos\d69"/>
 				<Event Id="1836525718" Name="d7" ObjectPath="\Events\Default Work Unit\Dialogos\d7"/>
+				<Event Id="3902071826" Name="d70" ObjectPath="\Events\Default Work Unit\Dialogos\d70"/>
+				<Event Id="3902071827" Name="d71" ObjectPath="\Events\Default Work Unit\Dialogos\d71"/>
+				<Event Id="3902071824" Name="d72" ObjectPath="\Events\Default Work Unit\Dialogos\d72"/>
+				<Event Id="3902071825" Name="d73" ObjectPath="\Events\Default Work Unit\Dialogos\d73"/>
+				<Event Id="3902071830" Name="d74" ObjectPath="\Events\Default Work Unit\Dialogos\d74"/>
+				<Event Id="3902071831" Name="d75" ObjectPath="\Events\Default Work Unit\Dialogos\d75"/>
+				<Event Id="3902071828" Name="d76" ObjectPath="\Events\Default Work Unit\Dialogos\d76"/>
+				<Event Id="3902071829" Name="d77" ObjectPath="\Events\Default Work Unit\Dialogos\d77"/>
+				<Event Id="3902071834" Name="d78" ObjectPath="\Events\Default Work Unit\Dialogos\d78"/>
+				<Event Id="3902071835" Name="d79" ObjectPath="\Events\Default Work Unit\Dialogos\d79"/>
 				<Event Id="1836525721" Name="d8" ObjectPath="\Events\Default Work Unit\Dialogos\d8"/>
+				<Event Id="3952404715" Name="d80" ObjectPath="\Events\Default Work Unit\Dialogos\d80"/>
+				<Event Id="3952404714" Name="d81" ObjectPath="\Events\Default Work Unit\Dialogos\d81"/>
+				<Event Id="3952404713" Name="d82" ObjectPath="\Events\Default Work Unit\Dialogos\d82"/>
+				<Event Id="3952404712" Name="d83" ObjectPath="\Events\Default Work Unit\Dialogos\d83"/>
+				<Event Id="3952404719" Name="d84" ObjectPath="\Events\Default Work Unit\Dialogos\d84"/>
+				<Event Id="3952404718" Name="d85" ObjectPath="\Events\Default Work Unit\Dialogos\d85"/>
+				<Event Id="3952404717" Name="d86" ObjectPath="\Events\Default Work Unit\Dialogos\d86"/>
 				<Event Id="1836525720" Name="d9" ObjectPath="\Events\Default Work Unit\Dialogos\d9"/>
 				<Event Id="881297497" Name="DPrologo" ObjectPath="\Events\Default Work Unit\Dialogos\DPrologo"/>
 				<Event Id="2848269241" Name="ParaTudo" ObjectPath="\Events\Default Work Unit\ParaTudo" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="11718807" Language="SFX">
+					<ShortName>d74.wav</ShortName>
+					<Path>SFX\d74_56D34C19.wem</Path>
+				</File>
+				<File Id="20802749" Language="SFX">
+					<ShortName>d55.wav</ShortName>
+					<Path>SFX\d55_56D34C19.wem</Path>
+				</File>
 				<File Id="39908706" Language="SFX">
 					<ShortName>d50.wav</ShortName>
 					<Path>SFX\d50_56D34C19.wem</Path>
+				</File>
+				<File Id="42750755" Language="SFX">
+					<ShortName>d72.wav</ShortName>
+					<Path>SFX\d72_56D34C19.wem</Path>
 				</File>
 				<File Id="45374053" Language="SFX">
 					<ShortName>d20.wav</ShortName>
@@ -217,6 +256,10 @@
 					<ShortName>d25.wav</ShortName>
 					<Path>SFX\d25_56D34C19.wem</Path>
 				</File>
+				<File Id="96836308" Language="SFX">
+					<ShortName>d69.wav</ShortName>
+					<Path>SFX\d69_56D34C19.wem</Path>
+				</File>
 				<File Id="123486664" Language="SFX">
 					<ShortName>d32.wav</ShortName>
 					<Path>SFX\d32_56D34C19.wem</Path>
@@ -228,6 +271,10 @@
 				<File Id="171806403" Language="SFX">
 					<ShortName>d17.wav</ShortName>
 					<Path>SFX\d17_56D34C19.wem</Path>
+				</File>
+				<File Id="212464929" Language="SFX">
+					<ShortName>d58.wav</ShortName>
+					<Path>SFX\d58_56D34C19.wem</Path>
 				</File>
 				<File Id="219407396" Language="SFX">
 					<ShortName>d13.wav</ShortName>
@@ -265,13 +312,33 @@
 					<ShortName>d33.wav</ShortName>
 					<Path>SFX\d33_56D34C19.wem</Path>
 				</File>
+				<File Id="331271901" Language="SFX">
+					<ShortName>d70.wav</ShortName>
+					<Path>SFX\d70_56D34C19.wem</Path>
+				</File>
+				<File Id="331349194" Language="SFX">
+					<ShortName>d53.wav</ShortName>
+					<Path>SFX\d53_56D34C19.wem</Path>
+				</File>
 				<File Id="352819605" Language="SFX">
 					<ShortName>d22.wav</ShortName>
 					<Path>SFX\d22_56D34C19.wem</Path>
 				</File>
+				<File Id="358167476" Language="SFX">
+					<ShortName>d85.wav</ShortName>
+					<Path>SFX\d85_56D34C19.wem</Path>
+				</File>
 				<File Id="373941000" Language="SFX">
 					<ShortName>d31.wav</ShortName>
 					<Path>SFX\d31_56D34C19.wem</Path>
+				</File>
+				<File Id="384613350" Language="SFX">
+					<ShortName>d84.wav</ShortName>
+					<Path>SFX\d84_56D34C19.wem</Path>
+				</File>
+				<File Id="399676528" Language="SFX">
+					<ShortName>d86.wav</ShortName>
+					<Path>SFX\d86_56D34C19.wem</Path>
 				</File>
 				<File Id="405860883" Language="SFX">
 					<ShortName>d59.wav</ShortName>
@@ -293,6 +360,10 @@
 					<ShortName>d8.wav</ShortName>
 					<Path>SFX\d8_56D34C19.wem</Path>
 				</File>
+				<File Id="436599675" Language="SFX">
+					<ShortName>d75.wav</ShortName>
+					<Path>SFX\d75_56D34C19.wem</Path>
+				</File>
 				<File Id="442392681" Language="SFX">
 					<ShortName>d40.wav</ShortName>
 					<Path>SFX\d40_56D34C19.wem</Path>
@@ -304,6 +375,10 @@
 				<File Id="472418683" Language="SFX">
 					<ShortName>d13.1.wav</ShortName>
 					<Path>SFX\d13.1_56D34C19.wem</Path>
+				</File>
+				<File Id="475590436" Language="SFX">
+					<ShortName>d77.wav</ShortName>
+					<Path>SFX\d77_56D34C19.wem</Path>
 				</File>
 				<File Id="480406233" Language="SFX">
 					<ShortName>d12.wav</ShortName>
@@ -341,6 +416,18 @@
 					<ShortName>d24.wav</ShortName>
 					<Path>SFX\d24_56D34C19.wem</Path>
 				</File>
+				<File Id="620092653" Language="SFX">
+					<ShortName>d82.wav</ShortName>
+					<Path>SFX\d82_56D34C19.wem</Path>
+				</File>
+				<File Id="639149859" Language="SFX">
+					<ShortName>d78.wav</ShortName>
+					<Path>SFX\d78_56D34C19.wem</Path>
+				</File>
+				<File Id="650809790" Language="SFX">
+					<ShortName>d81.wav</ShortName>
+					<Path>SFX\d81_56D34C19.wem</Path>
+				</File>
 				<File Id="664869124" Language="SFX">
 					<ShortName>d27.wav</ShortName>
 					<Path>SFX\d27_56D34C19.wem</Path>
@@ -349,13 +436,13 @@
 					<ShortName>d48.wav</ShortName>
 					<Path>SFX\d48_56D34C19.wem</Path>
 				</File>
-				<File Id="700488724" Language="SFX">
-					<ShortName>d56.wav</ShortName>
-					<Path>SFX\d56_56D34C19.wem</Path>
-				</File>
 				<File Id="712618342" Language="SFX">
 					<ShortName>d1.wav</ShortName>
 					<Path>SFX\d1_56D34C19.wem</Path>
+				</File>
+				<File Id="714795597" Language="SFX">
+					<ShortName>d56.wav</ShortName>
+					<Path>SFX\d56_56D34C19.wem</Path>
 				</File>
 				<File Id="726788741" Language="SFX">
 					<ShortName>d39.wav</ShortName>
@@ -368,6 +455,10 @@
 				<File Id="744345927" Language="SFX">
 					<ShortName>d26.wav</ShortName>
 					<Path>SFX\d26_56D34C19.wem</Path>
+				</File>
+				<File Id="760320912" Language="SFX">
+					<ShortName>d51.wav</ShortName>
+					<Path>SFX\d51_56D34C19.wem</Path>
 				</File>
 				<File Id="776352834" Language="SFX">
 					<ShortName>d14.wav</ShortName>
@@ -417,17 +508,33 @@
 					<ShortName>d4.wav</ShortName>
 					<Path>SFX\d4_56D34C19.wem</Path>
 				</File>
+				<File Id="896880109" Language="SFX">
+					<ShortName>d71.wav</ShortName>
+					<Path>SFX\d71_56D34C19.wem</Path>
+				</File>
 				<File Id="901440510" Language="SFX">
 					<ShortName>d30.wav</ShortName>
 					<Path>SFX\d30_56D34C19.wem</Path>
+				</File>
+				<File Id="905242534" Language="SFX">
+					<ShortName>d76.wav</ShortName>
+					<Path>SFX\d76_56D34C19.wem</Path>
 				</File>
 				<File Id="938883568" Language="SFX">
 					<ShortName>d6.wav</ShortName>
 					<Path>SFX\d6_56D34C19.wem</Path>
 				</File>
+				<File Id="951835928" Language="SFX">
+					<ShortName>d83.wav</ShortName>
+					<Path>SFX\d83_56D34C19.wem</Path>
+				</File>
 				<File Id="962487605" Language="SFX">
 					<ShortName>d7.wav</ShortName>
 					<Path>SFX\d7_56D34C19.wem</Path>
+				</File>
+				<File Id="969814055" Language="SFX">
+					<ShortName>d73.wav</ShortName>
+					<Path>SFX\d73_56D34C19.wem</Path>
 				</File>
 				<File Id="978531589" Language="SFX">
 					<ShortName>d52.wav</ShortName>
@@ -436,6 +543,14 @@
 				<File Id="985484904" Language="SFX">
 					<ShortName>d19.wav</ShortName>
 					<Path>SFX\d19_56D34C19.wem</Path>
+				</File>
+				<File Id="995642862" Language="SFX">
+					<ShortName>d80.wav</ShortName>
+					<Path>SFX\d80_56D34C19.wem</Path>
+				</File>
+				<File Id="1001064260" Language="SFX">
+					<ShortName>d79.wav</ShortName>
+					<Path>SFX\d79_56D34C19.wem</Path>
 				</File>
 				<File Id="1044815286" Language="SFX">
 					<ShortName>d10.wav</ShortName>

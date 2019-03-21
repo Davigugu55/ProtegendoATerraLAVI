@@ -9,7 +9,14 @@ public class ObjetosSala : MonoBehaviour {
     public Text mensagem;
     public GameObject painel, objeto;
     bool colisor;
-    
+
+    void OnTriggerEnter(Collider player)
+    {
+        if (player.name == "Tamires")
+        {
+            AkSoundEngine.PostEvent("d85", gameObject);
+        }
+    }
     void OnTriggerStay(Collider player)
     {
         if (player.name == "Tamires")

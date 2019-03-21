@@ -12,7 +12,14 @@ public class DetectaConsumoAbajur : MonoBehaviour {
 	bool liga = true;
 	public Text mensagem;
 
-	void OnTriggerStay(Collider player){
+    void OnTriggerEnter(Collider player)
+    {
+        if (player.name == "Tamires")
+        {
+            AkSoundEngine.PostEvent("d84", gameObject);
+        }
+    }
+    void OnTriggerStay(Collider player){
 		if (player.name == "Tamires") {
 			Debug.Log ("entrou");
 			colisor = true;

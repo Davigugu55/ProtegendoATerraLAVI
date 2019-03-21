@@ -146,7 +146,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -487.1, y: -0.000061035156}
-  m_SizeDelta: {x: 945.8, y: 1080}
+  m_SizeDelta: {x: 945.8, y: 3000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55001004
 MonoBehaviour:
@@ -180,7 +180,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: asdasd
+  m_Text: "Game designer\nProgramador\nLevel designer\nDesigner de som\nDesigner gr\xE1fico\nRoteiristas\n\n\n\nDublagem
+    vozes\nTamires\nCapit\xE3o Redu\xE7\xE3o\nDuende\nNarra\xE7\xE3o\nTrilha sonora
+    por\nEfeitos sonoros"
 --- !u!222 &55001005
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -289,7 +291,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1083}
+  m_AnchoredPosition: {x: 0, y: -2035}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &610861162
@@ -546,7 +548,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 487.09995, y: 0}
-  m_SizeDelta: {x: 945.8, y: 1080}
+  m_SizeDelta: {x: 945.8, y: 3000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1465692999
 MonoBehaviour:
@@ -580,7 +582,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: asdasd
+  m_Text: "Igor Jordany\nIgor Jordany\nIgor Jordany\nIgor Jordany\nDayany Anaile\nDayany
+    Anaile\nGabriel Gutierrez\nIgor Jordany\nIsabelle Yule\n\nDayany Anaile\nGabriel
+    Gutierrez\nIgor Jordany\nIgor Jordany\nJosh Woodward\nebrown15\namishman35isbricked\r\nuniv-lyon3\r\njohn-sauter\r\nsoundsexciting\r\nlaiaoreka\r\nfillsoko\r\nkwahmah-02\r\nsturmankin\r\njulius-galla\r\ninspectorj\r\nmafon2\r\ncoltures\r\ntimbre\r\npjcohen\r\ninspectorj\r\nbumpelsnake"
 --- !u!222 &1465693000
 CanvasRenderer:
   m_ObjectHideFlags: 0

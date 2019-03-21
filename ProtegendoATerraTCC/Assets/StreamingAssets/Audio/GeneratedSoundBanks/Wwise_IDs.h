@@ -67,9 +67,13 @@ namespace AK
         static const AkUniqueID D49 = 3885294262U;
         static const AkUniqueID D50 = 3868516556U;
         static const AkUniqueID D51 = 3868516557U;
+        static const AkUniqueID D52 = 3868516558U;
+        static const AkUniqueID D53 = 3868516559U;
         static const AkUniqueID D54 = 3868516552U;
+        static const AkUniqueID D55 = 3868516553U;
         static const AkUniqueID D56 = 3868516554U;
         static const AkUniqueID D57 = 3868516555U;
+        static const AkUniqueID D58 = 3868516548U;
         static const AkUniqueID D59 = 3868516549U;
         static const AkUniqueID D60 = 3918849413U;
         static const AkUniqueID D61 = 3918849412U;
@@ -80,6 +84,24 @@ namespace AK
         static const AkUniqueID D66 = 3918849411U;
         static const AkUniqueID D67 = 3918849410U;
         static const AkUniqueID D68 = 3918849421U;
+        static const AkUniqueID D69 = 3918849420U;
+        static const AkUniqueID D70 = 3902071826U;
+        static const AkUniqueID D71 = 3902071827U;
+        static const AkUniqueID D72 = 3902071824U;
+        static const AkUniqueID D73 = 3902071825U;
+        static const AkUniqueID D74 = 3902071830U;
+        static const AkUniqueID D75 = 3902071831U;
+        static const AkUniqueID D76 = 3902071828U;
+        static const AkUniqueID D77 = 3902071829U;
+        static const AkUniqueID D78 = 3902071834U;
+        static const AkUniqueID D79 = 3902071835U;
+        static const AkUniqueID D80 = 3952404715U;
+        static const AkUniqueID D81 = 3952404714U;
+        static const AkUniqueID D82 = 3952404713U;
+        static const AkUniqueID D83 = 3952404712U;
+        static const AkUniqueID D84 = 3952404719U;
+        static const AkUniqueID D85 = 3952404718U;
+        static const AkUniqueID D86 = 3952404717U;
         static const AkUniqueID DESLIGAINTERRUPTOR = 2186663080U;
         static const AkUniqueID DPROLOGO = 881297497U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
@@ -98,6 +120,7 @@ namespace AK
         static const AkUniqueID PARATUDO = 2848269241U;
         static const AkUniqueID PARATV = 1431862001U;
         static const AkUniqueID PORTAABRINDO = 1172444532U;
+        static const AkUniqueID SOMPORTA = 2885395742U;
         static const AkUniqueID TV = 1568083719U;
     } // namespace EVENTS
 

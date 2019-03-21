@@ -21,17 +21,18 @@ public class Dialogue : MonoBehaviour
     private void Start()
     {
         sentences = new Queue<string>();
-        if (mobilias != null)
-        {
-            foreach(GameObject mobilia in mobilias)
-            {
-                mobilia.SetActive(true);
-            }
-        }
+        
     }
 
     void OnTriggerEnter(Collider player)
     {
+        if (mobilias != null)
+        {
+            foreach (GameObject mobilia in mobilias)
+            {
+                mobilia.SetActive(true);
+            }
+        }
         if (player.name == "Tamires")
         {
             pLegenda.SetActive(true);

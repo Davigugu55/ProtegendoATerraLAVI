@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1568083719	TV			\Default Work Unit\TV	
 	2186663080	DesligaInterruptor			\Default Work Unit\DesligaInterruptor	
 	2788761213	Geladeira			\Default Work Unit\Geladeira	
+	2885395742	SomPorta			\Default Work Unit\SomPorta	
 	3203310091	LampadaEletronica			\Default Work Unit\LampadaEletronica	
 	4079999662	Bells1			\Default Work Unit\Bells1	
 	4131001671	ParaGeladeira			\Default Work Unit\ParaGeladeira	
@@ -20,6 +21,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	156604269	intliga	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\intliga_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\intliga		30104
 	178141845	WaterDraining	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\WaterDraining_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\WaterDraining		652860
+	235562505	135539__univ-lyon3__gala-garcia01	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\135539__univ-lyon3__gala-garcia01_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\135539__univ-lyon3__gala-garcia01		264664
 	298268996	TV	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\TV_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\TV		81586
 	298682418	SinoTutorial	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\SinoTutorial_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\SinoTutorial		369440
 	568100529	interacao	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Windows\SFX\interacao_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\interacao		39516
