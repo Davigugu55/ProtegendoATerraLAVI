@@ -68,6 +68,11 @@
 						<Sound Name="MusicaTemaJogo" ID="{860C1569-521D-422A-99F0-E34A2122FE1E}" ShortID="645235791">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

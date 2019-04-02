@@ -47,6 +47,7 @@ public class IaMonstroLixo : MonoBehaviour {
         AkSoundEngine.PostEvent("ParaTudo", gameObject);
         AkSoundEngine.PostEvent("interacao", gameObject);
         Debug.Log("morreu monstro");
+        t101.SetActive(true);
         monstro.SetActive(false);
         butao.SetActive(false);
         t101.SetActive(true);
