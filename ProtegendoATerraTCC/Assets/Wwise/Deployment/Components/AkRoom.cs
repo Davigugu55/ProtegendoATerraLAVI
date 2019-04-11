@@ -4,7 +4,7 @@
 [UnityEngine.DisallowMultipleComponent]
 /// @brief An AkRoom is an enclosed environment that can only communicate to the outside/other rooms with AkRoomPortals
 /// @details 
-public class AkRoom : AkUnityEventHandler
+public class AkRoom : AkTriggerHandler
 {
 	public static ulong INVALID_ROOM_ID = unchecked((ulong) -1.0f);
 

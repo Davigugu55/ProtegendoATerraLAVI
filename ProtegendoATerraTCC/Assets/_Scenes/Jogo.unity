@@ -164,14 +164,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c28189610a2708547a2354803a74afaa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -782,14 +786,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -799,7 +807,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 7491731}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -985,14 +993,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8dd850281d77881469a767401dd9abaa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -1693,14 +1705,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -1710,7 +1726,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 28241134}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -2196,14 +2212,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8dd850281d77881469a767401dd9abaa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -4531,14 +4551,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -4548,7 +4572,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 128582640}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -5321,14 +5345,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -6385,14 +6413,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4ec0a424becb3d14b8150432e13ace7a,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -7147,14 +7179,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2701f4ec946bb864290f327217e1c2a3,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -8069,14 +8105,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2701f4ec946bb864290f327217e1c2a3,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -10220,14 +10260,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4528bb4606e17524e92bc16f638dbe5a,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -10706,14 +10750,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2701f4ec946bb864290f327217e1c2a3,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -11498,14 +11546,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 124fdf62441b8304eb6e93059d931ccd,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -14208,14 +14260,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 3c54e76aebc89d24ab7e3327149a1618,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -15100,13 +15156,17 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -15273,14 +15333,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 1bcc02c693d30b34fbd4c81baae5c04d,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -15613,14 +15677,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 124fdf62441b8304eb6e93059d931ccd,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -16793,14 +16861,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4d26f120e7343ba4b92537e5700a4a81,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -17155,13 +17227,17 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -17171,7 +17247,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 536120100}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -17696,14 +17772,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4528bb4606e17524e92bc16f638dbe5a,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -18841,14 +18921,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -18858,7 +18942,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 611291891}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -19753,14 +19837,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8dd850281d77881469a767401dd9abaa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -20348,14 +20436,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 21c4035be4f1efd459de13abadb8b8aa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -20557,14 +20649,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -22270,14 +22366,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d2e1d9bcb1b736e4aa367a198ab0b14e,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -22649,14 +22749,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 3c54e76aebc89d24ab7e3327149a1618,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -23877,14 +23981,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d2e1d9bcb1b736e4aa367a198ab0b14e,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -23894,7 +24002,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 749923431}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -24770,14 +24878,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8615358da5815a24abbd1f049a4d7702,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -26532,14 +26644,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2701f4ec946bb864290f327217e1c2a3,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -28328,14 +28444,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8dd850281d77881469a767401dd9abaa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -29344,14 +29464,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 3934622bdba254b479dff81f424558af,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -30990,14 +31114,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 9b6ba343d997f9a4fb933f16accb051d,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -31349,14 +31477,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 45f54b1446753fe4989b9b90b83e273c,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -32485,14 +32617,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 101907f1a8b02ab4099b65b5740a3162,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -35178,14 +35314,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2701f4ec946bb864290f327217e1c2a3,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -35821,14 +35961,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8dd850281d77881469a767401dd9abaa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -37527,14 +37671,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4528bb4606e17524e92bc16f638dbe5a,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -38151,14 +38299,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 762411dc2f4fff94e8bb677392c7a799,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -38378,14 +38530,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8dd850281d77881469a767401dd9abaa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -39394,14 +39550,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2701f4ec946bb864290f327217e1c2a3,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -39997,14 +40157,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -40040,14 +40204,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c28189610a2708547a2354803a74afaa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -41267,14 +41435,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8dd850281d77881469a767401dd9abaa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -41547,14 +41719,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -42077,14 +42253,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4ec0a424becb3d14b8150432e13ace7a,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -42444,14 +42624,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 45f54b1446753fe4989b9b90b83e273c,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -42626,13 +42810,17 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -43514,14 +43702,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 21c4035be4f1efd459de13abadb8b8aa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -44632,13 +44824,17 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -44983,14 +45179,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -45000,7 +45200,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1494091062}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -45349,14 +45549,22 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40cf71b795864924d90100c1bda2e8ec,
       type: 2}
-  m_callbackData: {fileID: 1676065442}
+  useCallbacks: 1
+  Callbacks:
+  - Flags:
+      value: 0
+    FunctionName: AtivaRefletor
+    GameObject: {fileID: 1497620415}
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 1676065442}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -45366,7 +45574,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1497620415}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -46248,14 +46456,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: fa91e133271e2384693e03ac95c6c4ba,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -47016,14 +47228,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -47033,7 +47249,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559004794}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -48165,14 +48381,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d2e1d9bcb1b736e4aa367a198ab0b14e,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -48636,14 +48856,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -48653,7 +48877,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1634304055}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -50028,14 +50252,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 1429a5f2be802ba45bd8842fb01563f5,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -50665,13 +50893,17 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -50681,7 +50913,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1705851570}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -50889,14 +51121,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4528bb4606e17524e92bc16f638dbe5a,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -54152,14 +54388,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2701f4ec946bb864290f327217e1c2a3,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -55396,14 +55636,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -55413,7 +55657,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1930272781}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0408b83dbef237445af7497fb7abe303, type: 3}
   m_Name: 
@@ -56608,14 +56852,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 45f54b1446753fe4989b9b90b83e273c,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -57292,14 +57540,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 8dd850281d77881469a767401dd9abaa,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -58625,14 +58877,16 @@ MonoBehaviour:
   triggerList: f7e1664c
   useOtherObject: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 9f320cc73f223fe4991761c9024088ea,
       type: 2}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
   unloadTriggerList: 958ca0ea
-  valueGuid: 
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!114 &2028431640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58647,14 +58901,16 @@ MonoBehaviour:
   triggerList: f7e1664c
   useOtherObject: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 7e3f80e8b7570b24798a1aa31965e384,
       type: 2}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
   unloadTriggerList: 958ca0ea
-  valueGuid: 
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!114 &2028431641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58669,14 +58925,16 @@ MonoBehaviour:
   triggerList: f7e1664c
   useOtherObject: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c39b58fb6371f3647939b8b6c0e87015,
       type: 2}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
   unloadTriggerList: 958ca0ea
-  valueGuid: 
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!114 &2028431642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58691,14 +58949,16 @@ MonoBehaviour:
   triggerList: f7e1664c
   useOtherObject: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d5e2c488b7b09264ea559044cef62d87,
       type: 2}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
   unloadTriggerList: 958ca0ea
-  valueGuid: 
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &2035818850
 GameObject:
   m_ObjectHideFlags: 0

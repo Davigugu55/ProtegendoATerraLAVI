@@ -14,21 +14,33 @@ MonoBehaviour:
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: 2e455c78cff31c4285d742441d7fed7c
-    m_lastTime: -8586545623412483617
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586466527200241194
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: 9d2489a066d61543a0d6beb8e55f79d7
-    m_lastTime: -8586525532045114713
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586466527218951180
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: d5f93df1eadec1458b42485ccb8da37a
-    m_lastTime: -8586517355623022540
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586466527200291060
     List:
+    - name: Dublagem
+      guid: 66d22f11a5d31f4dadb779dac583fe7d
+      id: 2121923424
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dublagem
+        ObjectType: 7
+      Path: Default Work Unit\Dublagem
     - name: Efeitos_Sonoros
       guid: 3584def24459974cb34bf3250c92f3cc
       id: 135511896
@@ -59,8 +71,9 @@ MonoBehaviour:
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: 075b524d00986647b0af670f5ae0b878
-    m_lastTime: -8586517358696809843
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586466527241520855
     List:
     - name: AguaCaindo
       guid: d07688c16f1cfd47b4cb4688037566ad
@@ -71,7 +84,1263 @@ MonoBehaviour:
       - ElementName: AguaCaindo
         ObjectType: 3
       Path: Default Work Unit\AguaCaindo
-      maxAttenuation: 2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Bells1
+      guid: 35c36eceec0475488aacb8f1eb8baadf
+      id: 4079999662
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Bells1
+        ObjectType: 3
+      Path: Default Work Unit\Bells1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d1
+      guid: 77831b064bc4f44a943e4534d7ad8287
+      id: 1836525712
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d1
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d10
+      guid: 20dad50cc0e22c4abd4676e21b2208e0
+      id: 3801406080
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d10
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d10
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d11
+      guid: 481a9115eac8774cb025bd54e686959a
+      id: 3801406081
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d11
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d11
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d12
+      guid: 87497e52348ee345998318ad724f38d6
+      id: 3801406082
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d12
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d12
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d13
+      guid: 3fead98656a8c44d8ae0305bb30533c7
+      id: 3801406083
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d13
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d13
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d13_1
+      guid: c53d3bb9cb8363489bc4869abb31eff3
+      id: 859198627
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d13_1
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d13_1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d14
+      guid: fd043a98b64d654eb6d40260587fcf1c
+      id: 3801406084
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d14
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d14
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d14_1
+      guid: 6aeb4fb954fac74cb41df7f90a4bcf9e
+      id: 4080545368
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d14_1
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d14_1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d15
+      guid: d0b29f5566909c47bdfd40a72e9b0469
+      id: 3801406085
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d15
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d15
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d16
+      guid: eeab03cdbc92684d80e71d4be7692a43
+      id: 3801406086
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d16
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d16
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d17
+      guid: 2c12eeef7f7f3e43be281ded7d8e6574
+      id: 3801406087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d17
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d17
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d18
+      guid: 44c1b1ed1cfef744b1455e3347e73a4f
+      id: 3801406088
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d18
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d18
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d19
+      guid: 4b1c5b20b05b9748a55d40a855f74c38
+      id: 3801406089
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d19
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d19
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d2
+      guid: 5b17ff56e23d5c49977dcde2ed08f4e8
+      id: 1836525715
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d2
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d20
+      guid: cd514959145f3d4e809d61941a031e9e
+      id: 3851738969
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d20
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d20
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d21
+      guid: fbc5cb09613d6d46a2db6827ea5103d0
+      id: 3851738968
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d21
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d21
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d22
+      guid: f20f04ad18d2964db9db7809cf29dde4
+      id: 3851738971
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d22
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d22
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d23
+      guid: 70e874e9474d8e4095fdce9ced69b6a1
+      id: 3851738970
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d23
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d23
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d24
+      guid: 61569621d986ab4f92f08678d5646a7c
+      id: 3851738973
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d24
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d24
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d25
+      guid: 2f2e1c30ba4c4a4d9f7c3167f55856ca
+      id: 3851738972
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d25
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d25
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d26
+      guid: 2b66eee7ff790f4a9f0d152e33f40b52
+      id: 3851738975
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d26
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d26
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d27
+      guid: 01a7b4aabad06b4a96a33afa4c33dd41
+      id: 3851738974
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d27
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d27
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d28
+      guid: a8611d9a1c68be45aad3ae4ac7dacaff
+      id: 3851738961
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d28
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d28
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d29
+      guid: 31d196e288cd3848a127deb3862f90eb
+      id: 3851738960
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d29
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d29
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d3
+      guid: 71087bc10588d54ca28c8a53c7150274
+      id: 1836525714
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d3
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d30
+      guid: 3a861778215e7c41910eee93cc9c6142
+      id: 3834961382
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d30
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d30
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d31
+      guid: 3fbdb819b866df42bf984df4aef4310d
+      id: 3834961383
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d31
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d31
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d32
+      guid: 112059f1f428854bb8819bc4341b39d0
+      id: 3834961380
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d32
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d32
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d33
+      guid: e4aebf5d308ac844888e7afa67de5ec5
+      id: 3834961381
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d33
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d33
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d34
+      guid: ee1f5bf03e8f524eb4d73b72ce4307cc
+      id: 3834961378
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d34
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d34
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d35
+      guid: 8a1386ca6a71da44945cb7c1380b5828
+      id: 3834961379
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d35
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d35
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d36
+      guid: a107fdc233524743880652aad725a469
+      id: 3834961376
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d36
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d36
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d37
+      guid: 56f7719cf097fd43bc9599f95b36d218
+      id: 3834961377
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d37
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d37
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d39
+      guid: 8948050e686e0743b26b9c917830a838
+      id: 3834961391
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d39
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d39
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d4
+      guid: 7231685ea3dd044e8963a14599eac193
+      id: 1836525717
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d4
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d4
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d40
+      guid: a82099e708143042af5f5d18550e1ce9
+      id: 3885294271
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d40
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d40
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d41
+      guid: aa44a894c0535546bef1033b9ce0308f
+      id: 3885294270
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d41
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d41
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d42
+      guid: 7609171f93f0284498b1d9bde2ffa567
+      id: 3885294269
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d42
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d42
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d43
+      guid: 5d8414600e53824e970ba3f1398d16af
+      id: 3885294268
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d43
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d43
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d44
+      guid: d38a91596a24cf4bb699243d886402f0
+      id: 3885294267
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d44
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d44
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d45
+      guid: 72333313f46a4a468d222b4cd0e47606
+      id: 3885294266
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d45
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d45
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d46
+      guid: 078473d7d90a264bb2046bf37d28aead
+      id: 3885294265
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d46
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d46
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d47
+      guid: 7a8808bedb940745983ed8fdbbd2ddca
+      id: 3885294264
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d47
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d47
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d48
+      guid: e1fccc444889ac4f929d202d3f680214
+      id: 3885294263
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d48
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d48
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d49
+      guid: 203bfa76c81ef3448f12ed6453cab6c4
+      id: 3885294262
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d49
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d49
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d5
+      guid: 73f672a6ebdc604e8adebfe3f86b620b
+      id: 1836525716
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d5
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d5
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d50
+      guid: 3668b9442c0e5b4faefce8d0d03cad9c
+      id: 3868516556
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d50
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d50
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d51
+      guid: a99cb25f9eeed14ba27588500c36a7fb
+      id: 3868516557
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d51
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d51
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d52
+      guid: a06009125645364e85f177e9405c2def
+      id: 3868516558
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d52
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d52
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d53
+      guid: 26230a0699f0a74382d8a6fc582169a8
+      id: 3868516559
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d53
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d53
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d54
+      guid: b4c54dee4998404794a68e46b7d61f97
+      id: 3868516552
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d54
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d54
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d55
+      guid: 5e0200936b56294cbbfa86af70a91e78
+      id: 3868516553
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d55
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d55
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d56
+      guid: c70799ebb3bc984a82bf11634abb8c1c
+      id: 3868516554
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d56
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d56
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d57
+      guid: 990a880a360ea24cae16b51a58050c07
+      id: 3868516555
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d57
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d57
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d58
+      guid: f23cdc6156da9b40838d33256696964d
+      id: 3868516548
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d58
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d58
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d59
+      guid: f7eafac91578ef4bb0ea604ac1ec8225
+      id: 3868516549
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d59
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d59
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d6
+      guid: d0705f2961b99544bde5552e1faee6af
+      id: 1836525719
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d6
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d6
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d60
+      guid: 2dbbe7bf80b92e49bddad8c22023b9d4
+      id: 3918849413
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d60
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d60
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d61
+      guid: 829edfe66258744ebe6416baed30a516
+      id: 3918849412
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d61
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d61
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d62
+      guid: d231c26af4d07f418df682abe5654eed
+      id: 3918849415
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d62
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d62
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d63
+      guid: 1f2516f9aebd254b9b66a464c6687f7c
+      id: 3918849414
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d63
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d63
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d64
+      guid: 34911fe2674674408a57f2f329af9b62
+      id: 3918849409
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d64
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d64
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d65
+      guid: ddd19690f9157a43ab773dd8c0bc0971
+      id: 3918849408
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d65
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d65
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d66
+      guid: 1ad6ec3f76dbed49ace666a21b0ad113
+      id: 3918849411
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d66
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d66
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d67
+      guid: 2beef890bcec804eae77db0b47207d67
+      id: 3918849410
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d67
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d67
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d68
+      guid: 5323d864763d9447ba703685b53e2331
+      id: 3918849421
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d68
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d68
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d69
+      guid: b58d977c7999244184b81a1706d30009
+      id: 3918849420
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d69
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d69
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d7
+      guid: 39a0a77259b0fc4c9a550fc5d25daa0f
+      id: 1836525718
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d7
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d7
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d70
+      guid: de9fc6209f458849b2483774fe0a005c
+      id: 3902071826
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d70
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d70
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d71
+      guid: 71cc533f617aa54caa42f6c978d3751e
+      id: 3902071827
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d71
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d71
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d72
+      guid: f4c34dc6027c024faf6af9ffb8a1f88c
+      id: 3902071824
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d72
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d72
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d73
+      guid: fc7613866d230d47a8497d8eb8e6998b
+      id: 3902071825
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d73
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d73
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d74
+      guid: a9c805a8b89b3644b2aa5de6c67eb806
+      id: 3902071830
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d74
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d74
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d75
+      guid: 3b3df26e2e24d0438f7a25a8e6fa2d02
+      id: 3902071831
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d75
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d75
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d76
+      guid: f0033a357a9cd149b2c002d1f98ea869
+      id: 3902071828
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d76
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d76
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d77
+      guid: 5ea742fa042d3948b05f6bdec3b403c8
+      id: 3902071829
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d77
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d77
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d78
+      guid: bd43155566945d4fbbf8fa7a185fd92a
+      id: 3902071834
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d78
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d78
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d79
+      guid: e8af6a65b943e54ba9b1ab63659055ad
+      id: 3902071835
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d79
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d79
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d8
+      guid: 2cd7717410522449892a29771142b15c
+      id: 1836525721
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d8
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d8
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d80
+      guid: b211929de382ab4e9de0b20ca2944a90
+      id: 3952404715
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d80
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d80
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d81
+      guid: b47b671fa2b9e54dabf961a54bb5b647
+      id: 3952404714
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d81
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d81
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d82
+      guid: 9019e358b987974da8ae240ce40495cd
+      id: 3952404713
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d82
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d82
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d83
+      guid: 0cce3e1b01a72240942afc23b0371fdd
+      id: 3952404712
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d83
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d83
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d84
+      guid: 0396c972405f464f80ee7d82a5b06d91
+      id: 3952404719
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d84
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d84
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d85
+      guid: ab714fe857a1254ebc0a2fc200c66b45
+      id: 3952404718
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d85
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d85
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d86
+      guid: 920fd506e4f3d24d853f6b1edf5fd2de
+      id: 3952404717
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d86
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d86
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: d9
+      guid: 9988b745b5e04144a0e27064e06e4c91
+      id: 1836525720
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: d9
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\d9
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: DesligaInterruptor
+      guid: 14c2961f787e604790e9c0eeb5f2a70b
+      id: 2186663080
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DesligaInterruptor
+        ObjectType: 3
+      Path: Default Work Unit\DesligaInterruptor
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: DPrologo
+      guid: 3f5a4557970a5e4dbe6f884f8c82d027
+      id: 881297497
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dialogos
+        ObjectType: 4
+      - ElementName: DPrologo
+        ObjectType: 3
+      Path: Default Work Unit\Dialogos\DPrologo
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: Footstep
@@ -95,7 +1364,19 @@ MonoBehaviour:
       - ElementName: Geladeira
         ObjectType: 3
       Path: Default Work Unit\Geladeira
-      maxAttenuation: 2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: interacao
+      guid: c56b7fa2796c9646baab33ee755dd61e
+      id: 965187945
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: interacao
+        ObjectType: 3
+      Path: Default Work Unit\interacao
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: LampadaEletronica
@@ -107,7 +1388,31 @@ MonoBehaviour:
       - ElementName: LampadaEletronica
         ObjectType: 3
       Path: Default Work Unit\LampadaEletronica
-      maxAttenuation: 2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: LigaInterruptor
+      guid: e259a47454f69f42a05aa66620e36549
+      id: 1423098418
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LigaInterruptor
+        ObjectType: 3
+      Path: Default Work Unit\LigaInterruptor
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MonstroLixo
+      guid: 820d6ea2fa44cd4f871d7bdf9d47b294
+      id: 873964715
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MonstroLixo
+        ObjectType: 3
+      Path: Default Work Unit\MonstroLixo
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: MusicaTemaCreditos
@@ -194,15 +1499,15 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: ParaMusicas
+    - name: ParaTudo
       guid: 292d299f5af5fc40ba097b0a0472491b
-      id: 1563513376
+      id: 2848269241
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: ParaMusicas
+      - ElementName: ParaTudo
         ObjectType: 3
-      Path: Default Work Unit\ParaMusicas
+      Path: Default Work Unit\ParaTudo
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -230,6 +1535,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: SomPorta
+      guid: a9ebd96cf85fb745955dfc88c723b881
+      id: 2885395742
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SomPorta
+        ObjectType: 3
+      Path: Default Work Unit\SomPorta
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: TV
       guid: 7ae350eea8fe494f85df8b8927de9b19
       id: 1568083719
@@ -239,14 +1556,15 @@ MonoBehaviour:
       - ElementName: TV
         ObjectType: 3
       Path: Default Work Unit\TV
-      maxAttenuation: 2
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: 3d1484d405dd8646bee46117d52e74fb
-    m_lastTime: -8586534162111488808
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586466527241510874
     List:
     - name: AmbienteVolume
       guid: 7b57df89e0c2114ea78d3c6c64ced95c
@@ -295,26 +1613,24 @@ MonoBehaviour:
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: b58644974dc2e64c9657252da9b11c6b
-    m_lastTime: -8586542790005461638
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586466527200271109
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: e8deb4b609aa534a9d23a36258caac11
-    m_lastTime: -8586545623412643048
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586466527200261140
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: c032f2d37295884592748b3a12a0f9b5
-    m_lastTime: -8586545623413042100
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586466527200251161
     List: []
-  ExpandedItems:
-  - /ProtegendoATerraTCC_WwiseProject
-  - /ProtegendoATerraTCC_WwiseProject/Events
-  - /ProtegendoATerraTCC_WwiseProject/Events/Default Work Unit
-  - /ProtegendoATerraTCC_WwiseProject/SoundBanks
-  - /ProtegendoATerraTCC_WwiseProject/SoundBanks/Default Work Unit
+  ExpandedItems: []
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

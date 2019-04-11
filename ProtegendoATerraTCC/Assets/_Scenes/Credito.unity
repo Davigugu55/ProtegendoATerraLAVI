@@ -383,14 +383,16 @@ MonoBehaviour:
   triggerList: f7e1664c
   useOtherObject: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 9f320cc73f223fe4991761c9024088ea,
       type: 2}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
   unloadTriggerList: 958ca0ea
-  valueGuid: 
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1121850076
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,14 +429,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 30a4e6cf43c0f9145a323b514696c8dc,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
@@ -470,14 +476,18 @@ MonoBehaviour:
   curveInterpolation: 4
   enableActionOnEvent: 0
   data:
-    valueGuid: 
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 7aa1d211440728d429d4c1f94c54b659,
       type: 2}
-  m_callbackData: {fileID: 0}
+  useCallbacks: 0
+  Callbacks: []
   playingId: 0
   soundEmitterObject: {fileID: 0}
   transitionDuration: 0
-  valueGuid: 
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
   multiPositionArray: []
   MultiPositionType: 1
   multiPositionTypeLabel: 0
