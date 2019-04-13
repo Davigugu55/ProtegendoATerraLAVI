@@ -59,7 +59,6 @@
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkBaseInspector.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkEnvironmentInspector.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkEnvironmentPortalInspector.cs" />
-     <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkEventCallbackDataDrawer.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkEventInspector.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkEventPlayableInspector.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkGameObjectInspector.cs" />
@@ -73,7 +72,6 @@
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkStateInspector.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkSwitchInspector.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkUnityEventHandlerInspector.cs" />
-     <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkWwiseXMLWatcher.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseMenu\Android\AkWwiseMenu_Android.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseMenu\Common\AkUnityBuilderBase.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseMenu\Common\AkUnityPluginInstallerBase.cs" />
@@ -82,7 +80,6 @@
      <Compile Include="Assets\Wwise\Editor\WwiseMenu\Windows\AkWwiseMenu_Windows.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseSetupWizard\AkBuildPreprocessor.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseSetupWizard\AkPluginActivator.cs" />
-     <Compile Include="Assets\Wwise\Editor\WwiseSetupWizard\AkSceneUtils.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseSetupWizard\AkUnitySettingsParser.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseSetupWizard\AkWSAUtils.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseSetupWizard\AkWwisePostImportCallbackSetup.cs" />
@@ -93,7 +90,6 @@
      <Compile Include="Assets\Wwise\Editor\WwiseTypes\AuxBusDrawer.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseTypes\BankDrawer.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseTypes\BaseTypeDrawer.cs" />
-     <Compile Include="Assets\Wwise\Editor\WwiseTypes\CallbackFlagsDrawer.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseTypes\EventDrawer.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseTypes\RTPCDrawer.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseTypes\StateDrawer.cs" />

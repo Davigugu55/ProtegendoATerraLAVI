@@ -8,7 +8,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3023295265	MusicaVolume			\Default Work Unit\Volume\MusicaVolume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	517906302	MusicaTemaJogo	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\JoshWoodward-OW-NoVox-09-FoolsGold_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musica\MusicaTemaJogo		4187608
-	528022941	MusicaTemaMenu	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\JoshWoodward-TheWake-NoVox-04-CrazyGlue_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musica\MusicaTemaMenu		6280284
-	678986274	MusicaTemaCredito	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\JoshWoodward-BeyondTheSky-NoVox_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musica\MusicaTemaCredito		5552060
+	517906302	MusicaTemaJogo	D:\Files\Documents\GitHub\ProtegendoATerraLAVI\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\JoshWoodward-OW-NoVox-09-FoolsGold_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musica\MusicaTemaJogo		4187608
+	528022941	MusicaTemaMenu	D:\Files\Documents\GitHub\ProtegendoATerraLAVI\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\JoshWoodward-TheWake-NoVox-04-CrazyGlue_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musica\MusicaTemaMenu		6280284
+	678986274	MusicaTemaCredito	D:\Files\Documents\GitHub\ProtegendoATerraLAVI\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Mac\SFX\JoshWoodward-BeyondTheSky-NoVox_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Musica\MusicaTemaCredito		5552060
 

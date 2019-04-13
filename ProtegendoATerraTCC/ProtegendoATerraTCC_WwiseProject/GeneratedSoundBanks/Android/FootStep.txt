@@ -6,5 +6,5 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1604917154	AmbienteVolume			\Default Work Unit\Volume\AmbienteVolume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	75370003	footstep	C:\Users\Igor Jordany\Documents\GitKraken\ProtegendoATerraTCC\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\footstep_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\footstep		342218
+	75370003	footstep	D:\Files\Documents\GitHub\ProtegendoATerraLAVI\ProtegendoATerraTCC\ProtegendoATerraTCC_WwiseProject\.cache\Android\SFX\footstep_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Efeitos sonoros\footstep		342218
 

@@ -84,7 +84,7 @@ MonoBehaviour:
       - ElementName: AguaCaindo
         ObjectType: 3
       Path: Default Work Unit\AguaCaindo
-      maxAttenuation: 0
+      maxAttenuation: 2
       maxDuration: 0
       minDuration: 0
     - name: Bells1
@@ -96,7 +96,7 @@ MonoBehaviour:
       - ElementName: Bells1
         ObjectType: 3
       Path: Default Work Unit\Bells1
-      maxAttenuation: 0
+      maxAttenuation: 2
       maxDuration: 0
       minDuration: 0
     - name: d1
@@ -1364,7 +1364,7 @@ MonoBehaviour:
       - ElementName: Geladeira
         ObjectType: 3
       Path: Default Work Unit\Geladeira
-      maxAttenuation: 0
+      maxAttenuation: 2
       maxDuration: 0
       minDuration: 0
     - name: interacao
@@ -1388,7 +1388,7 @@ MonoBehaviour:
       - ElementName: LampadaEletronica
         ObjectType: 3
       Path: Default Work Unit\LampadaEletronica
-      maxAttenuation: 0
+      maxAttenuation: 2
       maxDuration: 0
       minDuration: 0
     - name: LigaInterruptor
@@ -1544,7 +1544,7 @@ MonoBehaviour:
       - ElementName: SomPorta
         ObjectType: 3
       Path: Default Work Unit\SomPorta
-      maxAttenuation: 0
+      maxAttenuation: 2
       maxDuration: 0
       minDuration: 0
     - name: TV
@@ -1556,7 +1556,7 @@ MonoBehaviour:
       - ElementName: TV
         ObjectType: 3
       Path: Default Work Unit\TV
-      maxAttenuation: 0
+      maxAttenuation: 2
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
@@ -1631,6 +1631,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586466527200251161
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /ProtegendoATerraTCC_WwiseProject
+  - /ProtegendoATerraTCC_WwiseProject/Events
+  - /ProtegendoATerraTCC_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

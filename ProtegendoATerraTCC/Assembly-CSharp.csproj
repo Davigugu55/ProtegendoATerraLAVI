@@ -205,6 +205,7 @@
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Common\AkUtilities.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Common\AkVertexArray.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Common\AkWwiseInitializationSettings.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Common\AkWwiseXMLWatcher.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Common\WwiseObjects\WwiseAcousticTextureReference.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Common\WwiseObjects\WwiseAuxBusReference.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Common\WwiseObjects\WwiseBankReference.cs" />
@@ -228,6 +229,7 @@
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Common\WwiseTypes\AkWwiseState.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Common\WwiseTypes\AkWwiseSwitch.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Common\WwiseTypes\AkWwiseTrigger.cs" />
+     <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Common\WwiseTypes\AkWwiseTypeMigration.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\Mac\AkMacSettings.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\WAAPI\AkWaapiClient.cs" />
      <Compile Include="Assets\Wwise\Deployment\API\Handwritten\WAAPI\AkWaapiClient_PINVOKE.cs" />
@@ -235,7 +237,6 @@
      <Compile Include="Assets\Wwise\Deployment\Components\AkAmbient.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkAudioListener.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkBank.cs" />
-     <Compile Include="Assets\Wwise\Deployment\Components\AkDragDropHelper.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkEmitterObstructionOcclusion.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkEnvironment.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkEnvironmentPortal.cs" />
@@ -272,17 +273,14 @@
      <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerEnable.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerEnter.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerExit.cs" />
+     <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerHandler.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseDown.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseEnter.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseExit.cs" />
      <Compile Include="Assets\Wwise\Deployment\Components\AkTriggerMouseUp.cs" />
-     <Compile Include="Assets\Wwise\Deployment\Components\AkUnityEventHandler.cs" />
      <Compile Include="Assets\Wwise\Extensions\AkSoundEngine.extensions.cs" />
-     <None Include="Assets\Wwise\Deployment\Plugins\Mac\Debug\AkSoundEngine.bundle\Contents\Resources\readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\Wwise\Deployment\Plugins\Mac\Profile\AkSoundEngine.bundle\Contents\Resources\readme.txt" />
-     <None Include="Assets\Wwise\Deployment\Plugins\Mac\Release\AkSoundEngine.bundle\Contents\Resources\readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
